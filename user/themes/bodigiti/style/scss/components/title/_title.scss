@@ -1,0 +1,17 @@
+
+////////////////////////////////////////////////////////////////////////////////
+// Page Title (component)
+////////////////////////////////////////////////////////////////////////////////
+
+.page-title {
+  background: $color3;
+  text-align: center;
+  width: 100%;
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: $font-weight-bold;
+    @include font-size($font-xlarge);
+    color: $color4;
+    margin: 0;
+    padding: .3rem 0;
+  }
+}
