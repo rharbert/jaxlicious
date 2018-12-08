@@ -1,4 +1,7 @@
 
+// LOOPING
+// https://stackoverflow.com/questions/17559099/grouping-selectors-inside-of-a-loop-using-sass
+
 ////////////////////////////////////////////////////////////////////////////////
 // Margins & Padding (base-and-component-support)
 ////////////////////////////////////////////////////////////////////////////////
@@ -15,6 +18,43 @@ $mp_lg_px: 64px;
 $mp_lg_rem: 4rem;
 $mp_xl_px: 80px;
 $mp_xl_rem: 5rem;
+
+/***************** FOO BAR: START ***************/
+
+@for $i from 0 through 5 {
+  .mt-#{$i} {
+    margin-top: 1rem * $i; 
+  }
+  .mr-#{$i} {
+    margin-right: 1rem * $i; 
+  }
+  .mb-#{$i} {
+    margin-bottom: 1rem * $i; 
+  }
+  .ml-#{$i} {
+    margin-left: 1rem * $i; 
+  }
+}
+$xl: xl;
+
+@include breakpoint($size-xl) {
+  @for $i from 0 through 5 {
+    .mt-#{$xl}-#{$i} {
+      margin-top: 1rem * $i; 
+    }
+    .mr-#{$xl}-#{$i} {
+      margin-right: 1rem * $i; 
+    }
+    .mb-#{$xl}-#{$i} {
+      margin-bottom: 1rem * $i; 
+    }
+    .ml-#{$xl}-#{$i} {
+      margin-left: 1rem * $i; 
+    }
+  }
+}
+
+/***************** FOO BAR: END ***************/
 
 
 ////////////////////////////////////////////////////////////////////////////////
