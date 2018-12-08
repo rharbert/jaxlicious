@@ -1,16 +1,57 @@
 ---
 module:
     -
+        module__admin_title: Hero
+        module_list:
+            -
+                module__admin_title_child: 'JAXLICIOUS Regular'
+                module_type: module__text_image
+                text_image__image: logo-text-jaxlicious-regular.svg
+                text_image__textarea: ''
+            -
+                module__admin_title_child: JAX
+                module_type: module__text_image
+                text_image__image: jaxlicious-jax.svg
+                text_image__textarea: ''
+            -
+                module__admin_title_child: JAY
+                module_type: module__text_image
+                text_image__image: jaxlicious-jay.svg
+                text_image__textarea: ''
+            -
+                module__admin_title_child: JES
+                module_type: module__text_image
+                text_image__image: jaxlicious-jes.svg
+                text_image__textarea: ''
+            -
+                module__admin_title_child: JEN
+                module_type: module__text_image
+                text_image__image: jaxlicious-jen.svg
+                text_image__textarea: ''
+            -
+                module__admin_title_child: 'BAM! THAT''S DELICIOUS'
+                module_type: module__text_image
+                text_image__image: logo-text-bam-thats-delicious.svg
+                text_image__textarea: ''
+        module_styles__text: col-12
+        module_styles__select:
+            - margin-top__none
+            - background__6
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Header Image'
         module_list:
             -
                 module__admin_title_child: 'Header Image'
                 module_type: module__text_image
-                text_image__image: logo-full-logo-biz-card.svg
+                text_image__image: logo-kids-and-text.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
                 text_image__textarea: ''
+                module_styles__text_child: col-6
                 module_styles__select_child:
                     - width__100
+                    - margin-auto__right-left
         module_styles__text: col-12
         module_styles__select:
             - margin-top__none
@@ -181,7 +222,7 @@ module:
         module_isotope: '0'
         module_published: '1'
 hero__size_class: hero-default
-media_order: 'header.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,logo-full-logo-biz-card.svg'
+media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg'
 published: true
 body_classes: front-page
 process:

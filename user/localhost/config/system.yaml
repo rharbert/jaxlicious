@@ -84,7 +84,7 @@ cache:
   allow_webserver_gzip: false
 twig:
   cache: false
-  debug: false
+  debug: true
   auto_reload: true
   autoescape: false
   undefined_functions: true
@@ -108,7 +108,7 @@ errors:
   display: '1'
   log: true
 debugger:
-  enabled: false
+  enabled: true
   shutdown:
     close_connection: true
   twig: true

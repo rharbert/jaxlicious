@@ -62,8 +62,8 @@
           <a href="{{ linkImage }}" class="paragraph--link--image">
         {% endif %}
       {# end link part 1 of 2 #}
-      {# mediaType is dynamic check from above 'images' vs 'files' #}
-      {{ mediaType[mlist.text_image__image].html('', mlist.text_image__alt) }}
+      {# page.media gets files regardless whether it is type 'images' vs 'files' (svg is type 'files') #}
+      {{ page.media[mlist.text_image__image].html('', mlist.text_image__alt) }}
       {# Link for Image #}
         {% if linkType == 'image' %}
           </a>
