@@ -10,6 +10,11 @@ media {
   height: auto;
 }
 
+// SVG Images: Set width to 100% so can then let modules limit the width
+.svg img {
+  width: 100%;
+}
+
 .image__center,
 .image__center img {
   margin-right: auto;

@@ -10,7 +10,7 @@ module:
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
                 text_image__textarea: ''
                 module_styles__select_child:
-                    - margin-auto__right-left
+                    - width__100
         module_styles__text: col-12
         module_styles__select:
             - margin-top__none
