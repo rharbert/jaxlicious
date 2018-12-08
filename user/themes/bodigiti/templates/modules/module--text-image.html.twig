@@ -45,15 +45,23 @@
     {% endif %} {# end subtitle #}
     {# Image #}
     {% if mlist.text_image__image %}
+      {# Image Extension SVG ? #}
+      {# SVG is media type 'files' not 'images' #}
+      {% set fileURL = page.media.files[mlist.text_image__image].url %}
+      {# mediaType default is 'page.media.images' #}
+      {% set mediaType = page.media.images %}
+      {% if fileURL|ends_with('.svg') %}
+        {# mediaType for SVG is 'page.media.files' #}
+        {% set mediaType = page.media.files %}
+      {% endif %}
+      {# End: Image Extension SVG ? #}
         <figure class="image">
         {% if linkType == 'image' %}
           <a href="{{ linkImage }}" class="paragraph--link--image">
         {% endif %}
       {# end link part 1 of 2 #}
-      {# Responsive Images: Right now, only src being applied by resize-images plugin
-         and the 'sizes' attribute with breakspoints is not being used.
-         --> Relies on CSS to set max-width #}
-      {{ page.media.images[mlist.text_image__image].html('', mlist.text_image__alt) }}
+      {# mediaType is dynamic check from above 'images' vs 'files' #}
+      {{ mediaType[mlist.text_image__image].html('', mlist.text_image__alt) }}
       {# Link for Image #}
         {% if linkType == 'image' %}
           </a>

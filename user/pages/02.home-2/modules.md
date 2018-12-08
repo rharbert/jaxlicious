@@ -6,7 +6,7 @@ module:
             -
                 module__admin_title_child: 'Header Image'
                 module_type: module__text_image
-                text_image__image: header.jpg
+                text_image__image: logo-full-logo-biz-card.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
                 text_image__textarea: ''
                 module_styles__select_child:
@@ -181,7 +181,7 @@ module:
         module_isotope: '0'
         module_published: '1'
 hero__size_class: hero-default
-media_order: 'header.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg'
+media_order: 'header.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,logo-full-logo-biz-card.svg'
 published: true
 body_classes: front-page
 process:

@@ -84,7 +84,7 @@ cache:
   allow_webserver_gzip: false
 twig:
   cache: false
-  debug: false
+  debug: true
   auto_reload: true
   autoescape: false
   undefined_functions: true
@@ -108,7 +108,7 @@ errors:
   display: '1'
   log: true
 debugger:
-  enabled: false
+  enabled: true
   shutdown:
     close_connection: true
   twig: true
@@ -121,7 +121,7 @@ images:
 media:
   enable_media_timestamp: false
   auto_metadata_exif: false
-  upload_limit: 52428800
+  upload_limit: 2097152
 session:
   enabled: true
   initialize: true
