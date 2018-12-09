@@ -35,9 +35,9 @@ $mp_xl_rem: 5rem;
     margin-left: 1rem * $i; 
   }
 }
-$xl: xl;
 
-@include breakpoint($size-xl) {
+$xl: xl;
+@media (max-width: $size-xs) {
   @for $i from 0 through 5 {
     .mt-#{$xl}-#{$i} {
       margin-top: 1rem * $i; 
