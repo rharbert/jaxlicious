@@ -16,6 +16,7 @@ gulp.task('sass', function() {
     .pipe(sass({
         errLogToConsole: true
         }))
+    .on('error', swallowError)
     .pipe(prefix('last 2 versions', '>1%', 'ie 8'))
     .pipe(sourcemaps.write()) // Writes sourcemaps into the CSS file
     .pipe(gulp.dest('style/css'));
@@ -24,6 +25,7 @@ gulp.task('sass', function() {
 // Watch
 gulp.task('watch', function() {
   gulp.watch('style/scss/**/*.scss', ['sass'])
+  .on('error', swallowError)
 })
 
 // Clean
@@ -36,19 +38,29 @@ gulp.task('default', ['sass', 'watch']);
 
 // Sprite
 gulp.task('sprite', function() {
-    var spriteData =
-        gulp.src('images/sprite-these/*.*') // source path of the sprite images
-            .pipe(spritesmith({
-                imgName: 'sprite-manufacturer-logos.png',
-                cssName: '_sprite-manufacturer-logos.scss',
-            }));
+  var spriteData =
+    gulp.src('images/sprite-these/*.*') // source path of the sprite images
+      .pipe(spritesmith({
+          imgName: 'sprite-manufacturer-logos.png',
+          cssName: '_sprite-manufacturer-logos.scss',
+      }));
 
-    spriteData.img.pipe(gulp.dest('images/')); // output path for the sprite
-    spriteData.css.pipe(gulp.dest('style/scss/init/sprites/')); // output path for the SCSS
+  spriteData.img.pipe(gulp.dest('images/')); // output path for the sprite
+  spriteData.css.pipe(gulp.dest('style/scss/init/sprites/')); // output path for the SCSS
 });
 
 // Handle the error
 function errorHandler (error) {
   console.log(error.toString());
   this.emit('end');
+}
+
+// Prevent errors from breaking / crashing gulp watch
+// https://stackoverflow.com/questions/23971388/prevent-errors-from-breaking-crashing-gulp-watch
+// Swallow Error
+function swallowError (error) {
+  // If you want details of the error in the console
+  console.log(error.toString())
+
+  this.emit('end')
 }

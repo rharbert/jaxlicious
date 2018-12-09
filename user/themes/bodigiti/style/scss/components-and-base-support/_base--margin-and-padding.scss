@@ -1,26 +1,12 @@
 
 // LOOPING
 // https://stackoverflow.com/questions/17559099/grouping-selectors-inside-of-a-loop-using-sass
+// Maps
+// https://www.viget.com/articles/sass-maps-are-awesome/
 
 ////////////////////////////////////////////////////////////////////////////////
-// Margins & Padding (base-and-component-support)
-////////////////////////////////////////////////////////////////////////////////
-
-$mp_xxs_px: 5px;
-$mp_xxs_rem: .3125rem;
-$mp_xs_px: 16px;
-$mp_xs_rem: 1rem;
-$mp_sm_px: 32px;
-$mp_sm_rem: 2rem;
-$mp_md_px: 48px;
-$mp_md_rem: 3rem;
-$mp_lg_px: 64px;
-$mp_lg_rem: 4rem;
-$mp_xl_px: 80px;
-$mp_xl_rem: 5rem;
-
-/***************** FOO BAR: START ***************/
-
+// New Margin-Padding via @for and @each
+//
 @for $i from 0 through 5 {
   .mt-#{$i} {
     margin-top: 1rem * $i; 
@@ -38,12 +24,66 @@ $mp_xl_rem: 5rem;
 
 $screen-width: (
   $size-xs: xs,
-  $size-sm: sm
-);
+  $size-sm: sm,
+  $size-sm-plus: sm-plus,
+  $size-md: md,
+  $size-lg: lg,
+  $size-xl: xl,
+  $size-2x: 2x
+ );
 
 @each $screen-width, $size in $screen-width {
   @media (max-width: #{$screen-width}) {
+    /////////////////////////////////////////
+    // 5px or .3125rem;
+    $xxs: .3125;
+    // Margin //
+    .mt-#{$size}-xxs {
+      margin-top: 1rem * $xxs; 
+    }
+    .mr-#{$size}-xxs {
+      margin-right: 1rem * $xxs; 
+    }
+    .mb-#{$size}-xxs {
+      margin-bottom: 1rem * $xxs; 
+    }
+    .ml-#{$size}-xxs {
+      margin-left: 1rem * $xxs; 
+    }
+    .mtb-#{$size}-xxs {
+      margin-top: 1rem * $xxs; 
+      margin-bottom: 1rem * $xxs; 
+    }
+    .mrl-#{$size}-xxs {
+      margin-right: 1rem * $xxs; 
+      margin-left: 1rem * $xxs; 
+    }
+    // Padding //
+    .pt-#{$size}-xxs {
+      margin-top: 1rem * $xxs; 
+    }
+    .pr-#{$size}-xxs {
+      margin-right: 1rem * $xxs; 
+    }
+    .pb-#{$size}-xxs {
+      margin-bottom: 1rem * $xxs; 
+    }
+    .pl-#{$size}-xxs {
+      margin-left: 1rem * $xxs; 
+    }
+    .ptb-#{$size}-xxs {
+      margin-top: 1rem * $xxs; 
+      margin-bottom: 1rem * $xxs; 
+    }
+    .prl-#{$size}-xxs {
+      margin-right: 1rem * $xxs; 
+      margin-left: 1rem * $xxs; 
+    }
+    ////////////////////////////////////////
+    // 0 through 5 @ increments of 1rem
+    //
     @for $i from 0 through 5 {
+      // Margin //
       .mt-#{$size}-#{$i} {
         margin-top: 1rem * $i; 
       }
@@ -56,13 +96,62 @@ $screen-width: (
       .ml-#{$size}-#{$i} {
         margin-left: 1rem * $i; 
       }
+      .mtb-#{$size}-#{$i} {
+        margin-top: 1rem * $i; 
+        margin-bottom: 1rem * $i; 
+      }
+      .mrl-#{$size}-#{$i} {
+        margin-right: 1rem * $i; 
+        margin-left: 1rem * $i; 
+      }
+      // Padding //
+      .pt-#{$size}-#{$i} {
+        margin-top: 1rem * $i; 
+      }
+      .pr-#{$size}-#{$i} {
+        margin-right: 1rem * $i; 
+      }
+      .pb-#{$size}-#{$i} {
+        margin-bottom: 1rem * $i; 
+      }
+      .pl-#{$size}-#{$i} {
+        margin-left: 1rem * $i; 
+      }
+      .ptb-#{$size}-#{$i} {
+        margin-top: 1rem * $i; 
+        margin-bottom: 1rem * $i; 
+      }
+      .prl-#{$size}-#{$i} {
+        margin-right: 1rem * $i; 
+        margin-left: 1rem * $i; 
+      }
     }
   }
 }
+//
+// END: New Margin-Padding via @for and @each
+////////////////////////////////////////////////////////////////////////////////
 
 
-/***************** FOO BAR: END ***************/
 
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+// LEGACY: Margin & Padding (base-and-component-support)
+//
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+$mp_xxs_rem: .3125rem; // 5px
+$mp_xs_rem: 1rem; // 16px
+$mp_sm_rem: 2rem; // 32px
+$mp_md_rem: 3rem; // 48px
+$mp_lg_rem: 4rem; // 64px
+$mp_xl_rem: 5rem; // 80px
 
 ////////////////////////////////////////////////////////////////////////////////
 // Margin Right-Left Auto
