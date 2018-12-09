@@ -36,23 +36,30 @@ $mp_xl_rem: 5rem;
   }
 }
 
-$xl: xl;
-@media (max-width: $size-xs) {
-  @for $i from 0 through 5 {
-    .mt-#{$xl}-#{$i} {
-      margin-top: 1rem * $i; 
-    }
-    .mr-#{$xl}-#{$i} {
-      margin-right: 1rem * $i; 
-    }
-    .mb-#{$xl}-#{$i} {
-      margin-bottom: 1rem * $i; 
-    }
-    .ml-#{$xl}-#{$i} {
-      margin-left: 1rem * $i; 
+$screen-width: (
+  $size-xs: xs,
+  $size-sm: sm
+);
+
+@each $screen-width, $size in $screen-width {
+  @media (max-width: #{$screen-width}) {
+    @for $i from 0 through 5 {
+      .mt-#{$size}-#{$i} {
+        margin-top: 1rem * $i; 
+      }
+      .mr-#{$size}-#{$i} {
+        margin-right: 1rem * $i; 
+      }
+      .mb-#{$size}-#{$i} {
+        margin-bottom: 1rem * $i; 
+      }
+      .ml-#{$size}-#{$i} {
+        margin-left: 1rem * $i; 
+      }
     }
   }
 }
+
 
 /***************** FOO BAR: END ***************/
 
