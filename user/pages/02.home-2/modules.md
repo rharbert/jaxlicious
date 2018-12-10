@@ -8,42 +8,42 @@ module:
                 module_type: module__text_image
                 text_image__image: logo-text-jaxlicious-regular.svg
                 text_image__textarea: ''
+                module_styles__text_child: 'col-12 prl-sm-xxs prl-1 mt-3'
             -
                 module__admin_title_child: JAX
                 module_type: module__text_image
                 text_image__image: jaxlicious-jax.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
+                module_styles__text_child: 'col-3 prl-sm-xxs prl-1 mtb-1'
             -
                 module__admin_title_child: JAY
                 module_type: module__text_image
                 text_image__image: jaxlicious-jay.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
+                module_styles__text_child: 'col-3 prl-sm-xxs prl-1 mtb-1'
             -
                 module__admin_title_child: JES
                 module_type: module__text_image
                 text_image__image: jaxlicious-jes.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
+                module_styles__text_child: 'col-3 prl-sm-xxs prl-1 mtb-1'
             -
                 module__admin_title_child: JEN
                 module_type: module__text_image
                 text_image__image: jaxlicious-jen.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
+                module_styles__text_child: 'col-3 prl-sm-xxs prl-1 mtb-1'
             -
                 module__admin_title_child: 'BAM! THAT''S DELICIOUS'
                 module_type: module__text_image
                 text_image__image: logo-text-bam-thats-delicious.svg
                 text_image__textarea: ''
-                module_styles__text_child: col-12
-        module_styles__text: col-12
+                module_styles__text_child: 'col-12 prl-sm-xxs prl-1 mb-3'
         module_styles__select:
             - margin-top__none
             - background__6
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
         module__admin_title: 'Header Image'
         module_list:
@@ -53,16 +53,16 @@ module:
                 text_image__image: logo-kids-and-text.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
                 text_image__textarea: ''
-                module_styles__text_child: col-6
+                module_styles__text_child: col-12
                 module_styles__select_child:
                     - width__100
                     - margin-auto__right-left
-        module_styles__text: col-12
+                    - contain-inner__xs
+        module_styles__text: ptb-2
         module_styles__select:
-            - margin-top__none
             - background__6
         module_isotope: '0'
-        module_published: '0'
+        module_published: '1'
     -
         module__admin_title: 'Chocolate featuring all 4 kids'
         module_list:
