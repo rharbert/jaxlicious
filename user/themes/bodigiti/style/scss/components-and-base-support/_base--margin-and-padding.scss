@@ -83,7 +83,28 @@ $screen-width: (
     // 0 through 5 @ increments of 1rem
     //
     @for $i from 0 through 5 {
-      // Margin //
+      // Margin: No Screen-Size Variable //
+      .mt-#{$i} {
+        margin-top: 1rem * $i; 
+      }
+      .mr-#{$i} {
+        margin-right: 1rem * $i; 
+      }
+      .mb-#{$i} {
+        margin-bottom: 1rem * $i; 
+      }
+      .ml-#{$i} {
+        margin-left: 1rem * $i; 
+      }
+      .mtb-#{$i} {
+        margin-top: 1rem * $i; 
+        margin-bottom: 1rem * $i; 
+      }
+      .mrl-#{$i} {
+        margin-right: 1rem * $i; 
+        margin-left: 1rem * $i; 
+      }
+      // Margin: With Screen-Size Variable //
       .mt-#{$size}-#{$i} {
         margin-top: 1rem * $i; 
       }
@@ -104,7 +125,28 @@ $screen-width: (
         margin-right: 1rem * $i; 
         margin-left: 1rem * $i; 
       }
-      // Padding //
+      // Padding: No Screen-Size Variable //
+      .pt-#{$i} {
+        margin-top: 1rem * $i; 
+      }
+      .pr-#{$i} {
+        margin-right: 1rem * $i; 
+      }
+      .pb-#{$i} {
+        margin-bottom: 1rem * $i; 
+      }
+      .pl-#{$i} {
+        margin-left: 1rem * $i; 
+      }
+      .ptb-#{$i} {
+        margin-top: 1rem * $i; 
+        margin-bottom: 1rem * $i; 
+      }
+      .prl-#{$i} {
+        margin-right: 1rem * $i; 
+        margin-left: 1rem * $i; 
+      }
+      // Padding: With Screen-Size Variable //
       .pt-#{$size}-#{$i} {
         margin-top: 1rem * $i; 
       }
