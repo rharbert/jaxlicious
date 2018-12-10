@@ -13,33 +13,25 @@ module:
                 module_type: module__text_image
                 text_image__image: jaxlicious-jax.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3'
-                module_styles__select_child:
-                    - padding-right-left__sm
+                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
             -
                 module__admin_title_child: JAY
                 module_type: module__text_image
                 text_image__image: jaxlicious-jay.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3'
-                module_styles__select_child:
-                    - padding-right-left__sm
+                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
             -
                 module__admin_title_child: JES
                 module_type: module__text_image
                 text_image__image: jaxlicious-jes.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3'
-                module_styles__select_child:
-                    - padding-right-left__sm
+                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
             -
                 module__admin_title_child: JEN
                 module_type: module__text_image
                 text_image__image: jaxlicious-jen.svg
                 text_image__textarea: ''
-                module_styles__text_child: 'col-sm-6 col-3'
-                module_styles__select_child:
-                    - padding-right-left__sm
+                module_styles__text_child: 'col-sm-6 col-3  prl-1 prl-lg-2 mtb-1'
             -
                 module__admin_title_child: 'BAM! THAT''S DELICIOUS'
                 module_type: module__text_image

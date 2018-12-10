@@ -5,21 +5,23 @@
 // https://www.viget.com/articles/sass-maps-are-awesome/
 
 ////////////////////////////////////////////////////////////////////////////////
-// New Margin-Padding via @for and @each
+// New padding-Padding via @for and @each
 //
 @for $i from 0 through 5 {
-  .mt-#{$i} {
-    margin-top: 1rem * $i; 
-  }
-  .mr-#{$i} {
-    margin-right: 1rem * $i; 
-  }
-  .mb-#{$i} {
-    margin-bottom: 1rem * $i; 
-  }
-  .ml-#{$i} {
-    margin-left: 1rem * $i; 
-  }
+  // Margin: No Screen-Size Variable //
+  .mt-#{$i} { margin-top: 1rem * $i; }
+  .mr-#{$i} { margin-right: 1rem * $i; }
+  .mb-#{$i} { margin-bottom: 1rem * $i; }
+  .ml-#{$i} { margin-left: 1rem * $i; }
+  .mtb-#{$i} { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
+  .mlr-#{$i} { margin-right: 1rem * $i; margin-left: 1rem * $i; }
+  // Padding: No Screen-Size Variable //
+  .pt-#{$i} { padding-top: 1rem * $i; }
+  .pr-#{$i} { padding-right: 1rem * $i; }
+  .pb-#{$i} { padding-bottom: 1rem * $i; }
+  .pl-#{$i} { padding-left: 1rem * $i; }
+  .ptb-#{$i} { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
+  .prl-#{$i} { padding-right: 1rem * $i; padding-left: 1rem * $i; }
 }
 
 $screen-width: (
@@ -35,143 +37,45 @@ $screen-width: (
 @each $screen-width, $size in $screen-width {
   @media (max-width: #{$screen-width}) {
     /////////////////////////////////////////
-    // 5px or .3125rem;
+    // XXS 5px or .3125rem;
     $xxs: .3125;
     // Margin //
-    .mt-#{$size}-xxs {
-      margin-top: 1rem * $xxs; 
-    }
-    .mr-#{$size}-xxs {
-      margin-right: 1rem * $xxs; 
-    }
-    .mb-#{$size}-xxs {
-      margin-bottom: 1rem * $xxs; 
-    }
-    .ml-#{$size}-xxs {
-      margin-left: 1rem * $xxs; 
-    }
-    .mtb-#{$size}-xxs {
-      margin-top: 1rem * $xxs; 
-      margin-bottom: 1rem * $xxs; 
-    }
-    .mrl-#{$size}-xxs {
-      margin-right: 1rem * $xxs; 
-      margin-left: 1rem * $xxs; 
-    }
+    .mt-#{$size}-xxs { padding-top: 1rem * $xxs; }
+    .mr-#{$size}-xxs { padding-right: 1rem * $xxs; }
+    .mb-#{$size}-xxs { padding-bottom: 1rem * $xxs; }
+    .ml-#{$size}-xxs { padding-left: 1rem * $xxs; }
+    .mtb-#{$size}-xxs { padding-top: 1rem * $xxs; padding-bottom: 1rem * $xxs; }
+    .mrl-#{$size}-xxs { padding-right: 1rem * $xxs; padding-left: 1rem * $xxs; }
     // Padding //
-    .pt-#{$size}-xxs {
-      margin-top: 1rem * $xxs; 
-    }
-    .pr-#{$size}-xxs {
-      margin-right: 1rem * $xxs; 
-    }
-    .pb-#{$size}-xxs {
-      margin-bottom: 1rem * $xxs; 
-    }
-    .pl-#{$size}-xxs {
-      margin-left: 1rem * $xxs; 
-    }
-    .ptb-#{$size}-xxs {
-      margin-top: 1rem * $xxs; 
-      margin-bottom: 1rem * $xxs; 
-    }
-    .prl-#{$size}-xxs {
-      margin-right: 1rem * $xxs; 
-      margin-left: 1rem * $xxs; 
-    }
+    .pt-#{$size}-xxs { padding-top: 1rem * $xxs; }
+    .pr-#{$size}-xxs { padding-right: 1rem * $xxs; }
+    .pb-#{$size}-xxs { padding-bottom: 1rem * $xxs; }
+    .pl-#{$size}-xxs { padding-left: 1rem * $xxs; }
+    .ptb-#{$size}-xxs { padding-top: 1rem * $xxs; padding-bottom: 1rem * $xxs; }
+    .prl-#{$size}-xxs { padding-right: 1rem * $xxs; padding-left: 1rem * $xxs; }
     ////////////////////////////////////////
     // 0 through 5 @ increments of 1rem
     //
     @for $i from 0 through 5 {
-      // Margin: No Screen-Size Variable //
-      .mt-#{$i} {
-        margin-top: 1rem * $i; 
-      }
-      .mr-#{$i} {
-        margin-right: 1rem * $i; 
-      }
-      .mb-#{$i} {
-        margin-bottom: 1rem * $i; 
-      }
-      .ml-#{$i} {
-        margin-left: 1rem * $i; 
-      }
-      .mtb-#{$i} {
-        margin-top: 1rem * $i; 
-        margin-bottom: 1rem * $i; 
-      }
-      .mrl-#{$i} {
-        margin-right: 1rem * $i; 
-        margin-left: 1rem * $i; 
-      }
       // Margin: With Screen-Size Variable //
-      .mt-#{$size}-#{$i} {
-        margin-top: 1rem * $i; 
-      }
-      .mr-#{$size}-#{$i} {
-        margin-right: 1rem * $i; 
-      }
-      .mb-#{$size}-#{$i} {
-        margin-bottom: 1rem * $i; 
-      }
-      .ml-#{$size}-#{$i} {
-        margin-left: 1rem * $i; 
-      }
-      .mtb-#{$size}-#{$i} {
-        margin-top: 1rem * $i; 
-        margin-bottom: 1rem * $i; 
-      }
-      .mrl-#{$size}-#{$i} {
-        margin-right: 1rem * $i; 
-        margin-left: 1rem * $i; 
-      }
-      // Padding: No Screen-Size Variable //
-      .pt-#{$i} {
-        margin-top: 1rem * $i; 
-      }
-      .pr-#{$i} {
-        margin-right: 1rem * $i; 
-      }
-      .pb-#{$i} {
-        margin-bottom: 1rem * $i; 
-      }
-      .pl-#{$i} {
-        margin-left: 1rem * $i; 
-      }
-      .ptb-#{$i} {
-        margin-top: 1rem * $i; 
-        margin-bottom: 1rem * $i; 
-      }
-      .prl-#{$i} {
-        margin-right: 1rem * $i; 
-        margin-left: 1rem * $i; 
-      }
+      .mt-#{$size}-#{$i} { padding-top: 1rem * $i; }
+      .mr-#{$size}-#{$i} { padding-right: 1rem * $i; }
+      .mb-#{$size}-#{$i} { padding-bottom: 1rem * $i; }
+      .ml-#{$size}-#{$i} { padding-left: 1rem * $i; }
+      .mtb-#{$size}-#{$i} { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
+      .mrl-#{$size}-#{$i} { padding-right: 1rem * $i; padding-left: 1rem * $i; }
       // Padding: With Screen-Size Variable //
-      .pt-#{$size}-#{$i} {
-        margin-top: 1rem * $i; 
-      }
-      .pr-#{$size}-#{$i} {
-        margin-right: 1rem * $i; 
-      }
-      .pb-#{$size}-#{$i} {
-        margin-bottom: 1rem * $i; 
-      }
-      .pl-#{$size}-#{$i} {
-        margin-left: 1rem * $i; 
-      }
-      .ptb-#{$size}-#{$i} {
-        margin-top: 1rem * $i; 
-        margin-bottom: 1rem * $i; 
-      }
-      .prl-#{$size}-#{$i} {
-        margin-right: 1rem * $i; 
-        margin-left: 1rem * $i; 
-      }
+      .pt-#{$size}-#{$i} { padding-top: 1rem * $i; }
+      .pr-#{$size}-#{$i} { padding-right: 1rem * $i; }
+      .pb-#{$size}-#{$i} { padding-bottom: 1rem * $i; }
+      .pl-#{$size}-#{$i} { padding-left: 1rem * $i; }
+      .ptb-#{$size}-#{$i} { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
+      .prl-#{$size}-#{$i} { padding-right: 1rem * $i; padding-left: 1rem * $i; }
     }
   }
 }
 //
-// END: New Margin-Padding via @for and @each
+// END: New padding-Padding via @for and @each
 ////////////////////////////////////////////////////////////////////////////////
 
 
@@ -198,9 +102,9 @@ $mp_xl_rem: 5rem; // 80px
 ////////////////////////////////////////////////////////////////////////////////
 // Margin Right-Left Auto
 ////////////////////////////////////////////////////////////////////////////////
-.margin-auto__right-left {
-  margin-right: auto;
-  margin-left: auto;
+.padding-auto__right-left {
+  padding-right: auto;
+  padding-left: auto;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -208,28 +112,28 @@ $mp_xl_rem: 5rem; // 80px
 ////////////////////////////////////////////////////////////////////////////////
 
 // Mobile: Margin Mobile+ ////////////////////////////////////
-.margin-left-right__xs-plus {
-  margin-left: $mp_xxs_rem;
-  margin-right: $mp_xxs_rem;
+.padding-left-right__xs-plus {
+  padding-left: $mp_xxs_rem;
+  padding-right: $mp_xxs_rem;
   @include breakpoint($size-xl, true) {
-    margin-left: $mp_xs_rem;
-    margin-right: $mp_xs_rem;
+    padding-left: $mp_xs_rem;
+    padding-right: $mp_xs_rem;
   }
   @include breakpoint($size-xl, true) {
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
   }
 }
-.margin-left-right__xs-plus__inner > .inner {
-  margin-left: $mp_xxs_rem;
-  margin-right: $mp_xxs_rem;
+.padding-left-right__xs-plus__inner > .inner {
+  padding-left: $mp_xxs_rem;
+  padding-right: $mp_xxs_rem;
   @include breakpoint($size-xl, true) {
-    margin-left: $mp_xs_rem;
-    margin-right: $mp_xs_rem;
+    padding-left: $mp_xs_rem;
+    padding-right: $mp_xs_rem;
   }
   @include breakpoint($size-xl, true) {
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
   }
 }
 
@@ -238,8 +142,8 @@ $mp_xl_rem: 5rem; // 80px
   padding-left: $mp_xxs_rem;
   padding-right: $mp_xxs_rem;
   @include breakpoint($size-xl, true) {
-    margin-left: $mp_xs_rem;
-    margin-right: $mp_xs_rem;
+    padding-left: $mp_xs_rem;
+    padding-right: $mp_xs_rem;
   }
   @include breakpoint($size-xl, true) {
     padding-left: auto;
@@ -252,100 +156,100 @@ $mp_xl_rem: 5rem; // 80px
 ////////////////////////////////////////////////////////////////////////////////
 
 // Margin Bottom ////////////////////////////////////
-.margin-bottom__none__children .paragraph,
-.margin-bottom__none {
-  margin-bottom: 0;
+.padding-bottom__none__children .paragraph,
+.padding-bottom__none {
+  padding-bottom: 0;
 }
-.margin-bottom__xxs__children .paragraph,
-.margin-bottom__xxs {
-  margin-bottom: $mp_xxs_rem;
+.padding-bottom__xxs__children .paragraph,
+.padding-bottom__xxs {
+  padding-bottom: $mp_xxs_rem;
 }
-.margin-bottom__xs__children .paragraph,
-.margin-bottom__xs {
-  margin-bottom: $mp_xs_rem;
+.padding-bottom__xs__children .paragraph,
+.padding-bottom__xs {
+  padding-bottom: $mp_xs_rem;
 }
-.margin-bottom__sm__children .paragraph,
-.margin-bottom__sm {
-  margin-bottom: $mp_sm_rem;
+.padding-bottom__sm__children .paragraph,
+.padding-bottom__sm {
+  padding-bottom: $mp_sm_rem;
 }
-.margin-bottom__md__children .paragraph,
-.margin-bottom__md {
-  margin-bottom: $mp_md_rem;
+.padding-bottom__md__children .paragraph,
+.padding-bottom__md {
+  padding-bottom: $mp_md_rem;
 }
-.margin-bottom__lg__children .paragraph,
-.margin-bottom__lg {
-  margin-bottom: $mp_lg_rem;
+.padding-bottom__lg__children .paragraph,
+.padding-bottom__lg {
+  padding-bottom: $mp_lg_rem;
 }
-.margin-bottom__xl__children .paragraph,
-.margin-bottom__xl {
-  margin-bottom: $mp_xl_rem;
+.padding-bottom__xl__children .paragraph,
+.padding-bottom__xl {
+  padding-bottom: $mp_xl_rem;
 }
 
 // Margin Top Bottom ////////////////////////////////////
-.margin-top-bottom__none__children .paragraph,
-.margin-top-bottom__none {
-  margin-top: 0;
-  margin-bottom: 0;
+.padding-top-bottom__none__children .paragraph,
+.padding-top-bottom__none {
+  padding-top: 0;
+  padding-bottom: 0;
 }
-.margin-top-bottom__xxs__children .paragraph,
-.margin-top-bottom__xxs {
-  margin-top: $mp_xxs_rem;
-  margin-bottom: $mp_xxs_rem;
+.padding-top-bottom__xxs__children .paragraph,
+.padding-top-bottom__xxs {
+  padding-top: $mp_xxs_rem;
+  padding-bottom: $mp_xxs_rem;
 }
-.margin-top-bottom__xs__children .paragraph,
-.margin-top-bottom__xs {
-  margin-top: $mp_xs_rem;
-  margin-bottom: $mp_xs_rem;
+.padding-top-bottom__xs__children .paragraph,
+.padding-top-bottom__xs {
+  padding-top: $mp_xs_rem;
+  padding-bottom: $mp_xs_rem;
 }
-.margin-top-bottom__sm__children .paragraph,
-.margin-top-bottom__sm {
-  margin-top: $mp_sm_rem;
-  margin-bottom: $mp_sm_rem;
+.padding-top-bottom__sm__children .paragraph,
+.padding-top-bottom__sm {
+  padding-top: $mp_sm_rem;
+  padding-bottom: $mp_sm_rem;
 }
-.margin-top-bottom__md__children .paragraph,
-.margin-top-bottom__md {
-  margin-top: $mp_md_rem;
-  margin-bottom: $mp_md_rem;
+.padding-top-bottom__md__children .paragraph,
+.padding-top-bottom__md {
+  padding-top: $mp_md_rem;
+  padding-bottom: $mp_md_rem;
 }
-.margin-top-bottom__lg__children .paragraph,
-.margin-top-bottom__lg {
-  margin-top: $mp_lg_rem;
-  margin-bottom: $mp_lg_rem;
+.padding-top-bottom__lg__children .paragraph,
+.padding-top-bottom__lg {
+  padding-top: $mp_lg_rem;
+  padding-bottom: $mp_lg_rem;
 }
-.margin-top-bottom__xl__children .paragraph,
-.margin-top-bottom__xl {
-  margin-top: $mp_xl_rem;
-  margin-bottom: $mp_xl_rem;
+.padding-top-bottom__xl__children .paragraph,
+.padding-top-bottom__xl {
+  padding-top: $mp_xl_rem;
+  padding-bottom: $mp_xl_rem;
 }
 
 // Margin Top ////////////////////////////////////
-.margin-top__none__children .paragraph,
-.margin-top__none {
-  margin-top: 0;
+.padding-top__none__children .paragraph,
+.padding-top__none {
+  padding-top: 0;
 }
-.margin-top__xxs__children .paragraph,
-.margin-top__xxs {
-  margin-top: $mp_xxs_rem;
+.padding-top__xxs__children .paragraph,
+.padding-top__xxs {
+  padding-top: $mp_xxs_rem;
 }
-.margin-top__xs__children .paragraph,
-.margin-top__xs {
-  margin-top: $mp_xs_rem;
+.padding-top__xs__children .paragraph,
+.padding-top__xs {
+  padding-top: $mp_xs_rem;
 }
-.margin-top__sm__children .paragraph,
-.margin-top__sm {
-  margin-top: $mp_sm_rem;
+.padding-top__sm__children .paragraph,
+.padding-top__sm {
+  padding-top: $mp_sm_rem;
 }
-.margin-top__md__children .paragraph,
-.margin-top__md {
-  margin-top: $mp_md_rem;
+.padding-top__md__children .paragraph,
+.padding-top__md {
+  padding-top: $mp_md_rem;
 }
-.margin-top__lg__children .paragraph,
-.margin-top__lg {
-  margin-top: $mp_lg_rem;
+.padding-top__lg__children .paragraph,
+.padding-top__lg {
+  padding-top: $mp_lg_rem;
 }
-.margin-top__xl__children .paragraph,
-.margin-top__xl {
-  margin-top: $mp_xl_rem;
+.padding-top__xl__children .paragraph,
+.padding-top__xl {
+  padding-top: $mp_xl_rem;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
