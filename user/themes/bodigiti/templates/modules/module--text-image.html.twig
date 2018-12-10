@@ -45,25 +45,16 @@
     {% endif %} {# end subtitle #}
     {# Image #}
     {% if mlist.text_image__image %}
-      {# Image Extension SVG ? #}
-      {# SVG is media type 'files' not 'images' #}
-      {% set fileURL = page.media.files[mlist.text_image__image].url %}
-      {# mediaType default is 'page.media.images' #}
-      {% set mediaType = page.media.images %}
-      {% set svg = false %}
-      {% if fileURL|ends_with('.svg') %}
-        {# mediaType for SVG is 'page.media.files' #}
-        {% set mediaType = page.media.files %}
-        {% set svg = true %}
-      {% endif %}
       {# End: Image Extension SVG ? #}
-        <figure class="image{% if svg %} svg{% endif %}">
-        {% if linkType == 'image' %}
-          <a href="{{ linkImage }}" class="paragraph--link--image">
-        {% endif %}
+      <figure>
+      {% if linkType == 'image' %}
+        <a href="{{ linkImage }}" class="paragraph--link--image">
+      {% endif %}
       {# end link part 1 of 2 #}
-      {# page.media gets files regardless whether it is type 'images' vs 'files' (svg is type 'files') #}
-      {{ page.media[mlist.text_image__image].html('', mlist.text_image__alt) }}
+      {# mediaType is dynamic check from above 'images' vs 'files' #}
+      {# Check if SVG then add Class #}
+      {% set media = mlist.text_image__image %}
+      <img class="{{ page.media[media].url|ends_with('.svg') ? 'svg' }}" src="{{ page.media[media].url }}" alt="{{ mlist.text_image__alt }}"/>
       {# Link for Image #}
         {% if linkType == 'image' %}
           </a>
