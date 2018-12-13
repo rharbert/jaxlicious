@@ -1,58 +1,28 @@
-
 ////////////////////////////////////////////////////////////////////////////////
 // Menu Header (component)
 ////////////////////////////////////////////////////////////////////////////////
 
-header .logo {
-  display: block;
-  width: 175px;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 1rem;
-  @include breakpoint($size-sm) {
-    width: 200px;
-  }
-  @include breakpoint($size-sm-plus) {
-    width: 225px;
-  }
-  @include breakpoint($size-md) {
-    width: 250px;
-  }
-  @include breakpoint($size-lg) {
-    width: 300px;
-    margin-top: 0;
-  }
-}
-
 header .menu-list {
-  display: none;
-  @include breakpoint($size-lg) {
-    display: flex;
-    justify-content: space-between;
-    margin-top: -10rem;
-    margin-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+  
+  li {
+    padding: .75rem .55rem;
+    list-style-type: none;
 
-    > li {
-      padding: .75rem 0;
-      // Set the size of the logo and amount of items
-      list-style-type: none;
-      text-align: center;
-      &:nth-child(4) {
-        margin-left: 18rem;
-      }
-    }
-    a {
-      // link takes full width of li
+  }
+  a {
+    text-decoration: none;
+    font-weight: $font-weight-medium;
+    font-size: 75%;
+    color: $color2;
+    &:hover {
       color: $color4;
-      text-decoration: none;
-      &:hover {
-        border-bottom: 1px solid $color4;
-        // Required to prevent hero image from moving
-        margin-top: -1px;
-      }
     }
-    .logo a:hover {
-      border-bottom: none;
+    @include breakpoint($size-xs) {
+      font-size: 80%;
+    }@include breakpoint($size-sm) {
+      font-size: 100%;
     }
   }
 }
