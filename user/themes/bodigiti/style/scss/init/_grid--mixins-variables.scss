@@ -17,13 +17,19 @@ $sidebar-one: 25em; // 25em or 400px
 ////////////////////////////////////////////////////////////////////////////////
 
 $row: 68rem; // 68rem or 1,088px
-$row-xl: 90rem; // 90rem or 1,440px
-$row-lg: 75rem; // 75rem or 1,200px
-$row-sm: 52rem; // 50em or 800px
-$row-xs: 34rem; // 24em or 544px
+$row-xs: $size-xs; //34rem; // 24em or 544px
+$row-sm: $size-sm; //52rem; // 50em or 800px
+$row-sm-plus: $size-sm-plus; //52rem; // 50em or 800px
+$row-md: $size-md; //
+$row-lg: $size-lg; //75rem; // 75rem or 1,200px
+$row-xl: $size-xl; //90rem; // 90rem or 1,440px
+$row-2x: $size-2x; //90rem; // 90rem or 1,440px
 
 @mixin row { max-width: $row; margin-left: auto; margin-right: auto; }
-@mixin row-xl { max-width: $row-xl; margin-left: auto; margin-right: auto; }
-@mixin row-lg { max-width: $row-lg; margin-left: auto; margin-right: auto; }
-@mixin row-sm { max-width: $row-sm; margin-left: auto; margin-right: auto; }
 @mixin row-xs { max-width: $row-xs; margin-left: auto; margin-right: auto; }
+@mixin row-sm { max-width: $row-sm; margin-left: auto; margin-right: auto; }
+@mixin row-sm-plus { max-width: $row-sm-plus; margin-left: auto; margin-right: auto; }
+@mixin row-md { max-width: $row-md; margin-left: auto; margin-right: auto; }
+@mixin row-lg { max-width: $row-lg; margin-left: auto; margin-right: auto; }
+@mixin row-xl { max-width: $row-xl; margin-left: auto; margin-right: auto; }
+@mixin row-2x { max-width: $row-2x; margin-left: auto; margin-right: auto; }

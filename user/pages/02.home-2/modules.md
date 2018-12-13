@@ -9,11 +9,11 @@ module:
                 text_image__image: logo-kids-and-text.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
                 text_image__textarea: ''
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 prl-sm-xxs'
                 module_styles__select_child:
                     - width__100
                     - margin-auto__right-left
-                    - contain-inner__xs
+                    - contain-inner__sm
         module_styles__text: ptb-2
         module_styles__select:
             - background__6

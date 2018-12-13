@@ -14,21 +14,30 @@
 .contain-outer { @include row; }
 .contain-outer__xs { @include row-xs; }
 .contain-outer__sm { @include row-sm; }
+.contain-outer__sm-plus { @include row-sm-plus; }
+.contain-outer__md { @include row-md; }
 .contain-outer__lg { @include row-lg; }
 .contain-outer__xl { @include row-xl; }
+.contain-outer__2x { @include row-2x; }
 
 // Contain Inner (relegate styles to immediate child only)
 .contain-inner > .inner, .contain-inner #main-content { @include row; }
 .contain-inner__xs > .inner, .contain-inner__xs #main-content { @include row-xs; }
 .contain-inner__sm > .inner, .contain-inner__sm #main-content { @include row-sm; }
+.contain-inner__sm-plus > .inner, .contain-inner__sm-plus #main-content { @include row-sm-plus; }
+.contain-inner__md > .inner, .contain-inner__md #main-content { @include row-md; }
 .contain-inner__lg > .inner, .contain-inner__lg #main-content { @include row-lg; }
 .contain-inner__xl > .inner, .contain-inner__xl #main-content { @include row-xl; }
+.contain-inner__2x > .inner, .contain-inner__2x #main-content { @include row-2x; }
 // Contain inner 'columns'
 .contain-inner.columns, .contain-inner #main-content { @include row; }
 .contain-inner__xs.columns, .contain-inner__xs #main-content { @include row-xs; }
 .contain-inner__sm.columns, .contain-inner__sm #main-content { @include row-sm; }
+.contain-inner__sm-plus.columns, .contain-inner__sm-plus #main-content { @include row-sm-plus; }
+.contain-inner__md.columns, .contain-inner__md #main-content { @include row-md; }
 .contain-inner__lg.columns, .contain-inner__lg #main-content { @include row-lg; }
 .contain-inner__xl.columns, .contain-inner__xl #main-content { @include row-xl; }
+.contain-inner__2x.columns, .contain-inner__2x #main-content { @include row-2x; }
 
 ////////////////////////////////////////////////////////////////////////////////
 // Responsive breakpoint system
