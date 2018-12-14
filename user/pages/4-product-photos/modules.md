@@ -9,15 +9,15 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Bulk Orders in Quantities of 10'
                 text_image__textarea: 'Our chocolate bars are great for **personal and corporate gifts**. They are also available **wholesale**.'
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 padding-top-bottom-more'
                 module_styles__select_child:
                     - contain-inner
                     - title__center
-        module_styles__text: col-12
+        module_styles__text: 'col-12 '
         module_styles__select:
-            - margin-top__lg
-            - background__gray1
+            - background__6
             - text-align__center
+            - text-color__white
         module_isotope: '0'
         module_published: '1'
     -
@@ -32,7 +32,6 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
-                    - margin-bottom__none
                     - image__center
                     - text-align__center
             -
@@ -44,7 +43,6 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
-                    - margin-bottom__none
                     - image__center
                     - text-align__center
             -
@@ -55,7 +53,6 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
-                    - margin-bottom__none
                     - image__center
                     - text-align__center
             -
@@ -66,13 +63,13 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
-                    - margin-bottom__none
                     - image__center
                     - text-align__center
         module_styles__text: product-categories-grid
         module_styles__select:
             - margin-left-right__xs-plus
-            - background__gray1
+            - background__6
+            - text-color__white
         module_isotope: '0'
         module_published: '1'
 media_order: 'chocolate-bar-display-50.jpg,jaxlicious-personal-gift-set-mug-3-bars-1.jpg,jaxlicious-breakroom-1.jpg'
