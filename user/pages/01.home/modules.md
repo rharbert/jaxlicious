@@ -56,7 +56,7 @@ module:
                 module_styles__text_child: 'col-5 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
-        module_styles__text: prl-sm-xxs
+        module_styles__text: 'prl-sm-xxs ptb-3'
         module_styles__select:
             - margin-auto__right-left
             - contain-outer
@@ -68,10 +68,11 @@ module:
             -
                 module_type: module__text_image
                 text_image__textarea: '<a href="#contact" class="button button__md button__full-width button__center">Contact us to place your order</a>'
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 mb-0'
                 module_styles__select_child:
                     - margin-left-right__xs-plus
                     - contain-inner__xs
+        module_styles__text: mb-0
         module_isotope: '0'
         module_published: '1'
     -
@@ -127,6 +128,7 @@ module:
                 module_styles__text_child: 'col-5 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
+        module_styles__text: ptb-3
         module_styles__select:
             - margin-left-right__xs-plus
             - contain-outer

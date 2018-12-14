@@ -10,8 +10,5 @@
   }
   * {
     text-align: center;
-    @include breakpoint($size-sm, true) {
-      text-align: left;
-    }
   }
 }
