@@ -9,7 +9,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Bulk Orders in Quantities of 10'
                 text_image__textarea: 'Our chocolate bars are great for **personal and corporate gifts**. They are also available **wholesale**.'
-                module_styles__text_child: 'col-12 padding-top-bottom-more'
+                module_styles__text_child: col-12
                 module_styles__select_child:
                     - contain-inner
                     - title__center

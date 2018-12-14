@@ -27,7 +27,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Chocolate Bars'
                 text_image__textarea: "Our **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
-                module_styles__text_child: 'col-12 padding-top-bottom-more'
+                module_styles__text_child: col-12
                 module_styles__select_child:
                     - margin-auto__right-left
                     - title__center
@@ -82,7 +82,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# More Chocolate Bars'
                 text_image__textarea: 'You can also order chocolate bars featuring your favorite Jaxlicious kid.'
-                module_styles__text_child: 'col-12 padding-top-bottom-more'
+                module_styles__text_child: col-12
                 module_styles__select_child:
                     - margin-auto__right-left
                     - title__center
@@ -142,7 +142,7 @@ module:
                 content_inject__url: /4-product-photos
                 content_inject__type: modules
                 module_styles__text_child: mb-0
-        module_styles__text: 'col-12 pb-3'
+        module_styles__text: 'col-12 ptb-3'
         module_styles__select:
             - background__6
         module_isotope: '0'
@@ -161,7 +161,7 @@ module:
                     - contain-inner__lg
                     - title__center
                     - text-align__justify
-        module_styles__text: 'col-12 padding-top-bottom-more'
+        module_styles__text: 'col-12 ptb-3'
         module_styles__select:
             - padding-left-right__xs-plus
             - background__5
@@ -177,7 +177,7 @@ module:
                 text_image__title: ' #  Contact Us '
                 text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help! <a class="negate" id="contact-form" name="contact-form"></a>'
                 text_image__textarea: ''
-                module_styles__text_child: 'col-12 padding-top-bottom-more'
+                module_styles__text_child: col-12
                 module_styles__select_child:
                     - contain-inner__lg
                     - title__center
@@ -193,7 +193,7 @@ module:
                     - margin-left-right__xs-plus
                     - contain-inner__lg
                     - text-align__center
-        module_styles__text: 'col-12 pb-3'
+        module_styles__text: 'col-12 ptb-3'
         module_styles__select:
             - background__4
             - text-align__center
