@@ -26,8 +26,8 @@ module:
                 module__admin_title_child: 'Chocolate Title'
                 module_type: module__text_image
                 text_image__title: '# Chocolate Bars'
-                text_image__textarea: "Our **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
-                module_styles__text_child: col-12
+                text_image__textarea: "<a class=\"negate\" id=\"chocolate\" name=\"chocolate\"></a>\r\n\r\nOur **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
+                module_styles__text_child: 'col-12 padding-top-bottom-more'
                 module_styles__select_child:
                     - margin-auto__right-left
                     - title__center
@@ -82,7 +82,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# More Chocolate Bars'
                 text_image__textarea: 'You can also order chocolate bars featuring your favorite Jaxlicious kid.'
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 padding-top-bottom-more'
                 module_styles__select_child:
                     - margin-auto__right-left
                     - title__center
@@ -145,15 +145,36 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
+        module__admin_title: 'Our Story'
+        module_list:
+            -
+                module__admin_title_child: 'Our Story '
+                module_type: module__text_image
+                text_image__title: '# The Jaxlicious Story '
+                text_image__subtitle: '<a class="negate" id="about" name="about"></a>'
+                text_image__textarea: "One fine day, Jax was happily walking along eating his favorite chocolates. Along came Jay.<br>\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**<br>\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"<br>\r\nJax and Jay became good friends, and they would eat chocolate almost everyday.<br>\r\nAfter becoming friends with Jess and Jen, all four kids decided to work together to create **chocolate bars for everyone**."
+                module_styles__select_child:
+                    - contain-inner
+                    - title__center
+                    - text-align__justify
+        module_styles__text: 'col-6 padding-top-bottom-more'
+        module_styles__select:
+            - padding-left-right__xs-plus
+            - contain-inner
+            - background__5
+            - text-color__white
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Contact Form'
         module_list:
             -
-                module__admin_title_child: 'Title<a class="negate" id="contact-form" name="contact-form">'
+                module__admin_title_child: 'Title '
                 module_type: module__text_image
-                text_image__title: ' #  Contact Us'
-                text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help!'
+                text_image__title: ' #  Contact Us '
+                text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help! <a class="negate" id="contact-form" name="contact-form">'
                 text_image__textarea: ''
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 padding-top-bottom-more'
                 module_styles__select_child:
                     - title__center
             -
