@@ -56,7 +56,7 @@ module:
                 module_styles__text_child: 'col-5 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
-        module_styles__text: 'prl-sm-xxs ptb-3'
+        module_styles__text: 'prl-sm-xxs ptb-2'
         module_styles__select:
             - margin-auto__right-left
             - contain-outer
@@ -128,7 +128,7 @@ module:
                 module_styles__text_child: 'col-5 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
-        module_styles__text: ptb-3
+        module_styles__text: ptb-2
         module_styles__select:
             - margin-left-right__xs-plus
             - contain-outer
@@ -144,7 +144,7 @@ module:
                 content_inject__url: /4-product-photos
                 content_inject__type: modules
                 module_styles__text_child: mb-0
-        module_styles__text: 'col-12 ptb-3'
+        module_styles__text: 'col-12 pt-2 pb-3'
         module_styles__select:
             - background__6
         module_isotope: '0'
