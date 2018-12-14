@@ -15,7 +15,6 @@ module:
                     - title__center
         module_styles__text: 'col-12 '
         module_styles__select:
-            - background__6
             - text-align__center
             - text-color__white
         module_isotope: '0'
@@ -68,7 +67,6 @@ module:
         module_styles__text: product-categories-grid
         module_styles__select:
             - margin-left-right__xs-plus
-            - background__6
             - text-color__white
         module_isotope: '0'
         module_published: '1'
