@@ -9,7 +9,9 @@ header .menu-list {
   li {
     padding: .75rem .55rem;
     list-style-type: none;
-
+    @include breakpoint($size-sm-plus) {
+      padding: .75rem 1.55rem;
+    }
   }
   a {
     text-decoration: none;
@@ -20,9 +22,8 @@ header .menu-list {
       color: $color4;
     }
     @include breakpoint($size-xs) {
-      font-size: 80%;
-    }@include breakpoint($size-sm) {
-      font-size: 100%;
-    }
+      font-size: 80%;}
+    @include breakpoint($size-sm-plus) {
+      font-size: 120%;}
   }
 }
