@@ -3,12 +3,18 @@ $color1: #000; // Black
 $color2: #fff; // White
 $color3: #231F20; // Dark Gray (Near Black)
 $color4: #694e3d; // Brown
-$color5: #da0000; // Jax Red (previous #d91f26)
-$color6: #226abf; // Jax Blue (previous 336ABF)
-$color7: #973999; // Jax Purple
-$color8: #FFE135; // Jax Yellow
-$color9: #5EBD3E; // Jax Green
-$color10: #F78200; // Jax Orange
+$color5: #da0000; // Jax Red--> rgb(218,0,0)
+$color5a: rgba(218,0,0, .7);
+$color6: #226abf; // Jax Blue--> rgb(34,106,191)
+$color6a: rgba(34,106,191,.7); // Jax Blue--> rgb(34,106,191)
+$color7: #973999; // Jax Purple--> rgb(151,57,153)
+$color7a: rgba(151,57,153, .8); // Jax Purple--> rgb(151,57,153)
+$color8: #FFE135; // Jax Yellow--> rgb(255,225,53)
+$color8a: rgba(255,225,52, .8); // Jax Yellow--> rgb(255,225,53)
+$color9: #5EBD3E; // Jax Green--> rgb(94,189,62)
+$color9a: rgba(94,189,62, .7); // Jax Green--> rgb(94,189,62)
+$color10: #F78200; // Jax Orange--> rgb(247,130,0)
+$color10a: rgba(247,130,0, .9); // Jax Orange--> rgb(247,130,0)
 
 $black: black;
 $white: white;

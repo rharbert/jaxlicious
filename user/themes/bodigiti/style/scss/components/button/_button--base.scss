@@ -6,19 +6,19 @@
 %button {
   font-family: $font-family-menus;
   color: $color2;
-  background: $color6;
+  background: $color9;
   text-decoration: none;
   display: inline-block;
   &:hover {
     text-decoration: none;
-    background: lighten($color5, 5%);
+    background: lighten($color9, 5%);
   }
 }
 %colors-secondary {
   background: $color5;
   &:hover {
     text-decoration: none;
-    background: lighten($color5, 5%);
+    background: lighten($color9, 5%);
   }
 }
 %button--xs {

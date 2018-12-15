@@ -146,7 +146,7 @@ module:
                 module_styles__text_child: mb-0
         module_styles__text: 'col-12 pt-2 pb-3'
         module_styles__select:
-            - background__6
+            - background__10a
         module_isotope: '0'
         module_published: '1'
     -
@@ -157,7 +157,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# The Jaxlicious Story '
                 text_image__subtitle: '<a class="negate" id="about" name="about"></a>'
-                text_image__textarea: "One fine day, Jax was happily walking along eating his favorite chocolates. Along came Jay.<br>\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**<br>\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"<br>\r\nJax and Jay became good friends, and they would eat chocolate almost everyday.<br>\r\nAfter becoming friends with Jess and Jen, all four kids decided to work together to create **chocolate bars for everyone**."
+                text_image__textarea: "One fine day, Jax was happily walking along eating his favorite chocolates. Along came Jay.<br>\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**<br>\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"<br>\r\nJax and Jay became good friends, and they would eat chocolate almost everyday.<br>\r\nAfter becoming friends with Jess and Jen, all four decided to work together to create **chocolate bars for everyone**."
                 module_styles__select_child:
                     - margin-auto__right-left
                     - contain-inner__lg
@@ -166,8 +166,8 @@ module:
         module_styles__text: 'col-12 ptb-3'
         module_styles__select:
             - padding-left-right__xs-plus
-            - background__5
-            - text-color__white
+            - background__8
+            - text-color__brown
         module_isotope: '0'
         module_published: '1'
     -
@@ -197,7 +197,7 @@ module:
                     - text-align__center
         module_styles__text: 'col-12 ptb-3'
         module_styles__select:
-            - background__4
+            - background__7a
             - text-align__center
             - text-color__white
         module_isotope: '0'

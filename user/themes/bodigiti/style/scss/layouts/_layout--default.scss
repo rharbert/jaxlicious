@@ -10,12 +10,14 @@
 // Set html and footer background colors to same so when sections in between
 // do not fill the remaining height the footer background color appears to fill
 // the remaining height.
-// This works beause <body> background color is set to 'white' in normalize
+// This works because <body> background color is set to 'white' in normalize
 // Required zero 100% height to achieve the goal.
 
-html,
+html {
+  @include background-and-text($color5a, $color1);
+}
 #footer {
-  @include background-and-text($gray3, $color1);
+  @include background-and-text($color5a, $color2);
 }
 
 ////////////////////////////////////////////////////////////////////////////////

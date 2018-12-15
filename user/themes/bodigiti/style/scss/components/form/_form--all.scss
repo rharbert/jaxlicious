@@ -85,16 +85,16 @@
 .form-submit,
 button.form-submit {
   color: $color2;
-  background: $color6;
+  background: $color9;
   font-weight: bold;
   padding: .5rem;
   @include font-size($font-medium);
-  border: solid 2px $color6;
+  border: solid 2px $color9;
   border-radius: 8px;
   margin-top: .5rem;
   &:hover {
     color: $color2;
-    background: $color5;
-    border: solid 2px $color5;
+    background: $color9(lighten, .8);
+    border: solid 2px $color9(lighten, .8);
   }
 }

@@ -27,9 +27,43 @@
   &__5 {
     background-color: $color5;
   }
+  &__5a {
+    background-color: $color5a;
+  }
   &.blue,
   &__6 {
     background-color: $color6;
+  }
+  &__6a {
+    background-color: $color6a;
+  }
+  &.purple,
+  &__7 {
+    background-color: $color7;
+  }
+  &__7a {
+    background-color: $color7a;
+  }
+  &.yellow,
+  &__8 {
+    background-color: $color8;
+  }
+  &__8a {
+    background-color: $color8a;
+  }
+  &.green,
+  &__9 {
+    background-color: $color9;
+  }
+  &__9a {
+    background-color: $color9a;
+  }
+  &.orange,
+  &__10 {
+    background-color: $color10;
+  }
+  &__10a {
+    background-color: $color10a;
   }
   &__gray1 {
     background-color: $gray1;
@@ -79,7 +113,7 @@
       color: $color2;
     }
   }
-  &__gold {
+  &__brown {
     h1,h2,h3,h4,h5,h6,p,ul,ol,li,a {
       color: $color4;
     }
