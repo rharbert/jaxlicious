@@ -18,7 +18,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Chocolate featuring all 4 kids'
+        module__admin_title: 'Chocolate All 4 Kids'
         module_list:
             -
                 module__admin_title_child: 'Chocolate Title'
@@ -27,6 +27,7 @@ module:
                 text_image__textarea: "Our **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
                 module_styles__text_child: col-12
                 module_styles__select_child:
+                    - contain-inner__md
                     - title__center
                     - text-align__center
             -
@@ -63,6 +64,7 @@ module:
         module__admin_title: 'Button - Buy Chocolate'
         module_list:
             -
+                module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
                 text_image__textarea: '<a href="#contact" class="button button__md button__full-width button__center">Contact us to place your order</a>'
                 module_styles__text_child: 'col-12 mb-0'
@@ -73,7 +75,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Chocolate featuring each kid'
+        module__admin_title: 'Chocolate Single Kids'
         module_list:
             -
                 module__admin_title_child: Title
@@ -82,7 +84,6 @@ module:
                 text_image__textarea: 'You can also order chocolate bars featuring your favorite Jaxlicious kid.'
                 module_styles__text_child: col-12
                 module_styles__select_child:
-                    - margin-auto__right-left
                     - title__center
                     - text-align__center
             -
@@ -141,7 +142,7 @@ module:
                 content_inject__url: /4-product-photos
                 content_inject__type: modules
                 module_styles__text_child: mb-0
-        module_styles__text: 'col-12 pt-2 pb-3'
+        module_styles__text: 'pt-2 pb-3'
         module_styles__select:
             - background__10a
         module_isotope: '0'
@@ -186,7 +187,6 @@ module:
                 text_image__textarea: ''
                 content_inject__url: contact-form
                 form_inject__url: /contact-form
-                module_styles__text_child: col-12
                 module_styles__select_child:
                     - width__100
                     - margin-left-right__xs-plus
