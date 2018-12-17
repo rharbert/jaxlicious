@@ -11,8 +11,6 @@ module:
                 text_image__textarea: '<a class="negate" id="chocolate" name="chocolate"></a>'
                 module_styles__text_child: 'col-12 prl-sm-xxs'
                 module_styles__select_child:
-                    - width__100
-                    - margin-auto__right-left
                     - contain-inner__sm
         module_styles__text: ptb-2
         module_styles__select:
@@ -29,7 +27,6 @@ module:
                 text_image__textarea: "Our **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
                 module_styles__text_child: col-12
                 module_styles__select_child:
-                    - margin-auto__right-left
                     - title__center
                     - text-align__center
             -

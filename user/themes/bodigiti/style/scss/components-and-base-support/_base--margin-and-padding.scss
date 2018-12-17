@@ -13,7 +13,7 @@
 //
 @for $i from 0 through 5 {
   /////////////////////////////////////////
-  // XXS 5px or .3125rem;
+  // XXS = 5px(aka .3125rem)
   $xxs: .3125;
   // Margin //
   .mt-xxs, .mt-xxs-children .paragraph { margin-top: 1rem * $xxs; }
