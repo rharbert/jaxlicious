@@ -139,7 +139,7 @@ module:
                 module__admin_title_child: '4 Product Photos'
                 module_type: module__content_inject
                 text_image__textarea: ''
-                content_inject__url: /4-product-photos
+                content_inject__url: /bulk-orders-photos
                 content_inject__type: modules
                 module_styles__text_child: mb-0
         module_styles__text: 'pt-2 pb-3'

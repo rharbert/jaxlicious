@@ -1,5 +1,5 @@
 ---
-title: 'Region: 4 Product Photos'
+title: 'Region: Bulk Orders Photos'
 module:
     -
         module__admin_title: Title
@@ -8,7 +8,7 @@ module:
                 module__admin_title_child: Title
                 module_type: module__text_image
                 text_image__title: '# Bulk Orders in Quantities of 10'
-                text_image__textarea: 'Our chocolate bars are great for personal and corporate gifts. They are also available wholesale.'
+                text_image__textarea: 'Our chocolate bars are great for **personal** and **corporate** gifts. They are also available to **wholesale** resellers.'
                 module_styles__text_child: col-12
                 module_styles__select_child:
                     - contain-inner

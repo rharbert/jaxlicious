@@ -14,10 +14,10 @@
 // Required zero 100% height to achieve the goal.
 
 html {
-  @include background-and-text($color5a, $color1);
+  @include background-and-text($color6, $color1);
 }
 #footer {
-  @include background-and-text($color5a, $color2);
+  @include background-and-text($color6, $color2);
 }
 
 ////////////////////////////////////////////////////////////////////////////////

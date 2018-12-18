@@ -6,6 +6,7 @@
 
 $border_style_solid: solid;
 $border_width_xs: 1px;
+$border_width_lg: 1rem;
 
 @mixin border($style: $borderStyle, $width: $borderWidth, $color: $borderColor) {
   border-style: ($style);
@@ -19,7 +20,26 @@ $border_width_xs: 1px;
   border-color: ($color);
 }
 
+@mixin border-bottom($style: $borderStyle, $width: $borderWidth, $color: $borderColor) {
+  border-bottom-style: ($style);
+  border-width: ($width);
+  border-color: ($color);
+}
+
+@mixin border-right($style: $borderStyle, $width: $borderWidth, $color: $borderColor) {
+  border-right-style: ($style);
+  border-width: ($width);
+  border-color: ($color);
+}
+
+@mixin border-left($style: $borderStyle, $width: $borderWidth, $color: $borderColor) {
+  border-left-style: ($style);
+  border-width: ($width);
+  border-color: ($color);
+}
+
 // All Around Border
+
 .border__xs {
   &.black {
     @include border($border_style_solid, $border_width_xs, $color1);
@@ -60,5 +80,102 @@ $border_width_xs: 1px;
   }
   &.green {
     @include border($border_style_solid, $border_width_xs, $color6);
+  }
+}
+
+// Section Borders
+.border-top__section {
+  &.black {
+    @include border-top($border_style_solid, $border_width_lg, $color1);
+  }
+  &.white {
+    @include border-top($border_style_solid, $border_width_lg, $color2);
+  }
+  &.red {
+    @include border-top($border_style_solid, $border_width_lg, $color5a);
+  }
+  &.blue {
+    @include border-top($border_style_solid, $border_width_lg, $color6a);
+  }
+  &.yellow {
+    @include border-top($border_style_solid, $border_width_lg, $color8a);
+  }
+  &.green {
+    @include border-top($border_style_solid, $border_width_lg, $color9a);
+  }
+  &.orange {
+    @include border-top($border_style_solid, $border_width_lg, $color10a);
+  }
+}
+
+.border-bottom__section {
+  &.black {
+    @include border-bottom($border_style_solid, $border_width_lg, $color1);
+  }
+  &.white {
+    @include border-bottom($border_style_solid, $border_width_lg, $color2);
+  }
+  &.red {
+    @include border-bottom($border_style_solid, $border_width_lg, $color5a);
+  }
+  &.blue {
+    @include border-bottom($border_style_solid, $border_width_lg, $color6a);
+  }
+  &.yellow {
+    @include border-bottom($border_style_solid, $border_width_lg, $color8a);
+  }
+  &.green {
+    @include border-bottom($border_style_solid, $border_width_lg, $color9a);
+  }
+  &.orange {
+    @include border-bottom($border_style_solid, $border_width_lg, $color10a);
+  }
+}
+
+.border-right__section {
+  &.black {
+    @include border-right($border_style_solid, $border_width_lg, $color1);
+  }
+  &.white {
+    @include border-right($border_style_solid, $border_width_lg, $color2);
+  }
+  &.red {
+    @include border-right($border_style_solid, $border_width_lg, $color5a);
+  }
+  &.blue {
+    @include border-right($border_style_solid, $border_width_lg, $color6a);
+  }
+  &.yellow {
+    @include border-right($border_style_solid, $border_width_lg, $color8a);
+  }
+  &.green {
+    @include border-right($border_style_solid, $border_width_lg, $color9a);
+  }
+  &.orange {
+    @include border-right($border_style_solid, $border_width_lg, $color10a);
+  }
+}
+
+.border-left__section {
+  &.black {
+    @include border-left($border_style_solid, $border_width_lg, $color1);
+  }
+  &.white {
+    @include border-left($border_style_solid, $border_width_lg, $color2);
+  }
+  &.red {
+    @include border-left($border_style_solid, $border_width_lg, $color5a);
+  }
+  &.blue {
+    @include border-left($border_style_solid, $border_width_lg, $color6a);
+  }
+  &.yellow {
+    @include border-left($border_style_solid, $border_width_lg, $color8a);
+  }
+  &.green {
+    @include border-left($border_style_solid, $border_width_lg, $color9a);
+  }
+  &.orange {
+    @include border-left($border_style_solid, $border_width_lg, $color10a);
   }
 }
