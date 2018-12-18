@@ -9,7 +9,7 @@ module:
                 text_image__image: logo-kids-and-text.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
                 text_image__textarea: '<a class="negate" id="chocolate" name="chocolate"></a>'
-                module_styles__text_child: 'col-12 prl-sm-xxs'
+                module_styles__text_child: 'col-12 prl-1'
                 module_styles__select_child:
                     - contain-inner__sm
         module_styles__text: ptb-2
@@ -25,8 +25,9 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Chocolate Bars'
                 text_image__textarea: "Our **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
-                module_styles__text_child: 'mb-0 pt-2 prl-4 border-top__section border-right__section border-left__section red'
+                module_styles__text_child: 'mb-0 pt-2 prl-1  prl-lg-4 border-top__section border-right__section border-left__section brown'
                 module_styles__select_child:
+                    - width__100
                     - contain-outer
                     - background__2
                     - title__center
@@ -37,7 +38,7 @@ module:
                 text_image__textarea: ''
                 content_inject__url: /2-product-photos-all-4-kids
                 content_inject__type: modules
-                module_styles__text_child: 'mt-0 border-bottom__section border-right__section border-left__section red'
+                module_styles__text_child: 'mt-0 border-bottom__section border-right__section border-left__section brown'
                 module_styles__select_child:
                     - contain-outer
                     - background__2
@@ -54,8 +55,9 @@ module:
                 module_type: module__text_image
                 text_image__title: '# More Chocolate Bars'
                 text_image__textarea: 'You can also order chocolate bars **featuring your favorite Jaxlicious kid**.'
-                module_styles__text_child: 'mb-0 pt-2 prl-4 border-top__section border-right__section border-left__section red'
+                module_styles__text_child: 'mb-0 pt-2 prl-lg-4 border-top__section border-right__section border-left__section red'
                 module_styles__select_child:
+                    - width__100
                     - contain-outer
                     - background__2
                     - title__center
@@ -84,7 +86,7 @@ module:
                 module_styles__text_child: 'col-12 mb-0'
                 module_styles__select_child:
                     - contain-inner__xl
-        module_styles__text: 'mb-0 pt-2'
+        module_styles__text: 'mb-0 pt-2 prl-xxs'
         module_styles__select:
             - background__6
         module_isotope: '0'
@@ -114,7 +116,7 @@ module:
                 module_styles__text_child: 'col-12 mb-0'
                 module_styles__select_child:
                     - contain-inner__xl
-        module_styles__text: mb-0
+        module_styles__text: 'mb-0 prl-xxs'
         module_styles__select:
             - background__6
         module_isotope: '0'
@@ -128,16 +130,15 @@ module:
                 text_image__title: '# The Jaxlicious Story '
                 text_image__subtitle: '<a class="negate" id="about" name="about"></a>'
                 text_image__textarea: "One fine day, Jax was happily walking along eating his favorite chocolates. Along came Jay.<br>\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**<br>\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"<br>\r\nJax and Jay became good friends, and they would eat chocolate almost everyday.<br>\r\nAfter becoming friends with Jess and Jen, all four decided to work together to create **chocolate bars for everyone**."
-                module_styles__text_child: 'ptb-3 prl-3 border-top__section border-right__section border-left__section border-bottom__section yellow'
+                module_styles__text_child: 'ptb-3 prl-1 prl-lg-3 border-top__section border-right__section border-left__section border-bottom__section yellow'
                 module_styles__select_child:
-                    - margin-auto__right-left
+                    - width__100
                     - contain-outer
                     - background__2
                     - title__center
                     - text-align__justify
         module_styles__text: 'col-12 ptb-3 '
         module_styles__select:
-            - padding-left-right__xs-plus
             - background__6
             - text-color__brown
         module_isotope: '0'

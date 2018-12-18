@@ -63,7 +63,7 @@ $screen-width: (
   $size-2x: 2x
  );
 @each $screen-width, $size in $screen-width {
-  @media (max-width: #{$screen-width}) {
+  @media (min-width: #{$screen-width}) {
     /////////////////////////////////////////
     // XXS 5px or .3125rem;
     $xxs: .3125;

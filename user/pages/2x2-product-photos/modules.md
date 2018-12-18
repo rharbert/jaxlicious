@@ -49,6 +49,8 @@ module:
                     - image__center
                     - text-align__center
         module_styles__text: product-categories-grid
+        module_styles__select:
+            - margin-left-right__xs-plus
         module_isotope: '0'
         module_published: '1'
 media_order: chocolate-bar-jaxlicious-single-kid.jpg

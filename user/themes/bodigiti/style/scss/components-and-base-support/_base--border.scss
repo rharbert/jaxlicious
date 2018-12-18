@@ -91,6 +91,9 @@ $border_width_lg: 1rem;
   &.white {
     @include border-top($border_style_solid, $border_width_lg, $color2);
   }
+  &.brown {
+    @include border-top($border_style_solid, $border_width_lg, $color4);
+  }
   &.red {
     @include border-top($border_style_solid, $border_width_lg, $color5a);
   }
@@ -114,6 +117,9 @@ $border_width_lg: 1rem;
   }
   &.white {
     @include border-bottom($border_style_solid, $border_width_lg, $color2);
+  }
+  &.brown {
+    @include border-bottom($border_style_solid, $border_width_lg, $color4);
   }
   &.red {
     @include border-bottom($border_style_solid, $border_width_lg, $color5a);
@@ -139,6 +145,9 @@ $border_width_lg: 1rem;
   &.white {
     @include border-right($border_style_solid, $border_width_lg, $color2);
   }
+  &.brown {
+    @include border-right($border_style_solid, $border_width_lg, $color4);
+  }
   &.red {
     @include border-right($border_style_solid, $border_width_lg, $color5a);
   }
@@ -162,6 +171,9 @@ $border_width_lg: 1rem;
   }
   &.white {
     @include border-left($border_style_solid, $border_width_lg, $color2);
+  }
+  &.brown {
+    @include border-left($border_style_solid, $border_width_lg, $color4);
   }
   &.red {
     @include border-left($border_style_solid, $border_width_lg, $color5a);
