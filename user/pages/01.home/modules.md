@@ -8,7 +8,7 @@ module:
                 module_type: module__text_image
                 text_image__image: logo-kids-and-text.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
-                text_image__textarea: '<a class="negate" id="chocolate" name="chocolate"></a>'
+                text_image__textarea: '<p style="margin:0;"><a class="negate" id="chocolate" name="chocolate"></a></p>'
                 module_styles__text_child: 'col-12 prl-sm-xxs'
                 module_styles__select_child:
                     - contain-inner__sm

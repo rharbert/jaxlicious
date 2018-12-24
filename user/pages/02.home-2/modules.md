@@ -8,7 +8,7 @@ module:
                 module_type: module__text_image
                 text_image__image: logo-kids-and-text.svg
                 text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
-                text_image__textarea: '<a class="negate" id="chocolate" name="chocolate"></a>'
+                text_image__textarea: '<p style="margin:0;"><a class="negate" id="chocolate" name="chocolate"></a></p>'
                 module_styles__text_child: 'col-12 prl-1'
                 module_styles__select_child:
                     - contain-inner__sm
@@ -25,7 +25,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Chocolate Bars'
                 text_image__textarea: "Our **chocolate bars** are made from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**. The result is a rich, smooth and **delicious chocolate**.\r\n\r\nThey come in **6 different colors**.  The red and blue wrappers feature all four kids."
-                module_styles__text_child: 'mb-0 pt-2 prl-1  prl-lg-4 border-top__section border-right__section border-left__section brown'
+                module_styles__text_child: 'mt-0 mb-0 pt-2 prl-1  prl-lg-4 border-top__section border-right__section border-left__section brown'
                 module_styles__select_child:
                     - width__100
                     - contain-outer
