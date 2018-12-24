@@ -101,6 +101,8 @@ module:
                 content_inject__url: /bulk-orders-photos
                 content_inject__type: modules
                 module_styles__text_child: mb-0
+                module_styles__select_child:
+                    - margin-left-right__xs-plus
         module_styles__text: 'pt-2 pb-3'
         module_styles__select:
             - background__6
@@ -137,7 +139,7 @@ module:
                     - background__2
                     - title__center
                     - text-align__justify
-        module_styles__text: 'col-12 ptb-3 '
+        module_styles__text: 'col-12 ptb-2 '
         module_styles__select:
             - background__6
             - text-color__brown
@@ -152,9 +154,10 @@ module:
                 text_image__title: ' #  Contact Us '
                 text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help! <a class="negate" id="contact-form" name="contact-form"></a>'
                 text_image__textarea: ''
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 pt-2 pb-0 mb-0 mt-0'
                 module_styles__select_child:
-                    - contain-inner__lg
+                    - contain-outer
+                    - background__9a
                     - title__center
             -
                 module__admin_title_child: Form
@@ -162,12 +165,13 @@ module:
                 text_image__textarea: ''
                 content_inject__url: contact-form
                 form_inject__url: /contact-form
+                module_styles__text_child: 'mt-0 prl-2 pb-1'
                 module_styles__select_child:
                     - width__100
-                    - margin-left-right__xs-plus
-                    - contain-inner__xl
+                    - contain-outer
+                    - background__9a
                     - text-align__center
-        module_styles__text: 'col-12 ptb-3'
+        module_styles__text: 'col-12 ptb-2'
         module_styles__select:
             - background__6
             - text-align__center

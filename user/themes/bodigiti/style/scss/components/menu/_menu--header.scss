@@ -2,32 +2,37 @@
 // Menu Header (component)
 ////////////////////////////////////////////////////////////////////////////////
 
-header .menu-list {
-  display: flex;
-  justify-content: center;
-  
-  li {
-    padding: .75rem .55rem;
-    list-style-type: none;
-    @include breakpoint($size-sm-plus) {
-      padding: .75rem 1.55rem;
+header {
+  .menu-list {
+    @include breakpoint($size-md) {
+      display: flex;
+      justify-content: center; 
     }
-  }
-  a {
-    text-decoration: none;
-    font-weight: $font-weight-medium;
-    font-size: 75%;
-    color: $color2;
-    &:hover {
-      color: $color4;
+    li {
+      text-align: center;
+      list-style-type: none;
+      @include breakpoint($size-sm-plus) {
+      padding: .5rem .65rem;
+      }
     }
-    @include breakpoint($size-xs) {
-      font-size: 80%;}
-    @include breakpoint($size-sm-plus) {
-      font-size: 120%;}
-  }
+    a {
+      text-decoration: none;
+      font-weight: $font-weight-medium;
+      font-size: 75%;
+      color: $color2;
+      &:hover {
+        color: $color4;
+      }
+      @include breakpoint($size-xs) {
+        font-size: 80%;}
+      @include breakpoint($size-sm-plus) {
+        display: flex;
+        align-items: center; 
+        font-size: 120%;}
+    }
+  } 
 }
 
 .nav-icon {
-  width: 7%;
+  width: 20px;
 }
