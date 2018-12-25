@@ -16,6 +16,17 @@ module:
         module_styles__select:
             - background__6
         module_isotope: '0'
+        module_published: '0'
+    -
+        module__admin_title: 'Hero Photo'
+        module_list:
+            -
+                module__admin_title_child: Six
+                module_type: module__text_image
+                text_image__image: DSC03641-cropped.jpg
+                text_image__textarea: ''
+                module_styles__text_child: mtb-0
+        module_isotope: '0'
         module_published: '1'
     -
         module__admin_title: 'Chocolate All 4 Kids'
@@ -32,6 +43,15 @@ module:
                     - background__2
                     - title__center
                     - text-align__center
+            -
+                module__admin_title_child: Photo
+                module_type: module__text_image
+                text_image__image: DSC03687-cropped.jpg
+                text_image__textarea: ''
+                module_styles__text_child: 'boder-right__section border-left__section brown'
+                module_styles__select_child:
+                    - width__100
+                    - contain-outer
             -
                 module__admin_title_child: 'Milk Chocolate & Dark Chocolate Bars: All 4 Kids'
                 module_type: module__content_inject
@@ -179,7 +199,7 @@ module:
         module_isotope: '0'
         module_published: '1'
 hero__size_class: hero-default
-media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg'
+media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,DSC03641-cropped.jpg,DSC03676-b-cropped.jpg,DSC03687-cropped.jpg'
 published: true
 body_classes: front-page
 process:

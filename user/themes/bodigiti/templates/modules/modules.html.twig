@@ -26,17 +26,16 @@
  {# Using Spectre flexbox responsive grid requires 'columns' class be directly
   applied to parent div of the child column classes so 'display: flex' is applied
   to parent of 'column' #}
-  <div class="{% for class in classes %}{{ class }}{% endfor %}{% for s in styleSelect %} {{ s }}{% endfor %}">
-    {# wrapping the below in block allows variable from this template to be available
-    in variables of the included child templates.  First did this for 'isotope' variable #}
-    {% block module %}
-      {% if mIsotope == 1 %}
-        <div class="grid-sizer"></div>
-        {% set mIsotope = true %}
-      {% endif %}
-      {% set mPublished = m.module_published %}
-      {% if mPublished == 1 %}
-
+  {# wrapping the below in block allows variable from this template to be available
+  in variables of the included child templates.  First did this for 'isotope' variable #}
+  {% block module %}
+    {% if mIsotope == 1 %}
+      <div class="grid-sizer"></div>
+      {% set mIsotope = true %}
+    {% endif %}
+    {% set mPublished = m.module_published %}
+    {% if mPublished == 1 %}
+      <div class="{% for class in classes %}{{ class }}{% endfor %}{% for s in styleSelect %} {{ s }}{% endfor %}">
         {% for mlist in m.module_list %}
           {# Must first assign m.module_type to variable #}
           {% set mType = mlist.module_type %}
@@ -50,10 +49,9 @@
               {% include 'modules/module--form-inject.html.twig' %}
             {% endif %}{# End Modules #}
         {% endfor %} {# End 'for mlist' #}
-
-      {% endif %}{# End if Published #}
-    {% endblock %}
-  </div> {# End div 'Columns' #}
+      </div> {# End div 'Columns' #}
+    {% endif %}{# End if Published #}
+  {% endblock %} {# End block 'module' #}
 {% endfor %} {# End 'for m' #}
 {##
  # End Modules
