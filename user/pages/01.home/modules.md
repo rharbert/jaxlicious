@@ -6,7 +6,7 @@ module:
             -
                 module__admin_title_child: Photo
                 module_type: module__text_image
-                text_image__image: DSC03590-cropped-800-high.jpg
+                text_image__image: DSC03611-cropped-800-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
         module_isotope: '0'
