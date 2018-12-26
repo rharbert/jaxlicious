@@ -1,24 +1,18 @@
 ---
 module:
     -
-        module__admin_title: 'Header Image'
+        module__admin_title: 'Photo 2x3'
         module_list:
             -
-                module__admin_title_child: 'Header Image'
+                module__admin_title_child: Photo
                 module_type: module__text_image
-                text_image__image: logo-kids-and-text.svg
-                text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
-                text_image__textarea: '<p style="margin:0;"><a class="negate" id="chocolate" name="chocolate"></a></p>'
-                module_styles__text_child: 'col-12 prl-1'
-                module_styles__select_child:
-                    - contain-inner__sm
-        module_styles__text: ptb-2
-        module_styles__select:
-            - background__6
+                text_image__image: DSC03706-cropped.png
+                text_image__textarea: ''
+                module_styles__text_child: mtb-0
         module_isotope: '0'
-        module_published: '0'
+        module_published: '1'
     -
-        module__admin_title: 'Hero Photo'
+        module__admin_title: 'Photo 3x2'
         module_list:
             -
                 module__admin_title_child: Six
@@ -62,7 +56,7 @@ module:
                 module_styles__select_child:
                     - contain-outer
                     - background__2
-        module_styles__text: border-color-5a
+        module_styles__text: 'border-color-5a pt-4'
         module_styles__select:
             - background__6
         module_isotope: '0'
@@ -198,8 +192,25 @@ module:
             - text-color__white
         module_isotope: '0'
         module_published: '1'
+    -
+        module__admin_title: 'Header Image'
+        module_list:
+            -
+                module__admin_title_child: 'Header Image'
+                module_type: module__text_image
+                text_image__image: logo-kids-and-text.svg
+                text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
+                text_image__textarea: '<p style="margin:0;"><a class="negate" id="chocolate" name="chocolate"></a></p>'
+                module_styles__text_child: 'col-12 prl-1'
+                module_styles__select_child:
+                    - contain-inner__sm
+        module_styles__text: ptb-2
+        module_styles__select:
+            - background__6
+        module_isotope: '0'
+        module_published: '0'
 hero__size_class: hero-default
-media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,DSC03641-cropped.jpg,DSC03676-b-cropped.jpg,DSC03687-cropped.jpg'
+media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,DSC03641-cropped.jpg,DSC03676-b-cropped.jpg,DSC03687-cropped.jpg,DSC03706-cropped.png'
 published: true
 body_classes: front-page
 process:
