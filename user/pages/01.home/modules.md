@@ -22,7 +22,7 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: col-12
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
         module__admin_title: 'Photo 2x2'
         module_list:
@@ -57,13 +57,14 @@ module:
         module_isotope: '0'
         module_published: '0'
     -
-        module__admin_title: 'Chocolate All 4 Kids'
+        module__admin_title: 'Section Products - Chocolate'
         module_list:
             -
                 module__admin_title_child: 'Chocolate Title & Content'
                 module_type: module__text_image
                 text_image__title: '# Chocolate Bars'
-                text_image__textarea: "Available in 2 flavors **Milk Chocolate** and **Dark Chocolate**, with your choice of wrapper.\r\n\r\nMade from real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**.<br>The result is a rich, smooth and **delicious chocolate**."
+                text_image__subtitle: '## Available in Milk or Dark Chocolate with Your Choice of Wrapper'
+                text_image__textarea: 'Made with real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**.<br>The result is a rich, smooth and **delicious chocolate**.'
                 module_styles__text_child: 'mt-0 mb-0 pt-2 prl-1  prl-lg-4 border-top__section border-right__section border-left__section brown'
                 module_styles__select_child:
                     - width__100
@@ -75,42 +76,13 @@ module:
                 module__admin_title_child: 'Milk Chocolate & Dark Chocolate Bars: All 4 Kids'
                 module_type: module__content_inject
                 text_image__textarea: ''
-                content_inject__url: /2x3-product-photos
+                content_inject__url: /section-products-chocolate
                 content_inject__type: modules
                 module_styles__text_child: 'mt-0 border-bottom__section border-right__section border-left__section brown'
                 module_styles__select_child:
                     - contain-outer__2x
                     - background__2
         module_styles__text: 'border-color-5a pt-4'
-        module_styles__select:
-            - background__6
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Chocolate Single Kids'
-        module_list:
-            -
-                module__admin_title_child: 'More Chocolate Title'
-                module_type: module__text_image
-                text_image__title: '# More Chocolate Bars'
-                text_image__textarea: 'You can also order chocolate bars **featuring your favorite Jaxlicious kid**.'
-                module_styles__text_child: 'mb-0 pt-2 prl-lg-4 border-top__section border-right__section border-left__section red'
-                module_styles__select_child:
-                    - width__100
-                    - contain-outer
-                    - background__2
-                    - title__center
-                    - text-align__center
-            -
-                module__admin_title_child: 'Chocolate Single Kids'
-                module_type: module__content_inject
-                text_image__textarea: ''
-                content_inject__url: /2x2-product-photos
-                content_inject__type: modules
-                module_styles__text_child: 'mt-0 border-bottom__section border-right__section border-left__section red'
-                module_styles__select_child:
-                    - contain-outer
-                    - background__2
         module_styles__select:
             - background__6
         module_isotope: '0'
@@ -124,20 +96,20 @@ module:
                 text_image__textarea: '<a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a>'
                 module_styles__text_child: 'col-12 mb-0'
                 module_styles__select_child:
-                    - contain-inner__xl
+                    - contain-inner__sm
         module_styles__text: 'mb-0 pt-2 prl-xxs'
         module_styles__select:
             - background__6
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Bulk Orders'
+        module__admin_title: 'Section Products - Other'
         module_list:
             -
                 module__admin_title_child: '4 Product Photos'
                 module_type: module__content_inject
                 text_image__textarea: ''
-                content_inject__url: /bulk-orders-photos
+                content_inject__url: /section-products-other
                 content_inject__type: modules
                 module_styles__text_child: mb-0
                 module_styles__select_child:
@@ -156,7 +128,7 @@ module:
                 text_image__textarea: '<a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a>'
                 module_styles__text_child: 'col-12 mb-0'
                 module_styles__select_child:
-                    - contain-inner__xl
+                    - contain-inner__sm
         module_styles__text: 'mb-0 prl-xxs'
         module_styles__select:
             - background__6

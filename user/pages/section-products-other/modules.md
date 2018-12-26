@@ -1,5 +1,5 @@
 ---
-title: 'Region: Bulk Orders Photos'
+title: 'Section Products Other'
 module:
     -
         module__admin_title: Title

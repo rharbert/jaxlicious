@@ -1,4 +1,5 @@
 ---
+title: 'Section Products Chocolate'
 module:
     -
         module__admin_title: 'Chocolate Single Kids'
@@ -24,6 +25,66 @@ module:
                 module_styles__text_child: 'col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Milk Chocolate Title'
+                module_type: module__text_image
+                text_image__title: '# Milk Chocolate'
+                text_image__textarea: ''
+                module_styles__text_child: col-12
+                module_styles__select_child:
+                    - text-align__center
+            -
+                module__admin_title_child: Jax
+                module_type: module__text_image
+                text_image__image: DSC03599-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
+                text_image__caption: '#### Chocolate bar featuring Jax'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jay
+                module_type: module__text_image
+                text_image__image: DSC03602-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
+                text_image__caption: '#### Chocolate bar featuring Jay'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jes
+                module_type: module__text_image
+                text_image__image: DSC03600-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
+                text_image__caption: '#### Chocolate bar featuring Jes'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jen
+                module_type: module__text_image
+                text_image__image: DSC03601-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
+                text_image__caption: '#### Chocolate bar featuring Jen'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Dark Chocolate Title'
+                module_type: module__text_image
+                text_image__title: '# Dark Chocolate'
+                text_image__textarea: ''
+                module_styles__text_child: col-12
+                module_styles__select_child:
                     - text-align__center
             -
                 module__admin_title_child: Jax
