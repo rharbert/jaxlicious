@@ -1,0 +1,86 @@
+---
+module:
+    -
+        module__admin_title: 'Chocolate Single Kids'
+        module_list:
+            -
+                module__admin_title_child: '4 red'
+                module_type: module__text_image
+                text_image__image: DSC03676-cropped-800-high-red.jpg
+                text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
+                text_image__caption: '#### Chocolate bar featuring Jax'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: '4 blue'
+                module_type: module__text_image
+                text_image__image: DSC03676-cropped-800-high-blue.jpg
+                text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
+                text_image__caption: '#### Chocolate bar featuring Jax'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jax
+                module_type: module__text_image
+                text_image__image: DSC03599-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
+                text_image__caption: '#### Chocolate bar featuring Jax'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jay
+                module_type: module__text_image
+                text_image__image: DSC03602-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
+                text_image__caption: '#### Chocolate bar featuring Jay'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jes
+                module_type: module__text_image
+                text_image__image: DSC03600-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
+                text_image__caption: '#### Chocolate bar featuring Jes'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jen
+                module_type: module__text_image
+                text_image__image: DSC03601-cropped-800-high.jpg
+                text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
+                text_image__caption: '#### Chocolate bar featuring Jen'
+                text_image__textarea: ''
+                module_styles__text_child: 'col-6 col-sm-12 col-md-9'
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+        module_styles__text: product-categories-grid
+        module_styles__select:
+            - margin-left-right__xs-plus
+        module_isotope: '0'
+        module_published: '1'
+media_order: 'DSC03599-cropped-2-800.jpg,DSC03600-cropped-2-800.jpg,DSC03601-cropped-2-800.jpg,DSC03602-cropped-2-800.jpg'
+published: false
+meta_robots:
+    noindex: true
+    nofollow: true
+    index: false
+    follow: false
+    noimageindex: false
+---
+
