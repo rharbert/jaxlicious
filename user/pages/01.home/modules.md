@@ -1,6 +1,16 @@
 ---
 module:
     -
+        module__admin_title: 'Photo Swirl x6'
+        module_list:
+            -
+                module_type: module__text_image
+                text_image__image: DSC03647-cropped-v2-980.jpg
+                text_image__textarea: ''
+                module_styles__text_child: mtb-0
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Photo 2x3'
         module_list:
             -
@@ -210,7 +220,7 @@ module:
         module_isotope: '0'
         module_published: '0'
 hero__size_class: hero-default
-media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,DSC03676-b-cropped.jpg,DSC03641-cropped-1920-high.jpg,DSC03706-cropped-1920-high.jpg,DSC03687-cropped-1920-high.jpg'
+media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,DSC03676-b-cropped.jpg,DSC03641-cropped-1920-high.jpg,DSC03706-cropped-1920-high.jpg,DSC03687-cropped-1920-high.jpg,DSC03647-cropped-v2-980.jpg'
 published: true
 body_classes: front-page
 process:
