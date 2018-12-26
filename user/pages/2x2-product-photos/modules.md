@@ -7,7 +7,7 @@ module:
             -
                 module__admin_title_child: Jax
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-single-kid.jpg
+                text_image__image: DSC03599-cropped-800-high.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
                 text_image__textarea: ''
@@ -18,7 +18,7 @@ module:
             -
                 module__admin_title_child: Jay
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-single-kid.jpg
+                text_image__image: DSC03602-cropped-800-high.jpg
                 text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jay'
                 text_image__textarea: ''
@@ -29,7 +29,7 @@ module:
             -
                 module__admin_title_child: Jes
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-single-kid.jpg
+                text_image__image: DSC03600-cropped-800-high.jpg
                 text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
                 text_image__caption: '#### Chocolate bar featuring Jes'
                 text_image__textarea: ''
@@ -40,7 +40,7 @@ module:
             -
                 module__admin_title_child: Jen
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-single-kid.jpg
+                text_image__image: DSC03601-cropped-800-high.jpg
                 text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
                 text_image__caption: '#### Chocolate bar featuring Jen'
                 text_image__textarea: ''
@@ -53,7 +53,7 @@ module:
             - margin-left-right__xs-plus
         module_isotope: '0'
         module_published: '1'
-media_order: chocolate-bar-jaxlicious-single-kid.jpg
+media_order: 'DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg'
 published: false
 meta_robots:
     noindex: true

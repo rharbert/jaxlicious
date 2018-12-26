@@ -7,7 +7,7 @@ module:
             -
                 module__admin_title_child: 'Milk Chocolate Bar'
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg
+                text_image__image: DSC03676-cropped-800-high-red.jpg
                 text_image__alt: 'Milk chocolate bar by Jaxlicious featuring all kids'
                 text_image__caption: '### Milk Chocolate {.text-align__left}'
                 text_image__textarea: ''
@@ -18,7 +18,7 @@ module:
             -
                 module__admin_title_child: 'Dark Chocolate Bar'
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg
+                text_image__image: DSC03676-cropped-800-high-blue.jpg
                 text_image__alt: 'Dark chocolate bar by Jaxlicious featuring all kids'
                 text_image__caption: '### Dark Chocolate (55% cacao) {.text-align__left}'
                 text_image__textarea: ''
@@ -31,7 +31,7 @@ module:
             - margin-left-right__xs-plus
         module_isotope: '0'
         module_published: '1'
-media_order: 'chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg'
+media_order: 'chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03676-cropped-800-high-red.jpg'
 published: false
 meta_robots:
     noindex: true
