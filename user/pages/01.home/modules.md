@@ -35,7 +35,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Photo 2x3 980w'
+        module__admin_title: 'Photo 2x3 (No-Tilt) 980w'
         module_list:
             -
                 module__admin_title_child: 'Photo 2x3 980w'
