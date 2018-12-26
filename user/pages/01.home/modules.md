@@ -190,16 +190,6 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Photo Swirl x6'
-        module_list:
-            -
-                module_type: module__text_image
-                text_image__image: DSC03647-cropped-v2-980.jpg
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
-    -
         module__admin_title: 'Photo 3x2'
         module_list:
             -
@@ -208,23 +198,6 @@ module:
                 text_image__image: DSC03641-cropped-1920-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Header Image'
-        module_list:
-            -
-                module__admin_title_child: 'Header Image'
-                module_type: module__text_image
-                text_image__image: logo-kids-and-text.svg
-                text_image__alt: 'Jaxlicious logo + "Bam! That''s Delicious" tagline featuring all four kids'
-                text_image__textarea: '<p style="margin:0;"><a class="negate" id="chocolate" name="chocolate"></a></p>'
-                module_styles__text_child: 'col-12 prl-1'
-                module_styles__select_child:
-                    - contain-inner__sm
-        module_styles__text: ptb-2
-        module_styles__select:
-            - background__6
         module_isotope: '0'
         module_published: '0'
 hero__size_class: hero-default
