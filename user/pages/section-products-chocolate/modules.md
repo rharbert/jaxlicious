@@ -5,6 +5,15 @@ module:
         module__admin_title: 'Chocolate Single Kids'
         module_list:
             -
+                module__admin_title_child: 'Chocolate Title & Content'
+                module_type: module__text_image
+                text_image__title: '# Chocolate Bars'
+                text_image__subtitle: '## Available in Milk or Dark Chocolate with Your Choice of Wrapper'
+                text_image__textarea: 'Made with real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**.<br>The result is a rich, smooth and **delicious chocolate**.'
+                module_styles__text_child: 'col-12'
+                module_styles__select_child:
+                    - text-align__center
+            -
                 module__admin_title_child: '4 red'
                 module_type: module__text_image
                 text_image__image: DSC03676-cropped-800-high-red.jpg

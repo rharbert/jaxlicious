@@ -1,84 +1,39 @@
 ---
 module:
     -
-        module__admin_title: 'Photo 1x1'
+        module__admin_title: 'Photo 1x4 (mobile)'
         module_list:
             -
-                module__admin_title_child: 'Photo Jax'
                 module_type: module__text_image
-                text_image__image: DSC03611-background-erase-and-cropped-800.jpg
+                text_image__image: DSC03828_cropped-1000-web.jpg
                 text_image__textarea: ''
-                module_styles__text_child: col-12
-            -
-                module__admin_title_child: Jes
-                module_type: module__text_image
-                text_image__image: DSC03612-background-erase-and-cropped-800.jpg
-                text_image__textarea: ''
-                module_styles__text_child: col-12
-            -
-                module__admin_title_child: Jen
-                module_type: module__text_image
-                text_image__image: DSC03613-background-erase-and-cropped-800.jpg
-                text_image__textarea: ''
-                module_styles__text_child: col-12
+                module_styles__text_child: mtb-0
+        module_styles__select:
+            - show-md
         module_isotope: '0'
-        module_published: '0'
+        module_published: '1'
     -
-        module__admin_title: 'Photo 2x2'
+        module__admin_title: 'Photo 2x2 (tilt tablet+)'
         module_list:
             -
-                module__admin_title_child: Photo
                 module_type: module__text_image
                 text_image__image: DSC03693-cropped-1920-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
+        module_styles__select:
+            - hide-md
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Photo 2x3 (No-Tilt) 980w'
-        module_list:
-            -
-                module__admin_title_child: 'Photo 2x3 980w'
-                module_type: module__text_image
-                text_image__image: DSC03703-cropped-980-high.jpg
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Photo 2x3'
-        module_list:
-            -
-                module__admin_title_child: Photo
-                module_type: module__text_image
-                text_image__image: DSC03706-cropped-1920-high.jpg
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
-    -
         module__admin_title: 'Section Products - Chocolate'
         module_list:
-            -
-                module__admin_title_child: 'Chocolate Title & Content'
-                module_type: module__text_image
-                text_image__title: '# Chocolate Bars'
-                text_image__subtitle: '## Available in Milk or Dark Chocolate with Your Choice of Wrapper'
-                text_image__textarea: 'Made with real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**.<br>The result is a rich, smooth and **delicious chocolate**.'
-                module_styles__text_child: 'mt-0 mb-0 pt-2 prl-1  prl-lg-4 border-top__section border-right__section border-left__section brown'
-                module_styles__select_child:
-                    - width__100
-                    - contain-outer__2x
-                    - background__2
-                    - title__center
-                    - text-align__center
             -
                 module__admin_title_child: 'Milk Chocolate & Dark Chocolate Bars: All 4 Kids'
                 module_type: module__content_inject
                 text_image__textarea: ''
                 content_inject__url: /section-products-chocolate
                 content_inject__type: modules
-                module_styles__text_child: 'mt-0 border-bottom__section border-right__section border-left__section brown'
+                module_styles__text_child: 'mt-0 border-top__section border-bottom__section border-right__section border-left__section brown'
                 module_styles__select_child:
                     - contain-outer__2x
                     - background__2
@@ -190,18 +145,29 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Photo 3x2'
+        module__admin_title: 'Photo 2x3 (tablet+)'
         module_list:
             -
-                module__admin_title_child: Six
+                module__admin_title_child: Photo
                 module_type: module__text_image
-                text_image__image: DSC03641-cropped-1920-high.jpg
+                text_image__image: DSC03706-cropped-1920-high.jpg
+                text_image__textarea: ''
+                module_styles__text_child: mtb-0
+        module_isotope: '0'
+        module_published: '0'
+    -
+        module__admin_title: 'Photo 2x3 (No-Tilt) 980w'
+        module_list:
+            -
+                module__admin_title_child: 'Photo 2x3 980w'
+                module_type: module__text_image
+                text_image__image: DSC03703-cropped-980-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
         module_isotope: '0'
         module_published: '0'
 hero__size_class: hero-default
-media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,header.jpg,chocolate-bar-jaxlicious-milk-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-dark-chocolate-all-kids-front.jpg,chocolate-bar-jaxlicious-single-kid.jpg,DSC03676-b-cropped.jpg,DSC03641-cropped-1920-high.jpg,DSC03706-cropped-1920-high.jpg,DSC03687-cropped-1920-high.jpg,DSC03647-cropped-v2-980.jpg,DSC03703-cropped-980-high.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03676-cropped-800-high-red.jpg,DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03693-cropped-1920-high.jpg,manual-mix-match.jpg,DSC03611-cropped-800-high.jpg,DSC03590-cropped-800-high.jpg,DSC03611-background-erase-and-cropped-800.jpg,DSC03612-background-erase-and-cropped-800.jpg,DSC03693-cropped-erased-background1920-high.jpg'
+media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03828-800.jpg,DSC03693-cropped-1920-high.jpg,DSC03706-cropped-1920-high.jpg,DSC03687-cropped-1920-high.jpg,DSC03703-cropped-980-high.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03676-cropped-800-high-red.jpg,DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03828_cropped-1000-web.jpg'
 published: true
 body_classes: front-page
 process:
