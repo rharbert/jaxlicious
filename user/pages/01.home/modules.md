@@ -1,27 +1,24 @@
 ---
 module:
     -
-        module__admin_title: 'Photo 1x4 (mobile)'
+        module__admin_title: Hero
         module_list:
             -
+                module__admin_title_child: 'Photo 1x4 (mobile)'
                 module_type: module__text_image
                 text_image__image: DSC03828_cropped-1000-web.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
-        module_styles__select:
-            - show-md
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Photo 2x2 (tilt tablet+)'
-        module_list:
+                module_styles__select_child:
+                    - show-md
             -
+                module__admin_title_child: 'Photo 2x2 (tilt tablet+)'
                 module_type: module__text_image
                 text_image__image: DSC03693-cropped-1920-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
-        module_styles__select:
-            - hide-md
+                module_styles__select_child:
+                    - hide-md
         module_isotope: '0'
         module_published: '1'
     -
@@ -164,6 +161,18 @@ module:
                 text_image__image: DSC03703-cropped-980-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
+        module_isotope: '0'
+        module_published: '0'
+    -
+        module__admin_title: 'Photo 2x2 (tilt tablet+)'
+        module_list:
+            -
+                module_type: module__text_image
+                text_image__image: DSC03693-cropped-1920-high.jpg
+                text_image__textarea: ''
+                module_styles__text_child: mtb-0
+        module_styles__select:
+            - hide-md
         module_isotope: '0'
         module_published: '0'
 hero__size_class: hero-default
