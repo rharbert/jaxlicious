@@ -9,10 +9,12 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Chocolate Bars'
                 text_image__subtitle: '## Available in Milk or Dark Chocolate with Your Choice of Wrapper'
-                text_image__textarea: 'Made with real ingredients like **cocoa butter**, **cocoa liquor**, and **natural vanilla**.<br>The result is a rich, smooth and **delicious chocolate**.'
-                module_styles__text_child: 'col-12'
+                text_image__textarea: 'Made with real ingredients like cocoa butter, cocoa liquor, and natural vanilla.<br>The result is a rich, smooth and delicious chocolate.'
+                module_styles__text_child: 'col-12 mt-0 mt-md-4 mrl-md-2 pt-4 prl-1 pb-1 pt-md-2'
                 module_styles__select_child:
+                    - background__5a
                     - text-align__center
+                    - text-color__white
             -
                 module__admin_title_child: '4 red'
                 module_type: module__text_image
@@ -40,7 +42,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Milk Chocolate'
                 text_image__textarea: ''
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 bt-dashed-xxs-3 b-yellow pt-3'
                 module_styles__select_child:
                     - text-align__center
             -
@@ -92,7 +94,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Dark Chocolate'
                 text_image__textarea: ''
-                module_styles__text_child: col-12
+                module_styles__text_child: 'col-12 bt-dashed-xxs-3 b-yellow pt-3'
                 module_styles__select_child:
                     - text-align__center
             -
@@ -140,8 +142,6 @@ module:
                     - image__center
                     - text-align__center
         module_styles__text: product-categories-grid
-        module_styles__select:
-            - margin-left-right__xs-plus
         module_isotope: '0'
         module_published: '1'
 media_order: 'DSC03599-cropped-2-800.jpg,DSC03600-cropped-2-800.jpg,DSC03601-cropped-2-800.jpg,DSC03602-cropped-2-800.jpg'

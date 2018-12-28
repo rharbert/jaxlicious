@@ -69,14 +69,15 @@ $screen-width: (
 }
 
 $colors: 
-  black $color1, // black
-  white $color2, // white
-  brown $color4, // brown
-  red $color5a, // red
-  blue $color6a, // blue
-  yellow $color8a, // yellow
-  green $color9a, // green
-  orange $color10a // orange
+  black $color1,
+  white $color2,
+  brown $color4,
+  red $color5a,
+  blue $color6a,
+  purple $color7a,
+  yellow $color8a,
+  green $color9a,
+  orange $color10a
 ;
 
  @each $color in $colors {

@@ -31,13 +31,10 @@ module:
                 text_image__textarea: ''
                 content_inject__url: /section-products-chocolate
                 content_inject__type: modules
-                module_styles__text_child: 'mt-0 border-top__section border-bottom__section border-right__section border-left__section brown'
+                module_styles__text_child: mt-0
                 module_styles__select_child:
                     - contain-outer__2x
                     - background__2
-        module_styles__text: 'border-color-5a pt-4'
-        module_styles__select:
-            - background__6
         module_isotope: '0'
         module_published: '1'
     -
