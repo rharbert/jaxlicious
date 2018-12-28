@@ -19,6 +19,7 @@ module:
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
                     - hide-md
+        module_styles__text: 'bb-dashed-xxs-2 bb-dashed-md-3 b-brown'
         module_isotope: '0'
         module_published: '1'
     -
