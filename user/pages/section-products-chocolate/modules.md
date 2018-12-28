@@ -2,7 +2,7 @@
 title: 'Section Products Chocolate'
 module:
     -
-        module__admin_title: 'Chocolate Single Kids'
+        module__admin_title: 'Chocolate Bars'
         module_list:
             -
                 module__admin_title_child: 'Chocolate Title & Content'

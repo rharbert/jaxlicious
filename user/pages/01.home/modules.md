@@ -43,13 +43,13 @@ module:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a>'
-                module_styles__text_child: 'col-12 mb-0'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__lg button__full-width button__center">Contact Us to Place Your Order</a></p>'
+                module_styles__text_child: 'col-12 mtb-0 pb-4 bb-dashed-xxs-3 b-yellow'
                 module_styles__select_child:
-                    - contain-inner__sm
-        module_styles__text: 'mb-0 pt-2 prl-xxs'
+                    - contain-inner__md
+        module_styles__text: mb-0
         module_styles__select:
-            - background__6
+            - contain-outer__2x
         module_isotope: '0'
         module_published: '1'
     -
@@ -61,27 +61,23 @@ module:
                 text_image__textarea: ''
                 content_inject__url: /section-products-other
                 content_inject__type: modules
-                module_styles__text_child: mb-0
+                module_styles__text_child: mtb-0
                 module_styles__select_child:
-                    - margin-left-right__xs-plus
-        module_styles__text: 'pt-2 pb-3'
-        module_styles__select:
-            - background__6
+                    - background__2
+        module_styles__text: pb-3
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Button - Buy Chocolate'
+        module__admin_title: 'Button - Buy Other Products'
         module_list:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a>'
-                module_styles__text_child: 'col-12 mb-0'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__lg button__full-width button__center">Contact Us to Place Your Order</a></p>'
+                module_styles__text_child: 'col-12 mtb-0'
                 module_styles__select_child:
-                    - contain-inner__sm
+                    - contain-inner__md
         module_styles__text: 'mb-0 prl-xxs'
-        module_styles__select:
-            - background__6
         module_isotope: '0'
         module_published: '1'
     -
@@ -102,7 +98,6 @@ module:
                     - text-align__justify
         module_styles__text: 'col-12 ptb-2 '
         module_styles__select:
-            - background__6
             - text-color__brown
         module_isotope: '0'
         module_published: '1'
@@ -118,7 +113,6 @@ module:
                 module_styles__text_child: 'col-12 pt-2 pb-0 mb-0 mt-0'
                 module_styles__select_child:
                     - contain-outer
-                    - background__9a
                     - title__center
             -
                 module__admin_title_child: Form
@@ -130,11 +124,11 @@ module:
                 module_styles__select_child:
                     - width__100
                     - contain-outer
-                    - background__9a
                     - text-align__center
-        module_styles__text: 'col-12 ptb-2'
+        module_styles__text: 'col-12 mb-5'
         module_styles__select:
-            - background__6
+            - contain-outer
+            - background__9
             - text-align__center
             - text-color__white
         module_isotope: '0'
@@ -159,18 +153,6 @@ module:
                 text_image__image: DSC03703-cropped-980-high.jpg
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Photo 2x2 (tilt tablet+)'
-        module_list:
-            -
-                module_type: module__text_image
-                text_image__image: DSC03693-cropped-1920-high.jpg
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-        module_styles__select:
-            - hide-md
         module_isotope: '0'
         module_published: '0'
 hero__size_class: hero-default

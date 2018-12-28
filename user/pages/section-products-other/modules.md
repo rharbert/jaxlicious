@@ -8,15 +8,16 @@ module:
                 module__admin_title_child: Title
                 module_type: module__text_image
                 text_image__title: '# Bulk Orders in Quantities of 10'
-                text_image__textarea: 'Our chocolate bars are great for **personal** and **corporate** gifts. They are also available to **wholesale** resellers.'
-                module_styles__text_child: col-12
+                text_image__textarea: 'Chocolate bars are great for personal and corporate gifts. They are also available to wholesale resellers.'
+                module_styles__text_child: 'col-12 mt-0 mt-md-4 pt-4 prl-1 pb-1 pt-md-2'
                 module_styles__select_child:
-                    - contain-inner
+                    - background__5a
                     - title__center
-        module_styles__text: 'col-12 '
+                    - text-align__center
+                    - text-color__white
+        module_styles__text: 'col-12 prl-2'
         module_styles__select:
-            - text-align__center
-            - text-color__white
+            - contain-outer__2x
         module_isotope: '0'
         module_published: '1'
     -
