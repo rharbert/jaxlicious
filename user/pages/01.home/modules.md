@@ -19,7 +19,6 @@ module:
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
                     - hide-md
-        module_styles__text: 'bb-dashed-xxs-2 bb-dashed-md-3 b-brown'
         module_isotope: '0'
         module_published: '1'
     -
@@ -43,8 +42,8 @@ module:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__lg button__full-width button__center">Contact Us to Place Your Order</a></p>'
-                module_styles__text_child: 'col-12 mtb-0 pb-4 bb-dashed-xxs-3 b-yellow'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a></p>'
+                module_styles__text_child: 'col-12 mtb-0 pb-4'
                 module_styles__select_child:
                     - contain-inner__md
         module_styles__text: mb-0
@@ -53,7 +52,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Section Products - Other'
+        module__admin_title: 'Section Products - Bulk Orders'
         module_list:
             -
                 module__admin_title_child: '4 Product Photos'
@@ -62,8 +61,6 @@ module:
                 content_inject__url: /section-products-other
                 content_inject__type: modules
                 module_styles__text_child: mtb-0
-                module_styles__select_child:
-                    - background__2
         module_styles__text: pb-3
         module_isotope: '0'
         module_published: '1'
@@ -73,7 +70,7 @@ module:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__lg button__full-width button__center">Contact Us to Place Your Order</a></p>'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a></p>'
                 module_styles__text_child: 'col-12 mtb-0'
                 module_styles__select_child:
                     - contain-inner__md
