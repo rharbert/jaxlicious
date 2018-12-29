@@ -33,6 +33,31 @@ header {
   } 
 }
 
+// .logo-and-nav {
+//   @include breakpoint($size-sm-plus) {
+//     display: flex;
+//     align-items: space-around;
+//   }
+// }
+
+#logo {
+  width: 100%;
+  padding-top: .5rem;
+  text-align: center;
+  @include breakpoint($size-xl) {
+    padding-top: 0;}
+  img {
+    margin: 0 auto;
+    max-width: 40%;
+    @include breakpoint($size-xl) {
+      position: absolute;
+      max-width: 12%;
+      left: 1%;
+      top: 3%;
+    }
+  }
+}
+
 .nav-icon {
   width: 20px;
 }
