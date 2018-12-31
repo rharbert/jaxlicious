@@ -3,6 +3,7 @@
 require('es6-promise').polyfill();
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+let cleanCSS = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
 var prefix = require('gulp-autoprefixer');
 var watch = require('gulp-watch');
@@ -21,6 +22,24 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.write()) // Writes sourcemaps into the CSS file
     .pipe(gulp.dest('style/css'));
 })
+
+// Sass no-sourcemaps
+gulp.task('sass-prod', function() {
+  gulp.src('style/scss/**/*.scss')
+    .pipe(sass({
+        errLogToConsole: true
+        }))
+    .on('error', swallowError)
+    .pipe(prefix('last 2 versions', '>1%', 'ie 8'))
+    .pipe(gulp.dest('style/css'));
+})
+
+// CSS Minify
+gulp.task('minify-css', () => {
+  return gulp.src('style/css/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('style/css'));
+});
 
 // Watch
 gulp.task('watch', function() {
