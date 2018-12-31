@@ -8,7 +8,7 @@ module:
                 module__admin_title_child: Title
                 module_type: module__text_image
                 text_image__title: '# Order in Quantities of 10'
-                text_image__textarea: 'Chocolate bars are great for <u>personal</u> and <u>corporate</u> gifts.  They are also available at wholesale for retailers.'
+                text_image__textarea: "<h2 class=\"h2-thin\">Chocolate Bars are Great for Personal and Employee Gifts</h2>\r\n(also available at wholesale for retailers)"
                 module_styles__text_child: 'mt-0 mt-md-4 pt-4 prl-1 pb-1 pt-md-2 mb-0'
                 module_styles__select_child:
                     - width__100
@@ -64,7 +64,15 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'product-categories-grid mt-0'
+            -
+                module__admin_title_child: Button
+                module_type: module__text_image
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__contained button__center b-white padding-right-left__md">Contact Us to Place Your Order</a></p>'
+                module_styles__text_child: 'col-12 mb-0'
+                module_styles__select_child:
+                    - contain-outer__sm
+                    - text-color__white
+        module_styles__text: 'product-grid-featured mt-0 pb-2'
         module_styles__select:
             - background__5a
             - text-color__white

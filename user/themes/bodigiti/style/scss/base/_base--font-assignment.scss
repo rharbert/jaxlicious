@@ -43,7 +43,7 @@ h1,
 h2,
 .h2-alt {
   font-family: $font-family-headings;
-  font-weight: $font-weight-regular;
+  font-weight: $font-weight-medium;
   @include font-size-only($font-large);
   @include line-height($line-height-5);
   margin: 0.83rem 0;
@@ -53,6 +53,9 @@ h2,
     &:hover {
       text-decoration: underline;
     }
+  }
+  &.h2-thin {
+    font-weight: $font-weight-regular;
   }
 }
 

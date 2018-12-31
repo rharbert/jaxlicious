@@ -1,5 +1,13 @@
 
-.product-categories-grid .paragraph {
+.product-grid .paragraph.product {
+  @include breakpoint($size-md) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.product-grid-featured .paragraph {
   @include breakpoint($size-md) {
     padding-right: 1rem;
     padding-left: 1rem;

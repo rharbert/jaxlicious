@@ -137,6 +137,9 @@ button.button {
   &:hover {
     text-decoration: none;
   }
+  &.b-white {
+    border: 1px solid $color2;
+  }
   &__full-width {
     width: 100%;
   }
