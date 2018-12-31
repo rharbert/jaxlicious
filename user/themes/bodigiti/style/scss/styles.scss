@@ -1,12 +1,6 @@
+
 // Import variables and mixins
 @import "scss-init";
-
-////////////////////////////////////////////////////////////////////////////////
-// Start with...
-////////////////////////////////////////////////////////////////////////////////
-
-@import "init/grid--system";
-@import "init/typography-font-face";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Sprites
@@ -25,8 +19,14 @@
 @import "base/base--list";
 @import "base/base--alignment";
 @import "base/base--clearfix";
-@import "base/base--style-misc";
 @import "base/base--shapes";
+
+////////////////////////////////////////////////////////////////////////////////
+// Start with...
+////////////////////////////////////////////////////////////////////////////////
+
+@import "init/grid--system";
+@import "init/typography-font-face";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Components
@@ -49,6 +49,7 @@
 @import "components/snipcart/snipcart--on-page";
 @import "components/title/title";
 //@import "components/isotope/isotope";
+//@import "components/pipe-character/pipe-character";
 //@import "components/product/product--size-chooser";
 //@import "components/product/product--teaser";
 //@import "components/product/product--info";
