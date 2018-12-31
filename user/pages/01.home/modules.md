@@ -19,6 +19,7 @@ module:
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
                     - hide-md
+        module_styles__text: 'bb-solid-xxs-2 b-yellow'
         module_isotope: '0'
         module_published: '1'
     -
