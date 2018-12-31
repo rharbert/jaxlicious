@@ -11,8 +11,6 @@ class Bodigiti extends Theme
     return array (
     'width__100' => 'Width 100',
     'margin-auto__right-left' => 'Margin Auto Right-Left',
-    'margin-left-right__xs-plus' => 'Margin Left Right XS-Plus',
-    'padding-left-right__xs-plus' => 'Padding Left Right XS-Plus',
     'contain-inner' => 'Contain Inner ',
     'contain-inner__xs' => 'Contain Inner XS',
     'contain-inner__sm' => 'Contain Inner SM',
