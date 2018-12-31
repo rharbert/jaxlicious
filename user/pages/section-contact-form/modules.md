@@ -21,9 +21,9 @@ module:
                 form_inject__url: /contact-form
                 module_styles__text_child: 'mt-0 prl-2 pb-1'
                 module_styles__select_child:
-                    - text-align__center
                     - width__100
-        module_styles__text: 'col-12 mb-5'
+                    - text-align__center
+        module_styles__text: 'polygon-1 col-12 mb-5 prl-3 pt-1'
         module_styles__select:
             - background__9
             - text-align__center

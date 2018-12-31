@@ -82,19 +82,20 @@
   color: $color3;
 }
 
+$submit-background: lighten($color10, .8);
 .form-submit,
 button.form-submit {
   color: $color2;
-  background: $color9;
+  background: $color10a;
   font-weight: bold;
   padding: .5rem;
   @include font-size($font-medium);
-  border: solid 2px $color9;
+  border: solid 2px $color10a;
   border-radius: 8px;
   margin-top: .5rem;
   &:hover {
     color: $color2;
-    background: $color9(lighten, .8);
-    border: solid 2px $color9(lighten, .8);
+    background: $submit-background;
+    border: solid 2px $submit-background;
   }
 }
