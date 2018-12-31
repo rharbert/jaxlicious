@@ -23,7 +23,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Section Products - Chocolate'
+        module__admin_title: 'Section Products - Chocolate (Content Injected)'
         module_list:
             -
                 module__admin_title_child: 'Milk Chocolate & Dark Chocolate Bars: All 4 Kids'
@@ -53,7 +53,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Section Products - Other'
+        module__admin_title: 'Section Products - Other (Content Injected)'
         module_list:
             -
                 module__admin_title_child: '4 Product Photos'
@@ -89,7 +89,7 @@ module:
                 text_image__title: '# The Jaxlicious Story '
                 text_image__subtitle: '<a class="negate" id="about" name="about"></a>'
                 text_image__textarea: "One fine day, Jax was happily walking along eating his favorite chocolates. Along came Jay.<br>\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**<br>\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"<br>\r\nJax and Jay became good friends, and they would eat chocolate almost everyday.<br>\r\nAfter becoming friends with Jess and Jen, all four decided to work together to create **chocolate bars for everyone**."
-                module_styles__text_child: 'ptb-3 prl-1 prl-lg-3 border-top__section border-right__section border-left__section border-bottom__section yellow'
+                module_styles__text_child: 'ptb-3 prl-1 prl-lg-3 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
                     - width__100
                     - contain-outer
@@ -102,35 +102,19 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Contact Form'
+        module__admin_title: 'Contact Form (Content Injected)'
         module_list:
             -
-                module__admin_title_child: 'Title '
-                module_type: module__text_image
-                text_image__title: ' #  Contact Us '
-                text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help! <a class="negate" id="contact-form" name="contact-form"></a>'
+                module__admin_title_child: 'Contact Form Injected'
+                module_type: module__content_inject
                 text_image__textarea: ''
-                module_styles__text_child: 'col-12 pt-2 pb-0 mb-0 mt-0'
-                module_styles__select_child:
-                    - contain-outer
-                    - title__center
-            -
-                module__admin_title_child: Form
-                module_type: module__form_inject
-                text_image__textarea: ''
-                content_inject__url: contact-form
-                form_inject__url: /contact-form
-                module_styles__text_child: 'mt-0 prl-2 pb-1'
+                content_inject__url: /section-contact-form
+                content_inject__type: modules
                 module_styles__select_child:
                     - width__100
+                    - margin-auto__right-left
                     - contain-outer
-                    - text-align__center
-        module_styles__text: 'col-12 mb-5'
-        module_styles__select:
-            - contain-outer
-            - background__9
-            - text-align__center
-            - text-color__white
+        module_styles__text: ''
         module_isotope: '0'
         module_published: '1'
     -
