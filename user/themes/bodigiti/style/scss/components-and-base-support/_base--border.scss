@@ -3,8 +3,6 @@
 // Borders (base-and-component-support)
 // Borders for misc, including use in modules/paragraphs
 ////////////////////////////////////////////////////////////////////////////////
-$style_dashed: dashed;
-$style_solid: solid;
 
 ////////////////////////////////////////////////////////////////////////////////
 // INCLUDES Screen Size Variables
@@ -64,7 +62,28 @@ $screen-width: (
     .br-dashed-#{$size}-3, .br-#{$size}-3-children .paragraph { border-right-style: dashed; border-width: 1rem; }
     .bb-dashed-#{$size}-3, .bb-#{$size}-3-children .paragraph { border-bottom-style: dashed; border-width: 1rem; }
     .bl-dashed-#{$size}-3, .bl-#{$size}-3-children .paragraph { border-left-style: dashed; border-width: 1rem; }
- 
+    // 
+    // dotted
+    //
+    // .0625rem
+    .b-dotted-#{$size}-1, .b-#{$size}-1-children .paragraph { border-style: dotted; border-width: .0625rem; }
+    .bt-dotted-#{$size}-1, .bt-#{$size}-1-children .paragraph { border-top-style: dotted; border-width: .0625rem; }
+    .br-dotted-#{$size}-1, .br-#{$size}-1-children .paragraph { border-right-style: dotted; border-width: .0625rem; }
+    .bb-dotted-#{$size}-1, .bb-#{$size}-1-children .paragraph { border-bottom-style: dotted; border-width: .0625rem; }
+    .bl-dotted-#{$size}-1, .bl-#{$size}-1-children .paragraph { border-left-style: dotted; border-width: .0625rem; }
+    // .5rem
+    .b-dotted-#{$size}-2, .b-#{$size}-2-children .paragraph { border-style: dotted; border-width: .5rem; }
+    .bt-dotted-#{$size}-2, .bt-#{$size}-2-children .paragraph { border-top-style: dotted; border-width:.5rem; }
+    .br-dotted-#{$size}-2, .br-#{$size}-2-children .paragraph { border-right-style: dotted; border-width: .5rem; }
+    .bb-dotted-#{$size}-2, .bb-#{$size}-2-children .paragraph { border-bottom-style: dotted; border-width: .5rem; }
+    .bl-dotted-#{$size}-2, .bl-#{$size}-2-children .paragraph { border-left-style: dotted; border-width: .5rem; }
+    // 1rem
+    .b-dotted-#{$size}-3, .b-#{$size}-3-children .paragraph { border-style: dotted; border-width: 1rem; }
+    .bt-dotted-#{$size}-3, .bt-#{$size}-3-children .paragraph { border-top-style: dotted; border-width:1rem; }
+    .br-dotted-#{$size}-3, .br-#{$size}-3-children .paragraph { border-right-style: dotted; border-width: 1rem; }
+    .bb-dotted-#{$size}-3, .bb-#{$size}-3-children .paragraph { border-bottom-style: dotted; border-width: 1rem; }
+    .bl-dotted-#{$size}-3, .bl-#{$size}-3-children .paragraph { border-left-style: dotted; border-width: 1rem; }
+
   }
 }
 
