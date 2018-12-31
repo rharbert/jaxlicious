@@ -42,11 +42,9 @@ module:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a></p>'
-                module_styles__text_child: 'col-12 mtb-0 pb-4'
-                module_styles__select_child:
-                    - contain-inner__md
-        module_styles__text: mb-0
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__contained button__center padding-right-left__md">Contact Us to Place Your Order</a></p>'
+                module_styles__text_child: 'col-12 mtb-0'
+        module_styles__text: 'mb-0 pb-2'
         module_styles__select:
             - contain-outer__2x
         module_isotope: '0'
@@ -70,11 +68,9 @@ module:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__full-width button__center">Contact Us to Place Your Order</a></p>'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__contained button__center padding-right-left__md">Contact Us to Place Your Order</a></p>'
                 module_styles__text_child: 'col-12 mtb-0'
-                module_styles__select_child:
-                    - contain-inner__md
-        module_styles__text: 'mb-0 prl-xxs'
+        module_styles__text: 'mb-3 prl-xxs'
         module_isotope: '0'
         module_published: '1'
     -
@@ -93,7 +89,7 @@ module:
                     - background__2
                     - title__center
                     - text-align__justify
-        module_styles__text: 'col-12 ptb-2 '
+        module_styles__text: 'col-12 mt-5 mb-4'
         module_styles__select:
             - text-color__brown
         module_isotope: '0'
@@ -111,7 +107,6 @@ module:
                     - width__100
                     - margin-auto__right-left
                     - contain-outer
-        module_styles__text: ''
         module_isotope: '0'
         module_published: '1'
     -
