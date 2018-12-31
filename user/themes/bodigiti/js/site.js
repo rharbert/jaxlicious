@@ -81,7 +81,7 @@ jQuery(function($) {
    /////////////////////////////////////////////////////////////////////////////
    // Lightslider
    /////////////////////////////////////////////////////////////////////////////
-
+   /* Disabled Lightslider
     $('#lightSlider').lightSlider({
         gallery: true,
         item: 1,
@@ -95,13 +95,14 @@ jQuery(function($) {
         freeMove: false, // not sure what freeMove is but disabled since slider fine without
         enableDrag: true // Desktop mouse support, set to false when zoom enabled
     });
+    */
 
    /////////////////////////////////////////////////////////////////////////////
    // Isotope
    /////////////////////////////////////////////////////////////////////////////
 
    // external js: isotope.pkgd.js, imagesloaded.pkgd.js
-
+   /* Disable Isotope
     // init Isotope (only IF .grid.isotope exists, otherwise get js errors in
     // console even though nothing is broken visually )
     if ( $(".grid-isotope").length ) {
@@ -121,4 +122,5 @@ jQuery(function($) {
         iso.layout();
       });
     }
+  */
 });
