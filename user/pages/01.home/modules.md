@@ -63,17 +63,6 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Button - Buy Other Products'
-        module_list:
-            -
-                module__admin_title_child: 'Button - Buy Chocolate'
-                module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__contained button__center padding-right-left__md">Contact Us to Place Your Order</a></p>'
-                module_styles__text_child: 'col-12 mtb-0'
-        module_styles__text: 'mb-3 prl-xxs'
-        module_isotope: '0'
-        module_published: '0'
-    -
         module__admin_title: 'Our Story'
         module_list:
             -
@@ -110,28 +99,6 @@ module:
                     - contain-outer
         module_isotope: '0'
         module_published: '1'
-    -
-        module__admin_title: 'Photo 2x3 (tablet+)'
-        module_list:
-            -
-                module__admin_title_child: Photo
-                module_type: module__text_image
-                text_image__image: DSC03706-cropped-1920-high.jpg
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Photo 2x3 (No-Tilt) 980w'
-        module_list:
-            -
-                module__admin_title_child: 'Photo 2x3 980w'
-                module_type: module__text_image
-                text_image__image: DSC03703-cropped-980-high.jpg
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-        module_isotope: '0'
-        module_published: '0'
 hero__size_class: hero-default
 media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03828-800.jpg,DSC03693-cropped-1920-high.jpg,DSC03706-cropped-1920-high.jpg,DSC03687-cropped-1920-high.jpg,DSC03703-cropped-980-high.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03676-cropped-800-high-red.jpg,DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03828_cropped-1000-web.jpg'
 published: true
