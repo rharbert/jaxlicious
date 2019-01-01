@@ -35,19 +35,7 @@ module:
                 module_styles__select_child:
                     - contain-outer__2x
                     - background__2
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Button - Buy Chocolate'
-        module_list:
-            -
-                module__admin_title_child: 'Button - Buy Chocolate'
-                module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__contained button__center padding-right-left__md">Contact Us to Place Your Order</a></p>'
-                module_styles__text_child: 'col-12 mtb-0'
-        module_styles__text: 'mb-0 pb-2'
-        module_styles__select:
-            - contain-outer__2x
+        module_styles__text: mrl-xxs
         module_isotope: '0'
         module_published: '1'
     -
