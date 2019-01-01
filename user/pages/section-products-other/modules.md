@@ -30,7 +30,6 @@ module:
                 text_image__image: chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.png
                 text_image__alt: '6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon'
                 text_image__textarea: ''
-                module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
                     - p-mb-75
                     - image__center
@@ -42,7 +41,6 @@ module:
                 text_image__image: chocolate-bars-jaxlicious-paraphernalia-breakroom.jpg
                 text_image__alt: 'Jaxlicious cookie jar with 20 chocolate bars'
                 text_image__textarea: ''
-                module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
                     - p-mb-75
                     - image__center
@@ -53,7 +51,6 @@ module:
                 text_image__title: 'Employee Gifts'
                 text_image__image: chocolate-bars-jaxlicious-gift-bag-red.png
                 text_image__textarea: ''
-                module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
                     - p-mb-75
                     - image__center
@@ -65,12 +62,11 @@ module:
                 text_image__image: chocolate-bars-jaxlicious-retail-display.png
                 text_image__alt: 'Jaxlicious chocolate bars retail display'
                 text_image__textarea: ''
-                module_styles__text_child: 'col-3 col-sm-6 col-md-4'
                 module_styles__select_child:
                     - p-mb-75
                     - image__center
                     - text-align__center
-        module_styles__text: 'product-grid-featured mt-0 pb-1'
+        module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2 prl_children_xxs prl_children_sm-1 prl_children_xl-2'
         module_styles__select:
             - background__5a
             - text-color__white

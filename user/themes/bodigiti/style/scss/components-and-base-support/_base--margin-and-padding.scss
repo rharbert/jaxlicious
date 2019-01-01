@@ -28,37 +28,37 @@
   // XXS = 5px(aka .3125rem)
   $xxs: .3125;
   // Margin //
-  .mt-xxs, .mt-xxs-children .paragraph { margin-top: 1rem * $xxs; }
-  .mr-xxs, .mr-xxs-children .paragraph { margin-right: 1rem * $xxs; }
-  .mb-xxs, .mb-xxs-children .paragraph { margin-bottom: 1rem * $xxs; }
-  .ml-xxs, .ml-xxs-children .paragraph { margin-left: 1rem * $xxs; }
-  .mtb-xxs, .mtb-xxs-children .paragraph { margin-top: 1rem * $xxs; margin-bottom: 1rem * $xxs; }
-  .mrl-xxs, .mrl-xxs-children .paragraph { margin-right: 1rem * $xxs; margin-left: 1rem * $xxs; }
+  .mt-xxs, .mt_children_xxs .paragraph { margin-top: 1rem * $xxs; }
+  .mr-xxs, .mr_children_xxs .paragraph { margin-right: 1rem * $xxs; }
+  .mb-xxs, .mb_children_xxs .paragraph { margin-bottom: 1rem * $xxs; }
+  .ml-xxs, .ml_children_xxs .paragraph { margin-left: 1rem * $xxs; }
+  .mtb-xxs, .mtb_children_xxs .paragraph { margin-top: 1rem * $xxs; margin-bottom: 1rem * $xxs; }
+  .mrl-xxs, .mrl_children_xxs .paragraph { margin-right: 1rem * $xxs; margin-left: 1rem * $xxs; }
   // Padding //
-  .pt-xxs, .pt-xxs-children .paragraph { padding-top: 1rem * $xxs; }
-  .pr-xxs, .pr-xxs-children .paragraph { padding-right: 1rem * $xxs; }
-  .pb-xxs, .pb-xxs-children .paragraph { padding-bottom: 1rem * $xxs; }
-  .pl-xxs, .pl-xxs-children .paragraph { padding-left: 1rem * $xxs; }
-  .ptb-xxs, .ptb-xxs-children .paragraph { padding-top: 1rem * $xxs; padding-bottom: 1rem * $xxs; }
-  .prl-xxs, .prl-xxs-children .paragraph { padding-right: 1rem * $xxs; padding-left: 1rem * $xxs; }
+  .pt-xxs, .pt_children_xxs .paragraph { padding-top: 1rem * $xxs; }
+  .pr-xxs, .pr_children_xxs .paragraph { padding-right: 1rem * $xxs; }
+  .pb-xxs, .pb_children_xxs .paragraph { padding-bottom: 1rem * $xxs; }
+  .pl-xxs, .pl_children_xxs .paragraph { padding-left: 1rem * $xxs; }
+  .ptb-xxs, .ptb_children_xxs .paragraph { padding-top: 1rem * $xxs; padding-bottom: 1rem * $xxs; }
+  .prl-xxs, .prl_children_xxs .paragraph { padding-right: 1rem * $xxs; padding-left: 1rem * $xxs; }
   //
   // End: XXS 5px or .3125rem
   ////////////////////////////////////////
 
   // Margin: No Screen-Size Variable //
-  .mt-#{$i}, .mt-children-#{$i} .paragraph { margin-top: 1rem * $i; }
-  .mr-#{$i}, .mr-children-#{$i} .paragraph { margin-right: 1rem * $i; }
-  .mb-#{$i}, .mb-children-#{$i} .paragraph { margin-bottom: 1rem * $i; }
-  .ml-#{$i}, .ml-children-#{$i} .paragraph { margin-left: 1rem * $i; }
-  .mtb-#{$i}, .mtb-children-#{$i} .paragraph { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
-  .mrl-#{$i}, .mrl-children-#{$i} .paragraph { margin-right: 1rem * $i; margin-left: 1rem * $i; }
+  .mt-#{$i}, .mt_children_#{$i} .paragraph { margin-top: 1rem * $i; }
+  .mr-#{$i}, .mr_children_#{$i} .paragraph { margin-right: 1rem * $i; }
+  .mb-#{$i}, .mb_children_#{$i} .paragraph { margin-bottom: 1rem * $i; }
+  .ml-#{$i}, .ml_children_#{$i} .paragraph { margin-left: 1rem * $i; }
+  .mtb-#{$i}, .mtb_children_#{$i} .paragraph { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
+  .mrl-#{$i}, .mrl_children_#{$i} .paragraph { margin-right: 1rem * $i; margin-left: 1rem * $i; }
   // Padding: No Screen-Size Variable //
-  .pt-#{$i}, .pt-children-#{$i} .paragraph { padding-top: 1rem * $i; }
-  .pr-#{$i}, .pr-children-#{$i} .paragraph { padding-right: 1rem * $i; }
-  .pb-#{$i}, .pb-children-#{$i} .paragraph { padding-bottom: 1rem * $i; }
-  .pl-#{$i}, .pl-children-#{$i} .paragraph { padding-left: 1rem * $i; }
-  .ptb-#{$i}, .ptb-children-#{$i} .paragraph { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
-  .prl-#{$i}, .prl-children-#{$i} .paragraph { padding-right: 1rem * $i; padding-left: 1rem * $i; }
+  .pt-#{$i}, .pt_children_#{$i} .paragraph { padding-top: 1rem * $i; }
+  .pr-#{$i}, .pr_children_#{$i} .paragraph { padding-right: 1rem * $i; }
+  .pb-#{$i}, .pb_children_#{$i} .paragraph { padding-bottom: 1rem * $i; }
+  .pl-#{$i}, .pl_children_#{$i} .paragraph { padding-left: 1rem * $i; }
+  .ptb-#{$i}, .ptb_children_#{$i} .paragraph { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
+  .prl-#{$i}, .prl_children_#{$i} .paragraph { padding-right: 1rem * $i; padding-left: 1rem * $i; }
 }
 
 
@@ -80,19 +80,19 @@ $screen-width: (
     // XXS 5px or .3125rem;
     $xxs: .3125;
     // Margin //
-    .mt-#{$size}-xxs, .mt-#{$size}-xxs-children .paragraph { margin-top: 1rem * $xxs; }
-    .mr-#{$size}-xxs, .mr-#{$size}-xxs-children .paragraph { margin-right: 1rem * $xxs; }
-    .mb-#{$size}-xxs, .mb-#{$size}-xxs-children .paragraph { margin-bottom: 1rem * $xxs; }
-    .ml-#{$size}-xxs, .ml-#{$size}-xxs-children .paragraph { margin-left: 1rem * $xxs; }
-    .mtb-#{$size}-xxs, .mtb-#{$size}-xxs-children .paragraph { margin-top: 1rem * $xxs; margin-bottom: 1rem * $xxs; }
-    .mrl-#{$size}-xxs, .mrl-#{$size}-xxs-children .paragraph { margin-right: 1rem * $xxs; margin-left: 1rem * $xxs; }
+    .mt-#{$size}-xxs, .mt_children_#{$size}-xxs .paragraph { margin-top: 1rem * $xxs; }
+    .mr-#{$size}-xxs, .mr_children_#{$size}-xxs .paragraph { margin-right: 1rem * $xxs; }
+    .mb-#{$size}-xxs, .mb_children_#{$size}-xxs .paragraph { margin-bottom: 1rem * $xxs; }
+    .ml-#{$size}-xxs, .ml_children_#{$size}-xxs .paragraph { margin-left: 1rem * $xxs; }
+    .mtb-#{$size}-xxs, .mtb_children_#{$size}-xxs .paragraph { margin-top: 1rem * $xxs; margin-bottom: 1rem * $xxs; }
+    .mrl-#{$size}-xxs, .mrl_children_#{$size}-xxs .paragraph { margin-right: 1rem * $xxs; margin-left: 1rem * $xxs; }
     // Padding //
-    .pt-#{$size}-xxs, .pt-#{$size}-xxs-children .paragraph { padding-top: 1rem * $xxs; }
-    .pr-#{$size}-xxs, .pr-#{$size}-xxs-children .paragraph { padding-right: 1rem * $xxs; }
-    .pb-#{$size}-xxs, .pb-#{$size}-xxs-children .paragraph { padding-bottom: 1rem * $xxs; }
-    .pl-#{$size}-xxs, .pl-#{$size}-xxs-children .paragraph { padding-left: 1rem * $xxs; }
-    .ptb-#{$size}-xxs, .ptb-#{$size}-xxs-children .paragraph { padding-top: 1rem * $xxs; padding-bottom: 1rem * $xxs; }
-    .prl-#{$size}-xxs, .prl-#{$size}-xxs-children .paragraph { padding-right: 1rem * $xxs; padding-left: 1rem * $xxs; }
+    .pt-#{$size}-xxs, .pt_children_#{$size}-xxs .paragraph { padding-top: 1rem * $xxs; }
+    .pr-#{$size}-xxs, .pr_children_#{$size}-xxs .paragraph { padding-right: 1rem * $xxs; }
+    .pb-#{$size}-xxs, .pb_children_#{$size}-xxs .paragraph { padding-bottom: 1rem * $xxs; }
+    .pl-#{$size}-xxs, .pl_children_#{$size}-xxs .paragraph { padding-left: 1rem * $xxs; }
+    .ptb-#{$size}-xxs, .ptb_children_#{$size}-xxs .paragraph { padding-top: 1rem * $xxs; padding-bottom: 1rem * $xxs; }
+    .prl-#{$size}-xxs, .prl_children_#{$size}-xxs .paragraph { padding-right: 1rem * $xxs; padding-left: 1rem * $xxs; }
     //
     // End: XXS 5px or .3125rem
     ////////////////////////////////////////
@@ -102,19 +102,19 @@ $screen-width: (
     //
     @for $i from 0 through 5 {
       // Margin //
-      .mt-#{$size}-#{$i}, .mt-#{$size}-#{$i}-children .paragraph { margin-top: 1rem * $i; }
-      .mr-#{$size}-#{$i}, .mr-#{$size}-#{$i}-children .paragraph { margin-right: 1rem * $i; }
-      .mb-#{$size}-#{$i}, .mb-#{$size}-#{$i}-children .paragraph { margin-bottom: 1rem * $i; }
-      .ml-#{$size}-#{$i}, .ml-#{$size}-#{$i}-children .paragraph { margin-left: 1rem * $i; }
-      .mtb-#{$size}-#{$i}, .mtb-#{$size}-#{$i}-children .paragraph { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
-      .mrl-#{$size}-#{$i}, .mrl-#{$size}-#{$i}-children .paragraph { margin-right: 1rem * $i; margin-left: 1rem * $i; }
+      .mt-#{$size}-#{$i}, .mt_children_#{$size}-#{$i} .paragraph { margin-top: 1rem * $i; }
+      .mr-#{$size}-#{$i}, .mr_children_#{$size}-#{$i} .paragraph { margin-right: 1rem * $i; }
+      .mb-#{$size}-#{$i}, .mb_children_#{$size}-#{$i} .paragraph { margin-bottom: 1rem * $i; }
+      .ml-#{$size}-#{$i}, .ml_children_#{$size}-#{$i} .paragraph { margin-left: 1rem * $i; }
+      .mtb-#{$size}-#{$i}, .mtb_children_#{$size}-#{$i} .paragraph { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
+      .mrl-#{$size}-#{$i}, .mrl_children_#{$size}-#{$i} .paragraph { margin-right: 1rem * $i; margin-left: 1rem * $i; }
       // Padding //
-      .pt-#{$size}-#{$i}, .pt-#{$size}-#{$i}-children .paragraph { padding-top: 1rem * $i; }
-      .pr-#{$size}-#{$i}, .pr-#{$size}-#{$i}-children .paragraph { padding-right: 1rem * $i; }
-      .pb-#{$size}-#{$i}, .pb-#{$size}-#{$i}-children .paragraph { padding-bottom: 1rem * $i; }
-      .pl-#{$size}-#{$i}, .pl-#{$size}-#{$i}-children .paragraph { padding-left: 1rem * $i; }
-      .ptb-#{$size}-#{$i}, .ptb-#{$size}-#{$i}-children .paragraph { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
-      .prl-#{$size}-#{$i}, .prl-#{$size}-#{$i}-children .paragraph { padding-right: 1rem * $i; padding-left: 1rem * $i; }
+      .pt-#{$size}-#{$i}, .pt_children_#{$size}-#{$i} .paragraph { padding-top: 1rem * $i; }
+      .pr-#{$size}-#{$i}, .pr_children_#{$size}-#{$i} .paragraph { padding-right: 1rem * $i; }
+      .pb-#{$size}-#{$i}, .pb_children_#{$size}-#{$i} .paragraph { padding-bottom: 1rem * $i; }
+      .pl-#{$size}-#{$i}, .pl_children_#{$size}-#{$i} .paragraph { padding-left: 1rem * $i; }
+      .ptb-#{$size}-#{$i}, .ptb_children_#{$size}-#{$i} .paragraph { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
+      .prl-#{$size}-#{$i}, .prl_children_#{$size}-#{$i} .paragraph { padding-right: 1rem * $i; padding-left: 1rem * $i; }
       // 
       // End: 0 through 5 @ increments of 1rem
       //////////////////////////////////////
