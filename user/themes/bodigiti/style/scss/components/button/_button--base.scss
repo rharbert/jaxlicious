@@ -33,7 +33,7 @@
 }
 %button--md {
   @include font-size-only($font-medium-large);
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
   padding: 1.4rem 1rem 1.25rem 1rem;
 }
 %button--lg {
