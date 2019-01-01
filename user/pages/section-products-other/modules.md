@@ -2,10 +2,10 @@
 title: 'Section Products Bulk Orders'
 module:
     -
-        module__admin_title: Title
+        module__admin_title: 'Title + Intro'
         module_list:
             -
-                module__admin_title_child: Title
+                module__admin_title_child: 'Title + Intro'
                 module_type: module__text_image
                 text_image__title: '# Order in Quantities of 10'
                 text_image__textarea: "<h2 class=\"h2-thin\">Chocolate Bars are Great for Personal and Employee Gifts</h2>\r\n(also available at wholesale for retailers)"
@@ -21,7 +21,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Displays by Quantity Order'
+        module__admin_title: 'Product Categories + Photos'
         module_list:
             -
                 module__admin_title_child: 'Personal Gifts'
