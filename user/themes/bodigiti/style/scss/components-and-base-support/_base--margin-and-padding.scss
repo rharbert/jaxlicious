@@ -46,19 +46,19 @@
   ////////////////////////////////////////
 
   // Margin: No Screen-Size Variable //
-  .mt-#{$i}, .mt-children .paragraph { margin-top: 1rem * $i; }
-  .mr-#{$i}, .mr-children .paragraph { margin-right: 1rem * $i; }
-  .mb-#{$i}, .mb-children .paragraph { margin-bottom: 1rem * $i; }
-  .ml-#{$i}, .ml-children .paragraph { margin-left: 1rem * $i; }
-  .mtb-#{$i}, .mtb-children .paragraph { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
-  .mrl-#{$i}, .mrl-children .paragraph { margin-right: 1rem * $i; margin-left: 1rem * $i; }
+  .mt-#{$i}, .mt-children-#{$i} .paragraph { margin-top: 1rem * $i; }
+  .mr-#{$i}, .mr-children-#{$i} .paragraph { margin-right: 1rem * $i; }
+  .mb-#{$i}, .mb-children-#{$i} .paragraph { margin-bottom: 1rem * $i; }
+  .ml-#{$i}, .ml-children-#{$i} .paragraph { margin-left: 1rem * $i; }
+  .mtb-#{$i}, .mtb-children-#{$i} .paragraph { margin-top: 1rem * $i; margin-bottom: 1rem * $i; }
+  .mrl-#{$i}, .mrl-children-#{$i} .paragraph { margin-right: 1rem * $i; margin-left: 1rem * $i; }
   // Padding: No Screen-Size Variable //
-  .pt-#{$i}, .pt-children .paragraph { padding-top: 1rem * $i; }
-  .pr-#{$i}, .pr-children .paragraph { padding-right: 1rem * $i; }
-  .pb-#{$i}, .pb-children .paragraph { padding-bottom: 1rem * $i; }
-  .pl-#{$i}, .pl-children .paragraph { padding-left: 1rem * $i; }
-  .ptb-#{$i}, .ptb-children .paragraph { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
-  .prl-#{$i}, .prl-children .paragraph { padding-right: 1rem * $i; padding-left: 1rem * $i; }
+  .pt-#{$i}, .pt-children-#{$i} .paragraph { padding-top: 1rem * $i; }
+  .pr-#{$i}, .pr-children-#{$i} .paragraph { padding-right: 1rem * $i; }
+  .pb-#{$i}, .pb-children-#{$i} .paragraph { padding-bottom: 1rem * $i; }
+  .pl-#{$i}, .pl-children-#{$i} .paragraph { padding-left: 1rem * $i; }
+  .ptb-#{$i}, .ptb-children-#{$i} .paragraph { padding-top: 1rem * $i; padding-bottom: 1rem * $i; }
+  .prl-#{$i}, .prl-children-#{$i} .paragraph { padding-right: 1rem * $i; padding-left: 1rem * $i; }
 }
 
 
