@@ -2,7 +2,7 @@
 title: 'Section Products Chocolate'
 module:
     -
-        module__admin_title: 'Chocolate Bars'
+        module__admin_title: '2 Bars: Title & Description'
         module_list:
             -
                 module__admin_title_child: '"Chocolate Bars" Title & Description'
@@ -13,6 +13,11 @@ module:
                 module_styles__text_child: 'col-12 mtb-0 mt-md-2 mrl-md-2 pt-2 prl-1 pb-0 pb-md-1'
                 module_styles__select_child:
                     - text-align__center
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: '2 Bars: Milk + Dark with 4 kids each'
+        module_list:
             -
                 module__admin_title_child: 'Chocolate Bar: Red Wrapper with 4 Kids'
                 module_type: module__text_image
@@ -20,7 +25,6 @@ module:
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -31,10 +35,15 @@ module:
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
+        module_styles__text: prl_children_sm-1
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: '4 Bars: Title & Description: Milk Chocolate'
+        module_list:
             -
                 module__admin_title_child: '"Milk Chocolate" Title'
                 module_type: module__text_image
@@ -43,6 +52,11 @@ module:
                 module_styles__text_child: 'col-12 mtb-md-2 pt-2 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
                     - text-align__center
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: '4 Bars: Single Kids: Milk Chocolate'
+        module_list:
             -
                 module__admin_title_child: Jax
                 module_type: module__text_image
@@ -87,6 +101,12 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
+        module_styles__text: product-grid
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: '4 Bars: Title & Description: Dark Chocolate'
+        module_list:
             -
                 module__admin_title_child: '"Dark Chocolate" Title'
                 module_type: module__text_image
@@ -95,6 +115,11 @@ module:
                 module_styles__text_child: 'col-12 mtb-md-2 pt-2 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
                     - text-align__center
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: '4 Bars: Single Kids: Dark Chocolate'
+        module_list:
             -
                 module__admin_title_child: Jax
                 module_type: module__text_image
@@ -139,6 +164,11 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: 'Button - Buy Chocolate'
+        module_list:
             -
                 module__admin_title_child: 'Button - Buy Chocolate'
                 module_type: module__text_image
@@ -146,7 +176,6 @@ module:
                 module_styles__text_child: 'col-12 mb-3 mb-md-5'
                 module_styles__select_child:
                     - contain-outer__2x
-        module_styles__text: product-grid
         module_isotope: '0'
         module_published: '1'
 media_order: 'DSC03599-cropped-2-800.jpg,DSC03600-cropped-2-800.jpg,DSC03601-cropped-2-800.jpg,DSC03602-cropped-2-800.jpg'
