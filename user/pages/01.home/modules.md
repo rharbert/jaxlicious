@@ -10,7 +10,7 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
-                    - hide-md
+                    - hide-sm
             -
                 module__admin_title_child: 'Photo 2x2 (tilt tablet+)'
                 module_type: module__text_image
@@ -18,7 +18,7 @@ module:
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
-                    - show-md
+                    - show-sm
         module_styles__text: 'bb-solid-xxs-2 b-yellow'
         module_isotope: '0'
         module_published: '1'
