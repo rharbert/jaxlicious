@@ -23,7 +23,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Section Products - Chocolate (Content Injected)'
+        module__admin_title: 'Products: Chocolate (Content Injected)'
         module_list:
             -
                 module__admin_title_child: 'Milk Chocolate & Dark Chocolate Bars: All 4 Kids'
@@ -39,7 +39,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Section Products - Other (Content Injected)'
+        module__admin_title: 'Products: Other (Content Injected)'
         module_list:
             -
                 module__admin_title_child: '4 Product Photos'
@@ -48,6 +48,7 @@ module:
                 content_inject__url: /section-products-other
                 content_inject__type: modules
                 module_styles__text_child: mtb-0
+        module_styles__text: 'mb-3 mb-md-5'
         module_isotope: '0'
         module_published: '1'
     -
@@ -67,7 +68,7 @@ module:
                     - background__2
                     - title__center
                     - text-align__justify
-        module_styles__text: 'col-12 mt-5 mb-4'
+        module_styles__text: 'mrl-xxs mb-2 mb-md-4'
         module_styles__select:
             - text-color__brown
         module_isotope: '0'
@@ -85,6 +86,7 @@ module:
                     - width__100
                     - margin-auto__right-left
                     - contain-outer
+        module_styles__text: 'mrl-xxs mb-3 mb-md-5'
         module_isotope: '0'
         module_published: '1'
 hero__size_class: hero-default

@@ -19,11 +19,11 @@ module:
                 text_image__textarea: ''
                 content_inject__url: contact-form
                 form_inject__url: /contact-form
-                module_styles__text_child: 'mt-0 prl-2 pb-1'
+                module_styles__text_child: 'mt-0 prl-md-2 pb-1'
                 module_styles__select_child:
                     - width__100
                     - text-align__center
-        module_styles__text: 'polygon-1 col-12 mb-5 prl-3 pt-1'
+        module_styles__text: 'col-12 prl-3 pt-1 polygon-1'
         module_styles__select:
             - background__9
             - text-align__center
