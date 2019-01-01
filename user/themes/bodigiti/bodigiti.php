@@ -70,6 +70,7 @@ class Bodigiti extends Theme
     'background__gray10' => 'Background Gray10',
     'background__gray11' => 'Background Gray11',
     'background__gray12' => 'Background Gray12',
+    'p-margin-bottom-75' => 'Paragraph Element Margin Bottom 75%',
     'image__xs' => 'Image XS',
     'image__sm' => 'Image SM',
     'image__md' => 'Image MD',

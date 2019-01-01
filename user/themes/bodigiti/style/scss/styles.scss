@@ -13,7 +13,7 @@
 
 @import "base/base--normalize";
 @import "base/base--normalize-bodigiti";
-@import "base/base--font-assignment";
+@import "base/base--typography";
 @import "base/base--image";
 @import "base/base--link";
 @import "base/base--list";
@@ -85,7 +85,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 @import "components-and-base-support/base--border";
 @import "components-and-base-support/base--color--background-and-text";
-@import "components-and-base-support/base--font-weight--font-size--override";
+@import "components-and-base-support/base--typography--override";
 @import "components-and-base-support/base--margin-and-padding";
 
 ////////////////////////////////////////////////////////////////////////////////
