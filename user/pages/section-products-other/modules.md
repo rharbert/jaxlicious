@@ -9,7 +9,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# Order in Quantities of 10'
                 text_image__textarea: "<h2 class=\"h2-thin\">Chocolate Bars are Great for Personal and Employee Gifts</h2>\r\n(also available at wholesale for retailers)"
-                module_styles__text_child: 'mt-0 mt-md-4 pt-4 prl-1 pb-1 pt-md-2 mb-0'
+                module_styles__text_child: 'mt-0 mb-0 pt-2 pt-md-2 pb-1 prl-1'
                 module_styles__select_child:
                     - width__100
                     - background__5a
