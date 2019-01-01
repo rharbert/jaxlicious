@@ -38,7 +38,7 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: prl_children_sm-1
+        module_styles__text: 'col_children_sm-6 prl_children_sm-1'
         module_isotope: '0'
         module_published: '1'
     -
@@ -64,7 +64,6 @@ module:
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -75,7 +74,6 @@ module:
                 text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jay'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -86,7 +84,6 @@ module:
                 text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
                 text_image__caption: '#### Chocolate bar featuring Jes'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -97,11 +94,10 @@ module:
                 text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
                 text_image__caption: '#### Chocolate bar featuring Jen'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: product-grid
+        module_styles__text: 'col_children_sm-6 prl_children_sm-1'
         module_isotope: '0'
         module_published: '1'
     -
@@ -127,7 +123,6 @@ module:
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -138,7 +133,6 @@ module:
                 text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jay'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -149,7 +143,6 @@ module:
                 text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
                 text_image__caption: '#### Chocolate bar featuring Jes'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -160,10 +153,10 @@ module:
                 text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
                 text_image__caption: '#### Chocolate bar featuring Jen'
                 text_image__textarea: ''
-                module_styles__text_child: 'product col-6 col-sm-12 col-md-9'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
+        module_styles__text: 'col_children_sm-6 prl_children_sm-1'
         module_isotope: '0'
         module_published: '1'
     -
