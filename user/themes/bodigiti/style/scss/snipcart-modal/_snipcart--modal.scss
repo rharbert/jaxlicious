@@ -17,6 +17,9 @@
   th, td, h2, p, .snip-quantity-trigger__text, .snip-quantity-trigger__btn--minus, .snip-quantity-trigger__btn--add {
     color: $color7 !important;
   }
+  .snip-form__error {
+    color: $color2 !important;
+  }
 }
 
 #snipcart-header {

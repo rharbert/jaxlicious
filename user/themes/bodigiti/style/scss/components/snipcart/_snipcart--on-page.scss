@@ -11,13 +11,12 @@
   right: 0;
   z-index: 700;
   &.cart-not-empty {
-    background-color: $color9a;
+    background-color: $color9;
+    border: 1px solid $color9;
+    border-radius: 6px;
   }
-  @include breakpoint($size-lg) {
-    padding-left: 1rem;
-  }
-  @include breakpoint($size-2x) {
-    margin: 7.75rem 1rem 0 0;
+  @include breakpoint($size-xl) {
+    margin: 4rem 1rem 0 0;
   }
 }
 //
