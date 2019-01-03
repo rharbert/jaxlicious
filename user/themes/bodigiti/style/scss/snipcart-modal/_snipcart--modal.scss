@@ -3,24 +3,51 @@
 // Snipcart: Modal (snipcart component)
 ////////////////////////////////////////////////////////////////////////////////
 
+.snip-layout {
+  .snip-static__title {
+    color: $color7;
+  }
+  .snip-btn {
+    color: $color2;
+    background: $color9;
+    &:hover {
+      background: $color9a;
+    }
+  }
+  th, td, h2, p, .snip-quantity-trigger__text, .snip-quantity-trigger__btn--minus, .snip-quantity-trigger__btn--add {
+    color: $color7 !important;
+  }
+}
+
+#snipcart-header {
+  background: $color10a;
+    // Title areas "My Cart"
+  .snip-header__title {
+    font-size: 14px;
+    color: $color2 !important; // Must add !important to override above !important
+    left: 1.25em;
+    line-height: 105px;
+  }
+  .snip-header__total {
+    background: $color9;
+  }
+  // Subtotal
+  .snip-header__total-label {
+    color: $color2;
+  }
+  #snipcart-amount {
+    color: $color2;
+  }
+}
+
 // Thumbnail image
-.snip-layout .snip-product__thumbnail {
+#snipcart-sub-content .snip-product__thumbnail {
   display: block; // snipcart default is display non until larger breakpoint
   width: 120px;
   height: auto;
 }
+
 // Powered by Snipcart
 #snipcart-footer {
   display: none;
-}
-// Title areas "My Cart"
-.snip-layout .snip-header__title {
-  font-size: 14px;
-  color: $color2;
-  left: 1.25em;
-  line-height: 105px;
-}
-// Subtotal
-.snip-layout #snipcart-amount {
-  color: $color2;
 }
