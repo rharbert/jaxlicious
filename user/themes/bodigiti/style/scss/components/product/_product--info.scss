@@ -57,7 +57,7 @@
     }
   }
   button.js-add-item {
-    @include font-size-only($font-small)
+    @include font-size-only($font-small);
     color: $color2;
     background: $color6;
     border-style: none;
