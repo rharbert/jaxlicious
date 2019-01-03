@@ -24,7 +24,7 @@ module:
                 text_image__image: DSC03676-cropped-800-high-red.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
-                text_image__textarea: " <div class=\"product-cart-button\">\r\n        <button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item\"\r\n          data-item-id=\"choc-1\"\r\n          data-item-name=\"Milk Chocolate Bar\"\r\n          data-item-price=\"$432.00\"\r\n          data-item-quantity=\"1\"\r\n          data-item-url=\"http://localhost:8008\"\r\n          data-item-image=\"\"\r\n          data-item-description=\"Case of 144 3.0 oz milk chocolate bars\"\r\n          >add to cart</button> <!-- Closes opening button element with '>' -->\r\n</div> <!-- End Snipcart Add-to-cart Button -->"
+                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item" data-item-id="choc-001" data-item-name="3.0 oz Milk Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="http://localhost:8008" data-item-image="http://localhost:8008/images/a/3/e/9/d/a3e9d0f8368bdecd8804d566320ebef7b022d038-womens-beverly-hills-boxing-club-tshirt-web-min.jpeg" data-item-description="Case of 144 Bars">add to cart</button>'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -34,7 +34,7 @@ module:
                 text_image__image: DSC03676-cropped-800-high-blue.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
-                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item" data-item-id="bhbc-001" data-item-name="Ladies Black V Neck T Shirt" data-item-price="39.99" data-item-quantity="1" data-item-url="http://localhost:8008/shop/ladies-vneck-tshirt" data-item-image="http://localhost:8008/images/a/3/e/9/d/a3e9d0f8368bdecd8804d566320ebef7b022d038-womens-beverly-hills-boxing-club-tshirt-web-min.jpeg" data-item-description="bhbc-001" data-item-custom1-name="Size" data-item-custom1-options="XS|S|M|L|XL|XXL">add to cart</button>'
+                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item" data-item-id="choc-002" data-item-name="3.0 oz Dark Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="http://localhost:8008" data-item-image="http://localhost:8008/images/a/3/e/9/d/a3e9d0f8368bdecd8804d566320ebef7b022d038-womens-beverly-hills-boxing-club-tshirt-web-min.jpeg" data-item-description="Case of 144 Bars">add to cart</button>'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
