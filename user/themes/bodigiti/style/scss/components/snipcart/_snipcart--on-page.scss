@@ -4,21 +4,14 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 #snipcart-wrapper {
-  display: none !important;
   height: 48px;
   height: 3rem;
   position: absolute;
   top: 0;
   right: 0;
   z-index: 700;
-  &:hover {
-    text-decoration: none;
-    background-color: $color3;
-    background-color: rgba(0, 0, 0, 0.8);
-  }
   &.cart-not-empty {
-    background-color: $color3;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: $color9a;
   }
   @include breakpoint($size-lg) {
     padding-left: 1rem;
@@ -36,16 +29,17 @@
   margin-right: 16px;
   margin-right: .5rem;
   a {
-    color: $color5;
+    color: $color2;
     @include font-size($font-base);
     text-decoration: none;
     &:hover {
       text-decoration: none;
-      color: $color5;
+      color: $color2;
     }
   }
   .snipcart-user-email {
     font-weight: $font-weight-regular;
+    color: $color2;
     height: 100%;
     padding-top: 12px;
     padding-top: .75rem;
@@ -78,7 +72,7 @@
     background-position: 15px center;
   }
   .snipcart-summary {
-    color: $color4;
+    color: $color2;
     height: 100%;
     float: right;
     padding-top: 12px;
