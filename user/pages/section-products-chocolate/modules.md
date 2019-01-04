@@ -24,7 +24,7 @@ module:
                 text_image__image: DSC03676-cropped-800-high-red.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
-                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item button__sm" data-item-id="choc-001" data-item-name="3.0 oz Milk Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="http://localhost:8008" data-item-image="http://localhost:8008/images/a/3/e/9/d/a3e9d0f8368bdecd8804d566320ebef7b022d038-womens-beverly-hills-boxing-club-tshirt-web-min.jpeg" data-item-description="Case of 144 Bars">add to cart</button>'
+                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item button__sm" data-item-id="choc-001" data-item-name="3.0 oz Milk Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="/" data-item-image="/user/pages/section-products-chocolate/DSC03676-cropped-800-high-red_CART.jpg" data-item-description="Case of 144 Bars">add to cart</button>'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -34,7 +34,7 @@ module:
                 text_image__image: DSC03676-cropped-800-high-blue.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
-                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item button__sm" data-item-id="choc-002" data-item-name="3.0 oz Dark Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="http://localhost:8008" data-item-image="http://localhost:8008/images/a/3/e/9/d/a3e9d0f8368bdecd8804d566320ebef7b022d038-womens-beverly-hills-boxing-club-tshirt-web-min.jpeg" data-item-description="Case of 144 Bars">add to cart</button>'
+                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item button__sm" data-item-id="choc-002" data-item-name="3.0 oz Dark Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="/" data-item-image="/user/pages/section-products-chocolate/DSC03676-cropped-800-high-blue_CART.jpg" data-item-description="Case of 144 Bars">add to cart</button>'
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -119,7 +119,7 @@ module:
             -
                 module__admin_title_child: Jax
                 module_type: module__text_image
-                text_image__image: DSC03599-cropped-800-high.jpg
+                text_image__image: DSC03599-cropped-800-high-DARK.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jax'
                 text_image__textarea: ''
@@ -129,7 +129,7 @@ module:
             -
                 module__admin_title_child: Jay
                 module_type: module__text_image
-                text_image__image: DSC03602-cropped-800-high.jpg
+                text_image__image: DSC03602-cropped-800-high-DARK.jpg
                 text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
                 text_image__caption: '#### Chocolate bar featuring Jay'
                 text_image__textarea: ''
@@ -139,7 +139,7 @@ module:
             -
                 module__admin_title_child: Jes
                 module_type: module__text_image
-                text_image__image: DSC03600-cropped-800-high.jpg
+                text_image__image: DSC03600-cropped-800-high-DARK.jpg
                 text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
                 text_image__caption: '#### Chocolate bar featuring Jes'
                 text_image__textarea: ''
@@ -149,7 +149,7 @@ module:
             -
                 module__admin_title_child: Jen
                 module_type: module__text_image
-                text_image__image: DSC03601-cropped-800-high.jpg
+                text_image__image: DSC03601-cropped-800-high-DARK.jpg
                 text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
                 text_image__caption: '#### Chocolate bar featuring Jen'
                 text_image__textarea: ''
@@ -171,7 +171,7 @@ module:
                     - contain-outer__2x
         module_isotope: '0'
         module_published: '1'
-media_order: 'DSC03599-cropped-2-800.jpg,DSC03600-cropped-2-800.jpg,DSC03601-cropped-2-800.jpg,DSC03602-cropped-2-800.jpg'
+media_order: 'DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03676-cropped-800-high-red.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03599-cropped-800-high-DARK.jpg,DSC03600-cropped-800-high-DARK.jpg,DSC03601-cropped-800-high-DARK.jpg,DSC03602-cropped-800-high-DARK.jpg,DSC03599-cropped-800-high-DARK_CART.jpg,DSC03600-cropped-800-high-DARK_CART.jpg,DSC03601-cropped-800-high-DARK_CART.jpg,DSC03602-cropped-800-high-DARK_CART.jpg,DSC03676-cropped-800-high-blue_CART.jpg,DSC03676-cropped-800-high-red_CART.jpg'
 published: false
 meta_robots:
     noindex: true
