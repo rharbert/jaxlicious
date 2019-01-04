@@ -90,7 +90,7 @@ module:
         module_isotope: '0'
         module_published: '1'
 hero__size_class: hero-default
-media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03828-800.jpg,DSC03693-cropped-1920-high.jpg,DSC03706-cropped-1920-high.jpg,DSC03687-cropped-1920-high.jpg,DSC03703-cropped-980-high.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03676-cropped-800-high-red.jpg,DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03828_cropped-1000-web.jpg,DSC03693-cropped-4000-medium.jpg'
+media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03706-cropped-1920-high.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03676-cropped-800-high-red.jpg,DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03828_cropped-1000-web.jpg,DSC03693-cropped-4000-medium.jpg'
 published: true
 body_classes: front-page
 process:
