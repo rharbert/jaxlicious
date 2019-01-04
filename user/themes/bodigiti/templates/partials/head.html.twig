@@ -2,13 +2,12 @@
 {% block head %}
   <meta charset="utf-8" />
   <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
-  <link rel="shortcut icon" type="image/png" href="/user/themes/bodigiti/images/favicon-jaxlicious.jpg"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#231F20"/><!-- Mobile Chrome, Firefox OS and Opera -->
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   {% include 'partials/metadata.html.twig' %}
-  <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+  <link rel="shortcut icon" type="image/png" href="{{ url('theme://images/favicon.jpg') }}" />
   <link rel="canonical" href="{{ page.url(true, true) }}" />
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
