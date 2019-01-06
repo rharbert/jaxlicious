@@ -4,6 +4,7 @@ require('es6-promise').polyfill();
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 let cleanCSS = require('gulp-clean-css');
+let uncss = require('gulp-uncss');
 var sourcemaps = require('gulp-sourcemaps');
 var prefix = require('gulp-autoprefixer');
 var watch = require('gulp-watch');
@@ -34,11 +35,32 @@ gulp.task('sass-prod', function() {
     .pipe(gulp.dest('style/css'));
 })
 
+// UNCSS
+// https://www.fourkitchens.com/blog/article/use-gulp-and-uncss-slim-down-your-css-framework/
+gulp.task('uncss', function() {
+  return gulp.src([
+      'style/css/styles.css'
+    ])
+    .pipe(uncss({
+      html: [
+        'http://localhost:8000/'
+      ]
+    }))
+    .pipe(gulp.dest('style/css'));
+});
+
 // CSS Minify
 gulp.task('minify-css', () => {
   return gulp.src('style/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('style/css'));
+});
+
+// CSS Minify UNCSS
+gulp.task('minify-uncss', () => {
+  return gulp.src('style/css/uncss/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('style/css/uncss'));
 });
 
 // Watch
