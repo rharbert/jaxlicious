@@ -16,9 +16,9 @@ $screen-width: (
   $size-lg: lg,
   $size-xl: xl,
   $size-2x: 2x
- );
+);
 
- @each $screen-width, $size in $screen-width {
+@each $screen-width, $size in $screen-width {
   @media (min-width: #{$screen-width}) {
     // 
     // Solid
@@ -66,7 +66,7 @@ $screen-width: (
   }
 }
 
-$colors: 
+$colors: (
   black $color1,
   white $color2,
   brown $color4,
@@ -76,9 +76,9 @@ $colors:
   yellow $color8a,
   green $color9a,
   orange $color10a
-;
+);
 
- @each $color in $colors {
+@each $color in $colors {
   .b-#{nth($color, 1)}, .b-#{nth($color, 1)}-children .paragraph { border-color: nth($color, 2); }
 }
 

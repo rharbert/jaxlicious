@@ -83,10 +83,12 @@
 // Base Overrides + Components Support
 // Load after components to allow inline and modules/paragraphs to override
 ////////////////////////////////////////////////////////////////////////////////
-@import "components-and-base-support/base--border";
+//@import "components-and-base-support/base--border";
 @import "components-and-base-support/base--color--background-and-text";
 @import "components-and-base-support/base--typography--override";
 @import "components-and-base-support/base--margin-and-padding";
+// JAX SPECIFIC
+@import "components-and-base-support/jax--border";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Regions
