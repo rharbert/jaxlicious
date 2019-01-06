@@ -3,10 +3,11 @@
 require('es6-promise').polyfill();
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
+var sourcemaps = require('gulp-sourcemaps');
 let cleanCSS = require('gulp-clean-css');
 let uncss = require('gulp-uncss');
-var sourcemaps = require('gulp-sourcemaps');
-var prefix = require('gulp-autoprefixer');
+let uglifyJS = require('gulp-uglify'); // Minimizes JS
 var watch = require('gulp-watch');
 var del = require('del');
 var spritesmith = require('gulp.spritesmith');
@@ -49,19 +50,23 @@ gulp.task('uncss', function() {
     .pipe(gulp.dest('style/css'));
 });
 
-// CSS Minify
+// Minify CSS
 gulp.task('minify-css', () => {
   return gulp.src('style/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('style/css'));
 });
 
-// CSS Minify UNCSS
-gulp.task('minify-uncss', () => {
-  return gulp.src('style/css/uncss/*.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('style/css/uncss'));
+// Minify JS
+// Gulp task to minify JavaScript files
+gulp.task('scripts', function() {
+  return gulp.src('js/source/*.js')
+    // Minify the file
+    .pipe(uglifyJS())
+    // Output
+    .pipe(gulp.dest('js/dist'))
 });
+
 
 // Watch
 gulp.task('watch', function() {
