@@ -2,35 +2,36 @@
 // Menu Header (component)
 ////////////////////////////////////////////////////////////////////////////////
 
-header {
-  .menu-list {
-    @include breakpoint($size-md) {
+header .menu-list {
+  @include breakpoint($size-md) {
+    display: flex;
+    justify-content: center; 
+  }
+  li {
+    text-align: center;
+    list-style-type: none;
+    @include breakpoint($size-sm-plus) {
+      padding: .5rem 2rem;
+    }
+  }
+  a {
+    text-decoration: none;
+    font-weight: $font-weight-medium;
+    font-size: 75%;
+    color: $color2;
+    &:hover {
+      color: $color4;
+    }
+    @include breakpoint($size-xs) {
+      font-size: 80%;}
+    @include breakpoint($size-sm-plus) {
       display: flex;
-      justify-content: center; 
-    }
-    li {
-      text-align: center;
-      list-style-type: none;
-      @include breakpoint($size-sm-plus) {
-        padding: .5rem 2rem;
-      }
-    }
-    a {
-      text-decoration: none;
-      font-weight: $font-weight-medium;
-      font-size: 75%;
-      color: $color2;
-      &:hover {
-        color: $color4;
-      }
-      @include breakpoint($size-xs) {
-        font-size: 80%;}
-      @include breakpoint($size-sm-plus) {
-        display: flex;
-        align-items: center; 
-        font-size: 120%;}
-    }
-  } 
+      align-items: center; 
+      font-size: 120%;}
+  }
+  .nav-icon {
+    width: 20px;
+  }
 }
 
 // .logo-and-nav {
@@ -40,24 +41,4 @@ header {
 //   }
 // }
 
-#logo {
-  width: 100%;
-  padding-top: .5rem;
-  text-align: center;
-  @include breakpoint($size-xl) {
-    padding-top: 0;}
-  img {
-    margin: 0 auto;
-    max-width: 40%;
-    @include breakpoint($size-xl) {
-      position: absolute;
-      max-width: 12%;
-      left: 1%;
-      top: 3%;
-    }
-  }
-}
 
-.nav-icon {
-  width: 20px;
-}

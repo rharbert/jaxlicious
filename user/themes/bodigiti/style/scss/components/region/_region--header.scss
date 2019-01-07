@@ -12,42 +12,75 @@
   // @include breakpoint($size-lg) {
   //   padding-top: 1.5rem;
   //   margin-bottom: 1.5rem;
-  }
-  .header-inner {
-    nav {
-      margin: 0 auto;
-      max-width: 1000px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+//      margin: 0 auto;
+//      max-width: 1000px;
+    #logo {
+  //    flex-grow: 1;
+      height: 52px;
+    //  width: 100%;
+      padding-top: .5rem;
+      text-align: center;
+      @include breakpoint($size-sm) {
+        padding-top: 0;
+      }
+      img {
+      //  margin: 0 auto;
+        height: 100%;
+        max-width: 300px;
+        @include breakpoint($size-xl) {
+    //     position: absolute;
+    //     max-width: 12%;
+    //     left: 1%;
+    //     top: 3%;
+        }
+      }
+
+    }
+    .menu-list {
+//      flex-grow: 2;
+    }
+    #snipcart-wrapper {
+ //     flex-grow: 1;
     }
   }
-  .hamburger-and-cart {
-    background: $color3;
-    height: 3rem;
-    padding-bottom: .75rem;
-    @include breakpoint($size-lg) {
-      background: none;
-      float: right;
-      height: 0;
-      padding: 0;
-    }
-    @include breakpoint($size-2x) {
-      background: none;
-      float: none;
-    }
+}
+
+
+
+/*
+
+.hamburger-and-cart {
+  background: $color3;
+  height: 3rem;
+  padding-bottom: .75rem;
+  @include breakpoint($size-lg) {
+    background: none;
+    float: right;
+    height: 0;
+    padding: 0;
   }
-  .hamburger {
-    padding: .9rem;
-    @include breakpoint($size-lg) {
-      display: none;
-    }
+  @include breakpoint($size-2x) {
+    background: none;
+    float: none;
   }
-  .hamburger-inner {
-    @include breakpoint($size-lg) {
-      display: none;
-    }
+}
+.hamburger {
+  padding: .9rem;
+  @include breakpoint($size-lg) {
+    display: none;
   }
-  .hamburger.is-active ~ .logo-and-nav {
-    margin-top: 2.8em;
+}
+.hamburger-inner {
+  @include breakpoint($size-lg) {
+    display: none;
   }
+}
+.hamburger.is-active ~ .logo-and-nav {
+  margin-top: 2.8em;
+}
 
 .header-transparent .header:not(.scrolled) {
     background: none;
@@ -63,3 +96,4 @@
   }
 }
 
+*/

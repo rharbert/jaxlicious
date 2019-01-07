@@ -4,13 +4,13 @@
       <div id="logo">
         <a href="/"><img src="/user/themes/bodigiti/images/logo-text-jaxlicious-regular.svg" alt="Jaxlicious logo" /></a>
       </div>
-      {% block header_login_and_cart %}
-        {% include 'shop/cart.html.twig' %}
-      {% endblock %}
       {% block header_navigation %}
         <ul class="menu-list">
           {% include 'partials/navigation.html.twig' %}
         </ul>
+      {% endblock %}
+      {% block header_login_and_cart %}
+        {% include 'shop/cart.html.twig' %}
       {% endblock %}
       </nav>
     {% if config.plugins.login.enabled and grav.user.username %}
