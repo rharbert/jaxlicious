@@ -29,9 +29,9 @@
     img {
       height: 30px;
       max-width: 100%;
-      padding-left: 15px; /* match cart inner padding-right 15px */
+      padding: 0 7px; /* match cart inner padding-right 15px */
       @include breakpoint($size-sm) { 
-        padding-left: 15px; /* match cart inner padding-right 15px */
+        padding: 0 0 0 15px; /* match cart inner padding-right 15px */
       }
     }
   }
