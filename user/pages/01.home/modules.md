@@ -59,7 +59,7 @@ module:
                 module_type: module__text_image
                 text_image__title: '# The Jaxlicious Story '
                 text_image__subtitle: '<a class="negate" id="about" name="about"></a>'
-                text_image__textarea: "One fine day, Jax was happily walking along eating his favorite chocolates. Along came Jay.\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"\r\nJax and Jay became good friends, and they eat chocolate almost everyday.\r\nAfter becoming friends with Jess and Jen, they all decided to get together to create **chocolate bars for everyone**."
+                text_image__textarea: "One fine day, Jax was happily walking along the St. Johns River eating his favorite chocolates. Along came Jay.\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"\r\nJax and Jay became good friends, and they eat chocolate almost everyday.\r\nAfter becoming friends with Jes and Jen, they all decided to get together to create **chocolate bars for everyone**."
                 module_styles__text_child: 'ptb-3 prl-1 prl-lg-3 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
                     - width__100
