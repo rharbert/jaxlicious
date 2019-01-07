@@ -3,42 +3,39 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 header .menu-list {
-  @include breakpoint($size-md) {
-    display: flex;
-    justify-content: center; 
-  }
   li {
     text-align: center;
     list-style-type: none;
-    @include breakpoint($size-sm-plus) {
-      padding: .5rem 2rem;
+    display: flex; /* vertical align li */
+    margin: 0 auto;
+    @include breakpoint($size-sm) {
+      padding: .5rem 1rem;
+      margin: 0;
     }
   }
   a {
     text-decoration: none;
     font-weight: $font-weight-medium;
-    font-size: 75%;
     color: $color2;
     &:hover {
       color: $color4;
     }
-    @include breakpoint($size-xs) {
-      font-size: 80%;}
-    @include breakpoint($size-sm-plus) {
+    @include breakpoint($size-sm) {
       display: flex;
       align-items: center; 
-      font-size: 120%;}
+    }
+    @include breakpoint($size-lg) {
+      display: flex;
+      align-items: center; 
+      font-size: 90%;
+    }
+    @include breakpoint($size-xl) {
+      display: flex;
+      align-items: center; 
+      font-size: 120%;
+    }
   }
   .nav-icon {
     width: 20px;
   }
 }
-
-// .logo-and-nav {
-//   @include breakpoint($size-sm-plus) {
-//     display: flex;
-//     align-items: space-around;
-//   }
-// }
-
-

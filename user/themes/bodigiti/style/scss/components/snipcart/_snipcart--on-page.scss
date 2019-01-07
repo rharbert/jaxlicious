@@ -7,7 +7,7 @@
   height: 52px;
   z-index: 700;
   display: flex;
-  &.cart-not-empty {
+  &.cart-not-empty .snipcart-cart-and-count {
     background-color: $color9;
     border: 1px solid $color9;
     //border-radius: 6px;
@@ -15,12 +15,7 @@
       background-color: $color9a;
     }
   }
-  @include breakpoint($size-sm) {
-//    margin: 0 1rem 0 0;
-//    position: absolute;
-//    top: 0;
-//    right: 0;
-  }
+
 }
 //
 // Account/Login
@@ -52,7 +47,6 @@
 //
 .snipcart-cart-and-count {
   font-weight: $font-weight-regular;
-  float: left;
   height: 100%;
   width: 100%;
   a {
@@ -60,8 +54,9 @@
     @include font-size($font-base);
   }
   .snipcart-cart {
-    width: 8.125rem;
+    width: 7.75rem;
     margin: 0 auto;
+    margin-right: 0;
     //
     // Before applying Background, set height 100% so background is visible
     //

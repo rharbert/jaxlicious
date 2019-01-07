@@ -1,53 +1,67 @@
 
-////////////////////////////////////////////////////////////////////////////////
-// Header (region component)
-////////////////////////////////////////////////////////////////////////////////
-
 .header {
   background-color: $color5a;
   border-bottom: none;
   font-weight: $font-weight-light;
   width: 100%;
-//  margin-bottom: 0.75rem;
-  // @include breakpoint($size-lg) {
-  //   padding-top: 1.5rem;
-  //   margin-bottom: 1.5rem;
   nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-//      margin: 0 auto;
-//      max-width: 1000px;
-    #logo {
-  //    flex-grow: 1;
-      height: 52px;
-    //  width: 100%;
-      padding-top: .5rem;
-      text-align: center;
-      @include breakpoint($size-sm) {
-        padding-top: 0;
-      }
-      img {
-      //  margin: 0 auto;
-        height: 100%;
-        max-width: 300px;
-        @include breakpoint($size-xl) {
-    //     position: absolute;
-    //     max-width: 12%;
-    //     left: 1%;
-    //     top: 3%;
-        }
-      }
-
+    @include breakpoint($size-lg) {
+      flex-direction: row;
     }
-    .menu-list {
-//      flex-grow: 2;
+  }
+  #logo {
+    background: $color6a;
+    height: 52px; /* match height with #snipcart-wrapper */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    @include breakpoint($size-lg) {
+      background: none;
+      width: auto;
+      order: 1; /* flex order */
     }
-    #snipcart-wrapper {
- //     flex-grow: 1;
+    a {
+      display: flex;
+    }
+    img {
+      height: 30px;
+      max-width: 100%;
+      padding-left: 15px; /* match cart inner padding-right 15px */
+      @include breakpoint($size-sm) { 
+        padding-left: 15px; /* match cart inner padding-right 15px */
+      }
+    }
+  }
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 0;
+    @include breakpoint($size-sm) {
+      flex-direction: row;
+      padding: 0;
+    }
+    @include breakpoint($size-lg) {
+      order: 2; /* flex order */
+    }
+  }
+  #snipcart-wrapper {
+    height: 52px; /* match height with #logo */
+    background: $color6a;
+    position: absolute;
+    right: 0;
+    width: 40%;
+    @include breakpoint($size-lg) {
+      background: none;
+      width: auto;
+      position: relative;
+      order: 3; /* flex order */
     }
   }
 }
-
 
 
 /*
