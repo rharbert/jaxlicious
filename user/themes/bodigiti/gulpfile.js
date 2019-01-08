@@ -32,7 +32,7 @@ gulp.task('sass-prod', function() {
         errLogToConsole: true
         }))
     .on('error', swallowError)
-    .pipe(prefix('last 2 versions', '>1%', 'ie 8'))
+    .pipe(prefix('last 2 versions', '>1%', 'ie 8')) 
     .pipe(gulp.dest('style/css'));
 })
 
@@ -48,6 +48,10 @@ gulp.task('uncss', function() {
         'http://localhost:8000/'
       ]
     }))
+    // Prefixes here after uncss because uncss delete prefixes since the prefixes
+    // do not appear in chrome browser 'localhost:8000' where uncss is looking for
+    // css selectors to keep
+    .pipe(prefix('last 2 versions', '>1%', 'ie 8')) 
     .pipe(gulp.dest('style/css'));
 });
 
