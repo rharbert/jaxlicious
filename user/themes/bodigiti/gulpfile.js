@@ -46,11 +46,19 @@ gulp.task('sass-prod', function() {
 // UNCSS
 // https://github.com/uncss/uncss#within-nodejs
 // https://www.fourkitchens.com/blog/article/use-gulp-and-uncss-slim-down-your-css-framework/
+//
+// IMPORTANT
+// add 'ignore' css selectors for those that are added to page by JS or the css
+// selectors will be deleted even though they are needed
+//
 gulp.task('uncss', function() {
   return gulp.src([
       'style/css/styles.css'
     ])
     .pipe(uncss({
+      ignore: [
+        '.snipcart-wrapper.cart-not-empty'
+      ],
       html: [
         'http://localhost:8000/'
       ]
