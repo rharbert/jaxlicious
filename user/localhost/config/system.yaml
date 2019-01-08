@@ -108,7 +108,7 @@ errors:
   display: '1'
   log: true
 debugger:
-  enabled: true
+  enabled: false
   shutdown:
     close_connection: true
   twig: true
@@ -121,7 +121,7 @@ images:
 media:
   enable_media_timestamp: false
   auto_metadata_exif: false
-  upload_limit: 2097152
+  upload_limit: 8388608
 session:
   enabled: true
   initialize: true
