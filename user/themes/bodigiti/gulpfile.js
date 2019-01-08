@@ -11,6 +11,12 @@ let uglifyJS = require('gulp-uglify'); // Minimizes JS
 var watch = require('gulp-watch');
 var del = require('del');
 var spritesmith = require('gulp.spritesmith');
+////
+// Run Sequence
+// Sequentially run tasks
+// https://www.npmjs.com/package/run-sequence
+// https://stackoverflow.com/questions/22824546/how-to-run-gulp-tasks-sequentially-one-after-the-other
+var runSequence = require('run-sequence');
 
 // Sass
 gulp.task('sass', function() {
@@ -18,7 +24,8 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init()) // Initialize sourcemaps
     .pipe(sass({
         errLogToConsole: true
-        }))
+      })
+    )
     .on('error', swallowError)
     .pipe(prefix('last 2 versions', '>1%', 'ie 8'))
     .pipe(sourcemaps.write()) // Writes sourcemaps into the CSS file
@@ -56,7 +63,7 @@ gulp.task('uncss', function() {
 });
 
 // Minify CSS
-gulp.task('minify-css', () => {
+gulp.task('minify-css', function() {
   return gulp.src('style/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('style/css'));
@@ -86,6 +93,13 @@ gulp.task('clean', function(cb) {
 
 // Default
 gulp.task('default', ['sass', 'watch']);
+
+// Run Tasks sequentially with 'runSequence' module so mifiy runs after uncss and not before
+gulp.task('dist', function(done) {
+  runSequence('sass-prod', 'uncss', 'minify-css', 'scripts', function() {
+      done();
+  });
+});
 
 // Sprite
 gulp.task('sprite', function() {
