@@ -26,7 +26,7 @@ function successMessage(jsClass) {
 function submitFormContact(formContact){
   formContact.preventDefault();
   $.ajax({
-    url:'https://us-central1-earring-happiness.cloudfunctions.net/contactFormSubmit',
+    url:'https://us-central1-jaxlicious-prod.cloudfunctions.net/contactFormSubmit',
     type:'post',
     data:$('#contact').serialize(),
     success:function(data){
