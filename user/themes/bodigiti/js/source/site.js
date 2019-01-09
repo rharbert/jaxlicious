@@ -9,7 +9,7 @@
 function listenForm(formID, submitFormFunction) {
   var formID = document.querySelector(formID);
   if(formID.addEventListener){
-      formID.addEventListener("submit", submitFormFunction, false);  //Modern browsers
+    formID.addEventListener("submit", submitFormFunction, false);  //Modern browsers
   }
 }
 
@@ -30,10 +30,10 @@ function submitFormContact(formContact){
     type:'post',
     data:$('#contact').serialize(),
     success:function(data){
-      // Show/Hide success message via function call
-      successMessage(".js-success.contact");
-      // Clear inputs and textarea of content
-      $("#contact .form-item").val("");
+    // Show/Hide success message via function call
+    successMessage(".js-success.contact");
+    // Clear inputs and textarea of content
+    $("#contact .form-item").val("");
     }
   });
 }
@@ -54,6 +54,7 @@ listenForm('#contact', submitFormContact);
 function onSubmit(token) {
   document.getElementById("contact").submit();
 }
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // jQuery
@@ -124,7 +125,7 @@ jQuery(function($) {
    /////////////////////////////////////////////////////////////////////////////
 
     $('.tags-item').text(function(_, txt) {
-        return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+      return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
     });
 
    /////////////////////////////////////////////////////////////////////////////
