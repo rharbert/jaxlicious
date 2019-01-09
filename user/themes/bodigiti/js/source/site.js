@@ -14,15 +14,10 @@ function listenForm(formID, submitFormFunction) {
 }
 
 // Success Message Function (called after AJAX Success)
-
 function successMessage(jsClass) {
   let elementSuccess = document.querySelectorAll(jsClass);
   $(elementSuccess).show(0).delay(5000).hide(0);
 }
-
-// Function Call:
-// first parameter selects form to listen to, second parameter is function to attach to form
-listenForm('#formContact', submitFormContact);
 
 // Submit Contact Form via AJAX
 // https://us-central1-earring-happiness.cloudfunctions.net/contactFormSubmit
@@ -42,6 +37,10 @@ function submitFormContact(formContact){
     }
   });
 }
+
+// Contact Form: Function Call
+// first parameter selects form to listen to, second parameter is function to attach to form
+listenForm('#contact', submitFormContact);
 
 //
 //
