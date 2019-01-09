@@ -1,5 +1,55 @@
 
 ////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// Contact Form: Submit to database to send on to email address
+//
+//
+
+// Form Listener Function called 1) on page load and 2) again after AJAX Success
+function listenForm(formID, submitFormFunction) {
+  var formID = document.querySelector(formID);
+  if(formID.addEventListener){
+      formID.addEventListener("submit", submitFormFunction, false);  //Modern browsers
+  }
+}
+
+// Success Message Function (called after AJAX Success)
+
+function successMessage(jsClass) {
+  let elementSuccess = document.querySelectorAll(jsClass);
+  $(elementSuccess).show(0).delay(5000).hide(0);
+}
+
+// Function Call:
+// first parameter selects form to listen to, second parameter is function to attach to form
+listenForm('#formContact', submitFormContact);
+
+// Submit Contact Form via AJAX
+// https://us-central1-earring-happiness.cloudfunctions.net/contactFormSubmit
+// http://localhost:5001/earring-happiness/us-central1/contactFormSubmit
+
+function submitFormContact(formContact){
+  formContact.preventDefault();
+  $.ajax({
+    url:'https://us-central1-earring-happiness.cloudfunctions.net/contactFormSubmit',
+    type:'post',
+    data:$('#formContact').serialize(),
+    success:function(data){
+      // Show/Hide success message via function call
+      successMessage(".js-success.formContact");
+      // Clear inputs and textarea of content
+      $("#formContact .form-control").val("");
+    }
+  });
+}
+
+//
+//
+// END: Contact Form: Submit to database to send on to email address
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
 // Google reCaptcha
 ////////////////////////////////////////////////////////////////////////////////
 function onSubmit(token) {
