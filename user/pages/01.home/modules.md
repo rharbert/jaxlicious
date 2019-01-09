@@ -29,6 +29,10 @@ module:
                 module__admin_title_child: 'Menu Anchor --> Chocolate & More'
                 module_type: module__text_image
                 text_image__textarea: '<a class="negate" id="chocolate-and-more" name="chocolate-and-more"></a>'
+                module_styles__text_child: mtb-0
+        module_styles__select:
+            - visibility-hide
+            - height-zero
         module_isotope: '0'
         module_published: '1'
     -
@@ -57,7 +61,6 @@ module:
                 content_inject__url: /section-products-other
                 content_inject__type: modules
                 module_styles__text_child: mtb-0
-        module_styles__text: 'mb-3 mb-md-5'
         module_isotope: '0'
         module_published: '1'
     -
@@ -67,6 +70,10 @@ module:
                 module__admin_title_child: 'Menu Anchor for Our Story'
                 module_type: module__text_image
                 text_image__textarea: '<a class="negate" id="our-story" name="our-story"></a>'
+                module_styles__text_child: mtb-0
+        module_styles__select:
+            - visibility-hide
+            - height-zero
         module_isotope: '0'
         module_published: '1'
     -
@@ -85,7 +92,7 @@ module:
                     - background__2
                     - title__center
                     - text-align__justify
-        module_styles__text: 'mrl-xxs mb-2 mb-md-4'
+        module_styles__text: 'mrl-xxs mt-3 mt-md-5'
         module_styles__select:
             - text-color__brown
         module_isotope: '0'
@@ -97,6 +104,10 @@ module:
                 module__admin_title_child: 'Menu Anchor --> Contact'
                 module_type: module__text_image
                 text_image__textarea: '<a class="negate" id="contact-us" name="contact-us"></a>'
+                module_styles__text_child: mtb-0
+        module_styles__select:
+            - visibility-hide
+            - height-zero
         module_isotope: '0'
         module_published: '1'
     -
@@ -112,7 +123,7 @@ module:
                     - width__100
                     - margin-auto__right-left
                     - contain-outer
-        module_styles__text: 'mrl-xxs mb-3 mb-md-5'
+        module_styles__text: 'mrl-xxs mt-2 mt-md-4 mb-3 mb-md-5'
         module_isotope: '0'
         module_published: '1'
 hero__size_class: hero-default

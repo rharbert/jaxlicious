@@ -1,0 +1,16 @@
+
+// 'visibility' Hides stuff without rendering it inaccessible in the DOM, wherease
+// 'display: none' both hides and renders content inaccessible in the DOM
+
+.visibility-hide {
+  visibility: hidden;
+}
+
+.visibility-show {
+  visibility: visible;
+}
+
+// To force 'visibility: hidden' elements to have no height, apply .height-zero
+.height-zero * {
+  height: 0;
+}

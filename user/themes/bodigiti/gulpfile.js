@@ -104,7 +104,7 @@ gulp.task('default', ['sass', 'watch']);
 
 // Run Tasks sequentially with 'runSequence' module so mifiy runs after uncss and not before
 gulp.task('dist', function(done) {
-  runSequence('sass-prod', 'uncss', 'minify-css', 'scripts', function() {
+  runSequence('sass', 'sass-prod', 'uncss', 'minify-css', 'scripts', function() {
       done();
   });
 });
