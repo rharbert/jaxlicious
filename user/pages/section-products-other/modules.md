@@ -27,7 +27,7 @@ module:
                 module__admin_title_child: 'Personal Gifts'
                 module_type: module__text_image
                 text_image__title: 'Personal Gifts'
-                text_image__image: chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.png
+                text_image__image: chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.jpg
                 text_image__alt: '6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon'
                 text_image__textarea: ''
                 module_styles__select_child:
@@ -49,7 +49,7 @@ module:
                 module__admin_title_child: 'Employee Gifts'
                 module_type: module__text_image
                 text_image__title: 'Employee Gifts'
-                text_image__image: chocolate-bars-jaxlicious-gift-bag-red.png
+                text_image__image: chocolate-bars-jaxlicious-gift-bag-red.jpg
                 text_image__textarea: ''
                 module_styles__select_child:
                     - p-mb-75
@@ -59,7 +59,7 @@ module:
                 module__admin_title_child: Wholesale
                 module_type: module__text_image
                 text_image__title: Wholesale
-                text_image__image: chocolate-bars-jaxlicious-retail-display.png
+                text_image__image: chocolate-bars-jaxlicious-retail-display.jpg
                 text_image__alt: 'Jaxlicious chocolate bars retail display'
                 text_image__textarea: ''
                 module_styles__select_child:
