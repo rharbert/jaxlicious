@@ -22,6 +22,7 @@
     {% set action = base_url_relative ~ '/' ~ page.slug %}
 {% endif %}
 
+<div class="js-success contact" style="color: rgb(102, 153, 51); font-weight: bold; display: none;">Message Received!</div>
 <form name="{{ form.name }}"
       {# action="{{ action | trim('/', 'right') }}" #}
       method="{{ method }}"{{ multipart }}
@@ -83,3 +84,4 @@
   {% include 'forms/fields/uniqueid/uniqueid.html.twig' %}
   {{ nonce_field('form', 'form-nonce')|raw }}
 </form>
+<div class="js-success contact" style="color: rgb(102, 153, 51); font-weight: bold; display: none;">Message Received!</div>

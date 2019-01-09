@@ -28,12 +28,12 @@ function submitFormContact(formContact){
   $.ajax({
     url:'https://us-central1-earring-happiness.cloudfunctions.net/contactFormSubmit',
     type:'post',
-    data:$('#formContact').serialize(),
+    data:$('#contact').serialize(),
     success:function(data){
       // Show/Hide success message via function call
-      successMessage(".js-success.formContact");
+      successMessage(".js-success.contact");
       // Clear inputs and textarea of content
-      $("#formContact .form-control").val("");
+      $("#contact .form-item").val("");
     }
   });
 }
