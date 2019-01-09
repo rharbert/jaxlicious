@@ -23,6 +23,15 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
+        module__admin_title: 'Menu Anchor --> Chocolate & More'
+        module_list:
+            -
+                module__admin_title_child: 'Menu Anchor --> Chocolate & More'
+                module_type: module__text_image
+                text_image__textarea: '<a class="negate" id="chocolate-and-more-anchor" name="chocolate-and-more-anchor"></a>'
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Products: Chocolate (Content Injected)'
         module_list:
             -
@@ -52,13 +61,21 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
+        module__admin_title: 'Menu Anchor --> Our Story'
+        module_list:
+            -
+                module__admin_title_child: 'Menu Anchor for Our Story'
+                module_type: module__text_image
+                text_image__textarea: '<a class="negate" id="our-story-anchor" name="our-story-anchor"></a>'
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Our Story'
         module_list:
             -
                 module__admin_title_child: 'Our Story '
                 module_type: module__text_image
                 text_image__title: '# The Jaxlicious Story '
-                text_image__subtitle: '<a class="negate" id="about" name="about"></a>'
                 text_image__textarea: "One fine day, Jax was happily walking along the St. Johns River eating his favorite chocolates. Along came Jay.\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"\r\nJax and Jay became good friends, and they eat chocolate almost everyday.\r\nAfter becoming friends with Jes and Jen, they all decided to get together to create **chocolate bars for everyone**."
                 module_styles__text_child: 'ptb-3 prl-1 prl-lg-3 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
@@ -71,6 +88,15 @@ module:
         module_styles__text: 'mrl-xxs mb-2 mb-md-4'
         module_styles__select:
             - text-color__brown
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: 'Menu Anchor --> Contact'
+        module_list:
+            -
+                module__admin_title_child: 'Menu Anchor --> Contact Form'
+                module_type: module__text_image
+                text_image__textarea: '<a class="negate" id="contact-anchor" name="contact-anchor"></a>'
         module_isotope: '0'
         module_published: '1'
     -

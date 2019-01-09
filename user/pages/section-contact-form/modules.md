@@ -7,8 +7,8 @@ module:
             -
                 module__admin_title_child: 'Title '
                 module_type: module__text_image
-                text_image__title: ' #  Contact Us '
-                text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help! <a class="negate" id="contact-form" name="contact-form"></a>'
+                text_image__title: ' #  Contact Us'
+                text_image__subtitle: 'Have questions? Want to place an order? Let us know how we can help!'
                 text_image__textarea: ''
                 module_styles__text_child: 'col-12 pt-2 pb-0 mb-0 mt-0'
                 module_styles__select_child:
