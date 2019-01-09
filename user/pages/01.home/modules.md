@@ -28,7 +28,7 @@ module:
             -
                 module__admin_title_child: 'Menu Anchor --> Chocolate & More'
                 module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="chocolate-and-more-anchor" name="chocolate-and-more-anchor"></a>'
+                text_image__textarea: '<a class="negate" id="chocolate-and-more" name="chocolate-and-more"></a>'
         module_isotope: '0'
         module_published: '1'
     -
@@ -66,7 +66,7 @@ module:
             -
                 module__admin_title_child: 'Menu Anchor for Our Story'
                 module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="our-story-anchor" name="our-story-anchor"></a>'
+                text_image__textarea: '<a class="negate" id="our-story" name="our-story"></a>'
         module_isotope: '0'
         module_published: '1'
     -
@@ -94,9 +94,9 @@ module:
         module__admin_title: 'Menu Anchor --> Contact'
         module_list:
             -
-                module__admin_title_child: 'Menu Anchor --> Contact Form'
+                module__admin_title_child: 'Menu Anchor --> Contact'
                 module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="contact-anchor" name="contact-anchor"></a>'
+                text_image__textarea: '<a class="negate" id="contact-us" name="contact-us"></a>'
         module_isotope: '0'
         module_published: '1'
     -
