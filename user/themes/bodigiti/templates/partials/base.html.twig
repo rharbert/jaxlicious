@@ -53,12 +53,12 @@
     {% do assets.addJs('jquery', {group: 'bottom'}) %}
 {#    {% do assets.addJs('theme://js/lightslider.js', {group: 'bottom'}) %} #}
     {# Load site.js after Lightslider b/c this overrides/complements lightslider.js #}
-    {% do assets.addJs('theme://js/dist/site.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/dist/site.js', {'loading':'async', group: 'bottom'}) %}
     {# Isotope 2 files isotope + imagesloaded #}
 {#    {% do assets.addJs('theme://js/dist/isotope.pkgd.js', {group: 'bottom'}) %} #}
 {#    {% do assets.addJs('theme://js/dist/imagesloaded.pkgd.js', {group: 'bottom'}) %} #}
-    {% do assets.addJs('https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NWQ0ZGNlODQtZTAwMi00Mjk1LWE3OWUtMjcyMGRjNWVjOTY0NjM2MTIxNDA5NjYzNjA1MzI2', {group: 'snipcart-vendor'}) %}
-    {% do assets.addJs('theme://js/dist/snipcart-custom.js', {group: 'snipcart-custom'}) %}
+    {% do assets.addJs('https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NWQ0ZGNlODQtZTAwMi00Mjk1LWE3OWUtMjcyMGRjNWVjOTY0NjM2MTIxNDA5NjYzNjA1MzI2', {'loading':'async', group: 'snipcart-vendor'}) %}
+    {% do assets.addJs('theme://js/dist/snipcart-custom.js', {'loading':'async', group: 'snipcart-custom'}) %}
 {% endblock %}
 {# Render CSS and JS in order by group, or no group #}
 {% block assets_bottom %}
