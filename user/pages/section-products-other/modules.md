@@ -78,7 +78,7 @@ module:
             -
                 module__admin_title_child: Button
                 module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact" class="button button__md button__contained button__center b-white padding-right-left__md">Contact Us to Place Your Order</a></p>'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact-us" class="button button__md button__contained button__center b-white padding-right-left__md">Contact Us to Place Your Order</a></p>'
                 module_styles__text_child: 'col-12 mtb-0'
                 module_styles__select_child:
                     - contain-outer__sm
