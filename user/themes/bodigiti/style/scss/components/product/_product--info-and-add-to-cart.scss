@@ -1,13 +1,14 @@
 
 button.js-add-item {
-  border-style: none;
-  border-radius: 6px;
-/*
-  @include font-size-only($font-small);
+  font-weight: $font-weight-regular;
+  font-size: $font-base;
   color: $color2;
+  padding: 1rem 1rem;
+  border-style: none;
+  /*
+  border-radius: 6px;
+  @include font-size-only($font-small);
   background: $color6;
-
-  padding: .75rem 2rem;
   margin-top: 2rem;
   width: 100%;
   &:hover {
