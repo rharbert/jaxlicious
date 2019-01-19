@@ -21,20 +21,20 @@ module:
             -
                 module__admin_title_child: 'Chocolate Bar: Red Wrapper with 4 Kids'
                 module_type: module__text_image
-                text_image__image: DSC03676-cropped-800-high-red.jpg
+                text_image__image: four-milk-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Milk Bar with Jax, Jay, Jes, and Jen'
-                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-001\" data-item-name=\"3.5 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/DSC03676-cropped-800-high-red_CART.jpg\" data-item-description=\"Case of 144 Bars\">add to cart</button>"
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-001\" data-item-name=\"3.5 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/four-milk-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-001)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: 'Chocolate Bar: Blue Wrapper with 4 Kids'
                 module_type: module__text_image
-                text_image__image: DSC03676-cropped-800-high-blue.jpg
+                text_image__image: four-dark-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Dark Bar with Jax, Jay, Jes, and Jen'
-                text_image__textarea: "**Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item  polygon-2 background__9\" data-item-id=\"choc-002\" data-item-name=\"3.5 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/DSC03676-cropped-800-high-blue_CART.jpg\" data-item-description=\"Case of 144 Bars\">add to cart</button>"
+                text_image__textarea: "**Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item  polygon-2 background__9\" data-item-id=\"choc-002\" data-item-name=\"3.5 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/four-dark-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-002)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -60,40 +60,40 @@ module:
             -
                 module__admin_title_child: Jax
                 module_type: module__text_image
-                text_image__image: DSC03599-cropped-800-high.jpg
+                text_image__image: jax-milk-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Milk Bar with Jax'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-003\" data-item-name=\"3.5 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jax-milk-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars  (choc-003)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jes
                 module_type: module__text_image
-                text_image__image: DSC03600-cropped-800-high.jpg
+                text_image__image: jes-milk-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
                 text_image__caption: '#### Milk Bar with Jes'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-004\" data-item-name=\"3.5 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jes-milk-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-004)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jen
                 module_type: module__text_image
-                text_image__image: DSC03601-cropped-800-high.jpg
+                text_image__image: jen-milk-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
                 text_image__caption: '#### Milk Bar with Jen'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-005\" data-item-name=\"3.5 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jen-milk-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-005)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jay
                 module_type: module__text_image
-                text_image__image: DSC03602-cropped-800-high.jpg
+                text_image__image: jay-milk-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
                 text_image__caption: '#### Milk Bar with Jay'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-006\" data-item-name=\"3.5 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jay-milk-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-006)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -119,40 +119,40 @@ module:
             -
                 module__admin_title_child: Jax
                 module_type: module__text_image
-                text_image__image: DSC03599-cropped-800-high-DARK.jpg
+                text_image__image: jax-dark-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
                 text_image__caption: '#### Dark Bar with Jax'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-007\" data-item-name=\"3.5 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jax-dark-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-007)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jes
                 module_type: module__text_image
-                text_image__image: DSC03600-cropped-800-high-DARK.jpg
+                text_image__image: jes-dark-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with green wrapper featuring Jes'
                 text_image__caption: '#### Dark Bar with Jes'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-008\" data-item-name=\"3.5 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jes-dark-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-008)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jen
                 module_type: module__text_image
-                text_image__image: DSC03601-cropped-800-high-DARK.jpg
+                text_image__image: jen-dark-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with orange wrapper featuring Jen'
                 text_image__caption: '#### Dark Bar with Jen'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-009\" data-item-name=\"3.5 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jen-dark-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-009)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jay
                 module_type: module__text_image
-                text_image__image: DSC03602-cropped-800-high-DARK.jpg
+                text_image__image: jay-dark-chocolate-bar-jaxlicious-800.jpg
                 text_image__alt: 'Chocolate bar with yellow wrapper featuring Jax'
                 text_image__caption: '#### Dark Bar with Jay'
-                text_image__textarea: ''
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.5 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-010\" data-item-name=\"3.5 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/jay-dark-chocolate-bar-jaxlicious-300.jpg\" data-item-description=\"Case of 144 Bars (choc-010)\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -171,7 +171,7 @@ module:
                     - contain-outer__2x
         module_isotope: '0'
         module_published: '1'
-media_order: 'DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03676-cropped-800-high-red.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03599-cropped-800-high-DARK.jpg,DSC03600-cropped-800-high-DARK.jpg,DSC03601-cropped-800-high-DARK.jpg,DSC03602-cropped-800-high-DARK.jpg,DSC03599-cropped-800-high-DARK_CART.jpg,DSC03600-cropped-800-high-DARK_CART.jpg,DSC03601-cropped-800-high-DARK_CART.jpg,DSC03602-cropped-800-high-DARK_CART.jpg,DSC03676-cropped-800-high-blue_CART.jpg,DSC03676-cropped-800-high-red_CART.jpg'
+media_order: 'DSC03599-cropped-800-high.jpg,DSC03600-cropped-800-high.jpg,DSC03601-cropped-800-high.jpg,DSC03602-cropped-800-high.jpg,DSC03676-cropped-800-high-red.jpg,DSC03676-cropped-800-high-blue.jpg,DSC03599-cropped-800-high-DARK.jpg,DSC03600-cropped-800-high-DARK.jpg,DSC03601-cropped-800-high-DARK.jpg,DSC03602-cropped-800-high-DARK.jpg,DSC03599-cropped-800-high-DARK_CART.jpg,DSC03600-cropped-800-high-DARK_CART.jpg,DSC03601-cropped-800-high-DARK_CART.jpg,DSC03602-cropped-800-high-DARK_CART.jpg,DSC03676-cropped-800-high-blue_CART.jpg,DSC03676-cropped-800-high-red_CART.jpg,DSC03599-cropped-800-high_CART.jpg,DSC03600-cropped-800-high_CART.jpg,DSC03601-cropped-800-high_CART.jpg,DSC03602-cropped-800-high_CART.jpg'
 published: false
 meta_robots:
     noindex: true
