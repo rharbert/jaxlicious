@@ -1,5 +1,5 @@
 ---
-title: 'Shipping & Return Policy'
+title: 'Shipping & Returns'
 module:
     -
         module__admin_title: 'Page content'
@@ -11,7 +11,6 @@ module:
         module_isotope: '0'
         module_published: '1'
 module_styles__select:
-    - margin-top__sm
     - contain-inner
 published: false
 visible: false
