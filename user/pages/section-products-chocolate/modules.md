@@ -23,8 +23,8 @@ module:
                 module_type: module__text_image
                 text_image__image: DSC03676-cropped-800-high-red.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
-                text_image__caption: '#### Chocolate bar featuring Jax'
-                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item button__sm" data-item-id="choc-001" data-item-name="3.0 oz Milk Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="/" data-item-image="/user/pages/section-products-chocolate/DSC03676-cropped-800-high-red_CART.jpg" data-item-description="Case of 144 Bars">add to cart</button>'
+                text_image__caption: '#### Milk Bar with Jax, Jay, Jes, and Jen'
+                text_image__textarea: "**Bulk Order of 144 Milk Chocolate Bars 3.0 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item button__sm\" data-item-id=\"choc-001\" data-item-name=\"3.0 oz Milk Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/DSC03676-cropped-800-high-red_CART.jpg\" data-item-description=\"Case of 144 Bars\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -33,8 +33,8 @@ module:
                 module_type: module__text_image
                 text_image__image: DSC03676-cropped-800-high-blue.jpg
                 text_image__alt: 'Chocolate bar with purple wrapper featuring Jax'
-                text_image__caption: '#### Chocolate bar featuring Jax'
-                text_image__textarea: '<button id="add-to-cart" type="button" class="js-add-item snipcart-add-item button__sm" data-item-id="choc-002" data-item-name="3.0 oz Dark Chocolate Bars" data-item-price="432.00" data-item-quantity="1" data-item-url="/" data-item-image="/user/pages/section-products-chocolate/DSC03676-cropped-800-high-blue_CART.jpg" data-item-description="Case of 144 Bars">add to cart</button>'
+                text_image__caption: '#### Dark Bar with Jax, Jay, Jes, and Jen'
+                text_image__textarea: "**Bulk Order of 144 Dark Chocolate Bars 3.0 OZ each**<br>\r\n**$3.00 Each x 144 = $432**\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item button__sm\" data-item-id=\"choc-002\" data-item-name=\"3.0 oz Dark Chocolate Bars\" data-item-price=\"432.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/DSC03676-cropped-800-high-blue_CART.jpg\" data-item-description=\"Case of 144 Bars\">add to cart</button>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
