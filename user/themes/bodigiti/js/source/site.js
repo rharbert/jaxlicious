@@ -33,7 +33,7 @@ function submitFormContact(formContact){
     // Show/Hide success message via function call
     successMessage(".js-success.contact");
     // Clear inputs and textarea of content
-    $("#contact .form-item").val("");
+    $("#contact .form-item, #contact .form-textarea").val("");
     }
   });
 }
