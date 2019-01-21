@@ -1,5 +1,5 @@
 ---
-title: 'Section Products Bulk Orders'
+title: 'Section Product Ideas'
 module:
     -
         module__admin_title: 'Title + Intro'
@@ -7,7 +7,7 @@ module:
             -
                 module__admin_title_child: 'Title + Intro'
                 module_type: module__text_image
-                text_image__title: '# Order in Quantities of 10'
+                text_image__title: '# Ideas for Jaxlicious'
                 text_image__textarea: "<h2 class=\"h2-thin\">Chocolate Bars are Great for Personal and Employee Gifts</h2>\r\n(also available at wholesale for retailers)"
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
@@ -78,7 +78,7 @@ module:
             -
                 module__admin_title_child: Button
                 module_type: module__text_image
-                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact-us" class="button button__md button__contained button__center b-white padding-right-left__md">Contact Us to Place Your Order</a></p>'
+                text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact-us" class="button button__md button__contained button__center b-white padding-right-left__md">Contact Us for Help</a></p>'
                 module_styles__text_child: 'col-12 mtb-0'
                 module_styles__select_child:
                     - contain-outer__sm
