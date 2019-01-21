@@ -115,7 +115,8 @@ figure {
   margin: 0;
   text-align: center;
 }
-figcaption {
+figcaption,
+.figcaption-alt {
   color: $color1;
   text-align: center;
   padding: .5rem 0 0 0;

@@ -1,6 +1,12 @@
 
 .product-description {
-  margin-top: 1rem;
+  margin: 1.5rem 0;
+  p {
+    margin-bottom: 0;
+  }
+  .figcaption-alt {
+//    margin-bottom: 1.5rem;
+  }
 }
 
 button.js-add-item {
