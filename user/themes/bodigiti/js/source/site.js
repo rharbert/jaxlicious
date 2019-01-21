@@ -92,18 +92,23 @@ jQuery(function($) {
 		});
 	});
 
-	////////////////////////////////////////////////////////////////////////////////
-	// GoToTop Button
-	////////////////////////////////////////////////////////////////////////////////
-	window.onscroll = function() {scrollFunction()};
+  ////////////////////////////////////////////////////////////////////////////////
+  // GoToTop Button
+  ////////////////////////////////////////////////////////////////////////////////
+  window.onscroll = function() {scrollFunction()};
 
-	function scrollFunction() {
-		if ( $(window).width() > 1200 && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("goToTop").style.display = "block";
-		} else {
-			document.getElementById("goToTop").style.display = "none";
-		}
-	}
+  function scrollFunction() {
+    if ( $(window).width() > 1200 && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goToTop").style.display = "block";
+    } else {
+      document.getElementById("goToTop").style.display = "none";
+    }
+  }
+
+  document.getElementById("goToTop").addEventListener("click", function(){
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  });
 
 	/////////////////////////////////////////////////////////////////////////////
 	// Capitalize first letter only in sentence (string) used in taxonomy categories
