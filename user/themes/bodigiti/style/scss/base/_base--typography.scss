@@ -120,6 +120,7 @@ figcaption,
   color: $color1;
   text-align: center;
   padding: .5rem 0 0 0;
+  margin-bottom: 1.25rem;
   @include font-size($font-small, $font-small);
   .text-align__left {
     text-align: left;
