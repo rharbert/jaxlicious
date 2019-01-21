@@ -61,7 +61,7 @@ function onSubmit(token) {
 ////////////////////////////////////////////////////////////////////////////////
 
 jQuery(function($) {
-    $('body').removeClass('no-js');
+	$('body').removeClass('no-js');
 	
 	////////////////////////////////////////////////////////////////////////////////
 	// Smooth, Slow Scroll Anchors
@@ -92,13 +92,26 @@ jQuery(function($) {
 		});
 	});
 
-   /////////////////////////////////////////////////////////////////////////////
-   // Capitalize first letter only in sentence (string) used in taxonomy categories
-   /////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////
+	// GoToTop Button
+	////////////////////////////////////////////////////////////////////////////////
+	window.onscroll = function() {scrollFunction()};
 
-    $('.tags-item').text(function(_, txt) {
-      return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
-    });
+	function scrollFunction() {
+		if ( $(window).width() > 1200 && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("goToTop").style.display = "block";
+		} else {
+			document.getElementById("goToTop").style.display = "none";
+		}
+	}
+
+	/////////////////////////////////////////////////////////////////////////////
+	// Capitalize first letter only in sentence (string) used in taxonomy categories
+	/////////////////////////////////////////////////////////////////////////////
+
+	$('.tags-item').text(function(_, txt) {
+		return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+	});
 
 
    /*
