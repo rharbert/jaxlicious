@@ -7,6 +7,7 @@ module:
                 module__admin_title_child: 'Photo 1x4 (mobile)'
                 module_type: module__text_image
                 text_image__image: chocolate-bars-jaxlicous-four-vertical-1000-web.jpg
+                text_image__alt: 'Chocolate Bars by Jaxlicious featuring individual kids in vertical row'
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
@@ -15,6 +16,7 @@ module:
                 module__admin_title_child: 'Photo 2x2 (tilt tablet+)'
                 module_type: module__text_image
                 text_image__image: chocolate-bars-jaxlicous-four-4000-medium.jpg
+                text_image__alt: 'Chocolate Bars by Jaxlicious featuring individual kids in 2 by 2 grid'
                 text_image__textarea: ''
                 module_styles__text_child: mtb-0
                 module_styles__select_child:

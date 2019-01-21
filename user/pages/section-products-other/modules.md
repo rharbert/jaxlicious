@@ -39,7 +39,7 @@ module:
                 module_type: module__text_image
                 text_image__title: 'Break Rooms'
                 text_image__image: chocolate-bars-jaxlicious-paraphernalia-breakroom.jpg
-                text_image__alt: 'Jaxlicious cookie jar with 20 chocolate bars'
+                text_image__alt: 'Jaxlicious cookie jar with chocolate bars and Jaxlicious coffee mugs in a break room'
                 text_image__textarea: ''
                 module_styles__select_child:
                     - p-mb-75
@@ -50,6 +50,7 @@ module:
                 module_type: module__text_image
                 text_image__title: 'Employee Gifts'
                 text_image__image: chocolate-bars-jaxlicious-gift-bag-red.jpg
+                text_image__alt: 'Red gift bag with chocolate bars displayed in and around the gift bag'
                 text_image__textarea: ''
                 module_styles__select_child:
                     - p-mb-75
