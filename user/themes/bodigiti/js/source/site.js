@@ -33,7 +33,7 @@ function submitFormContact(formContact){
     // Show/Hide success message via function call
     successMessage(".js-success.contact");
     // Clear inputs and textarea of content
-    $("#contact .form-item").val("");
+    $("#contact .form-item, #contact .form-textarea").val("");
     }
   });
 }
@@ -62,7 +62,46 @@ function onSubmit(token) {
 
 jQuery(function($) {
     $('body').removeClass('no-js');
+	
+	////////////////////////////////////////////////////////////////////////////////
+	// Smooth, Slow Scroll Anchors
+	////////////////////////////////////////////////////////////////////////////////
+	//Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_smooth_scroll_jquery
+	$(document).ready(function(){
+		// Add smooth scrolling to all links
+		$("a").on('click', function(event) {
 
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Then, store hash in this variable
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (2000) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 2000, function(){
+		
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End of "if" statement
+		});
+	});
+
+   /////////////////////////////////////////////////////////////////////////////
+   // Capitalize first letter only in sentence (string) used in taxonomy categories
+   /////////////////////////////////////////////////////////////////////////////
+
+    $('.tags-item').text(function(_, txt) {
+      return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
+    });
+
+
+   /*
    /////////////////////////////////////////////////////////////////////////////
    // Mobile menu drawer
    /////////////////////////////////////////////////////////////////////////////
@@ -99,7 +138,7 @@ jQuery(function($) {
     });
 
    /////////////////////////////////////////////////////////////////////////////
-   // Menu auto shut
+   // Mobile Menu auto shut
    /////////////////////////////////////////////////////////////////////////////
 
     $(window).resize(function() {
@@ -109,34 +148,7 @@ jQuery(function($) {
         }
     }).resize();
 
-  ////////////////////////////////////////////////////////////////////////////////
-	// Smooth, Slow Scroll Anchors
-	////////////////////////////////////////////////////////////////////////////////
-	//Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_smooth_scroll_jquery
-	$(document).ready(function(){
-		// Add smooth scrolling to all links
-		$("a").on('click', function(event) {
-
-			// Make sure this.hash has a value before overriding default behavior
-			if (this.hash !== "") {
-				// Prevent default anchor click behavior
-				event.preventDefault();
-
-				// Then, store hash in this variable
-				var hash = this.hash;
-
-				// Using jQuery's animate() method to add smooth page scroll
-				// The optional number (2000) specifies the number of milliseconds it takes to scroll to the specified area
-				$('html, body').animate({
-					scrollTop: $(hash).offset().top
-				}, 2000, function(){
-		
-					// Add hash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;
-				});
-			} // End of "if" statement
-		});
-	});
+  
 
    /////////////////////////////////////////////////////////////////////////////
    // Capitalize first letter only in sentence (string) used in taxonomy categories
@@ -145,6 +157,11 @@ jQuery(function($) {
     $('.tags-item').text(function(_, txt) {
       return txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase();
     });
+    //
+    //
+    // END Mobile Menu
+    //////////////////////////////////////////////////////////////////////////// 
+   */
 
    /////////////////////////////////////////////////////////////////////////////
    // Lightslider
