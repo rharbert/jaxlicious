@@ -48,6 +48,12 @@
   display: block; // snipcart default is display non until larger breakpoint
   width: 260px;
   height: auto;
+  float: none; // negate snipcart default float left so text is below product image
+  margin-bottom: .5rem; // apply some space between image and description
+  @include breakpoint($size-xs) {
+    float: left; // apply so image is to left and text is to right
+    margin-bottom: 0;
+  }
 }
 
 // Powered by Snipcart
