@@ -98,7 +98,7 @@ jQuery(function($) {
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    if ( $(window).width() > 1200 && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if ( $(window).width() > 1200 && (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)) {
       document.getElementById("goToTop").style.display = "block";
     } else {
       document.getElementById("goToTop").style.display = "none";
