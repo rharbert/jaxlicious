@@ -5,7 +5,7 @@ document.addEventListener("snipcart.ready", function() {
   //////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////
   // On-Page (not modal)
-  // 
+  //
   //
 
   //////////////////////////////////////////////////////////////////////////////
@@ -38,7 +38,7 @@ document.addEventListener("snipcart.ready", function() {
   //////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////
   // Modal
-  // 
+  //
   //
 
   //////////////////////////////////////////////////////////////////////////////
@@ -59,6 +59,35 @@ document.addEventListener("snipcart.ready", function() {
     }
   });
 
+  //////////////////////////////////////////////////////////////////////////////
+  // Countries Allowed
+  Snipcart.api.configure('allowed_countries', ['US']);
+
+  //////////////////////////////////////////////////////////////////////////////
+  // States Allowed
+  Snipcart.api.configure('allowed_provinces', [
+    {
+      country: 'US',
+      provinces: [
+        'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE',
+        'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME',
+        'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM',
+        'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX',
+        'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
+      ]
+    },
+  ]);
+
+  //////////////////////////////////////////////////////////////////////////////
+  // Credit cards allowed
+  Snipcart.api.configure('credit_cards', [
+    {'type': 'visa', 'display': 'Visa'},
+    {'type': 'mastercard', 'display': 'Mastercard'},
+    {'type': 'amex', 'display': 'American Express'},
+    {'type': 'discover', 'display': 'Discover'},
+    {'type': 'dinersclub', 'display': 'Diners Club'}
+  ]);
+
   //
   //
   // END: Modal
@@ -70,7 +99,7 @@ document.addEventListener("snipcart.ready", function() {
   //////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////
   // In-Active
-  // 
+  //
   //
 
   /*
@@ -98,8 +127,8 @@ document.addEventListener("snipcart.ready", function() {
     $("#size-chooser").length ?
       // if / else
       $(".sizes option.active").length ? $(this).addClass("snipcart-add-item") : (e.preventDefault(),
-        $(this).removeClass("snipcart-add-item"), // 'else' continued 
-        $(".error-message").fadeIn("fast").addClass("active")) // 'else' end 
+        $(this).removeClass("snipcart-add-item"), // 'else' continued
+        $(".error-message").fadeIn("fast").addClass("active")) // 'else' end
     // else
     : $(this).addClass("snipcart-add-item");
   });
