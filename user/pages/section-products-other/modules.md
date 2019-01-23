@@ -57,9 +57,9 @@ module:
                     - image__center
                     - text-align__center
             -
-                module__admin_title_child: Wholesale
+                module__admin_title_child: Retail
                 module_type: module__text_image
-                text_image__title: Wholesale
+                text_image__title: Retail
                 text_image__image: chocolate-bars-jaxlicious-retail-display.jpg
                 text_image__alt: 'Jaxlicious chocolate bars retail display'
                 text_image__textarea: ''
