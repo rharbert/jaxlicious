@@ -62,7 +62,7 @@ h2,
 h3,
 .h3-alt {
   font-family: $font-family-headings;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
   @include font-size($font-medium-large, $line-height-4);
   margin: 1rem 0;
   &.subtitle {
@@ -71,21 +71,21 @@ h3,
 }
 
 h4,
-,.h4-alt {
+.h4-alt {
   font-family: $font-family-headings;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
 }
 
 h5,
 .h5-alt {
   font-family: $font-family-headings;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
 }
 
 h6,
 .h6-alt {
   font-family: $font-family-headings;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-medium;
 }
 
 //
