@@ -8,7 +8,4 @@
   @include breakpoint($size-md, true) {
     display: block;
   }
-  * {
-    text-align: center;
-  }
 }
