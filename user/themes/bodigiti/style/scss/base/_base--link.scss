@@ -20,11 +20,11 @@ a {
 // Anchor overrides
 //
 a {
-  .black {
+  &.black {
     color: $color1;
   }
-  .gray {
-    color: $color6;
+  &.white {
+    color: $color2;
   }
 }
 
