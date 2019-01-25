@@ -31,7 +31,6 @@ module:
                 text_image__alt: '6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon'
                 text_image__textarea: ''
                 module_styles__select_child:
-                    - p-mb-75
                     - image__center
                     - text-align__center
             -
@@ -42,7 +41,6 @@ module:
                 text_image__alt: 'Jaxlicious cookie jar with chocolate bars and Jaxlicious coffee mugs in a break room'
                 text_image__textarea: ''
                 module_styles__select_child:
-                    - p-mb-75
                     - image__center
                     - text-align__center
             -
@@ -53,7 +51,6 @@ module:
                 text_image__alt: 'Red gift bag with chocolate bars displayed in and around the gift bag'
                 text_image__textarea: ''
                 module_styles__select_child:
-                    - p-mb-75
                     - image__center
                     - text-align__center
             -
@@ -64,7 +61,6 @@ module:
                 text_image__alt: 'Jaxlicious chocolate bars retail display'
                 text_image__textarea: ''
                 module_styles__select_child:
-                    - p-mb-75
                     - image__center
                     - text-align__center
         module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2 prl_children_xxs prl_children_sm-1 prl_children_xl-2'
