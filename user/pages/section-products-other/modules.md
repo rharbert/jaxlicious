@@ -63,7 +63,7 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2 prl_children_xxs prl_children_sm-1 prl_children_xl-2'
+        module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2'
         module_styles__select:
             - background__5a
             - text-color__white
