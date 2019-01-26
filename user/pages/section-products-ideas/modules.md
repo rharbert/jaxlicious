@@ -1,5 +1,5 @@
 ---
-title: 'Section Product Ideas'
+title: 'Section Products Ideas'
 module:
     -
         module__admin_title: 'Title + Intro'

@@ -54,13 +54,13 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Products: Other (Content Injected)'
+        module__admin_title: 'Products: Ideas (Content Injected)'
         module_list:
             -
                 module__admin_title_child: '4 Product Photos'
                 module_type: module__content_inject
                 text_image__textarea: ''
-                content_inject__url: /section-products-other
+                content_inject__url: /section-products-ideas
                 content_inject__type: modules
                 module_styles__text_child: mtb-0
         module_isotope: '0'
