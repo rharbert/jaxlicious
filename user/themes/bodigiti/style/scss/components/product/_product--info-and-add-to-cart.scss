@@ -13,40 +13,49 @@
   }
 }
 
-.product {
-  margin: 1rem 0 1.5rem .5rem;
+.product-info {
+  margin: 1rem 0 0 .5rem;
   @include breakpoint($size-md) {
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0 0 0;
   }
-  .product-info {
+  .title-price {
     text-align: left;
+    @include breakpoint($size-sm) {
+      margin-bottom: 0;
+    }
     @include breakpoint($size-md) {
       display: inline-block;
       margin: .5rem 0;
     }
-    .title {
-      display: inline-block;
-      @include font-size-only($font-standard);
-      font-weight: $font-weight-regular;
+  }
+  .title {
+    display: inline-block;
+    @include font-size-only($font-standard);
+    font-weight: $font-weight-regular;
+    margin-bottom: 0;
+    margin-right: .5rem;
+  }
+  .info-helper {
+    color: $gray;
+  }
+  .priceline {
+    margin: .5rem 0;
+    @include breakpoint($size-sm) {
       margin-bottom: 0;
-      margin-right: .5rem;
-    }
-    .info-helper {
-      color: $gray;
-    }
-    .priceline {
-      margin: .5rem 0;
-    }
-    .price {
-      font-size: 1.5rem;
-      margin-right: .5rem;
-    }
-    .price-helper {
-      color: $gray;
     }
   }
-  .toggle{
+  .price {
+    font-size: 1.5rem;
+    margin-right: .5rem;
+  }
+  .price-helper {
+    color: $gray;
+  }
+  .toggle {
     margin-bottom: 1.5rem;
+    .figcaption-alt {
+      padding: 0;
+    }
     img.radius {
       border-radius: 15px;
     }
