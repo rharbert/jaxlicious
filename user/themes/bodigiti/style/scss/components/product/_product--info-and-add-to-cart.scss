@@ -1,17 +1,68 @@
 
-.product-description {
-  margin: 1.5rem 0;
-  p {
-    margin-bottom: 0;
+.products {
+  figcaption {
+    color: $gray;
+    text-align: left;
+    padding: 0;
+    margin: .5rem 0 .5rem .5rem;
+    text-align: left;
+    @include breakpoint($size-md) {
+      text-align: center;
+      margin-left: 0;
+    }
   }
-  img.radius {
-    border-radius: 15px;
+}
+
+.product {
+  margin: 1rem 0 1.5rem .5rem;
+  @include breakpoint($size-md) {
+    margin: 1rem 0 1.5rem 0;
+  }
+  .product-info {
+    text-align: left;
+    @include breakpoint($size-md) {
+      display: inline-block;
+      margin: .5rem 0;
+    }
+    .title {
+      display: inline-block;
+      @include font-size-only($font-standard);
+      font-weight: $font-weight-regular;
+      margin-bottom: 0;
+      margin-right: .5rem;
+    }
+    .info-helper {
+      color: $gray;
+    }
+    .priceline {
+      margin: .5rem 0;
+    }
+    .price {
+      font-size: 1.5rem;
+      margin-right: .5rem;
+    }
+    .price-helper {
+      color: $gray;
+    }
+  }
+  .toggle{
+    margin-bottom: 1.5rem;
+    img.radius {
+      border-radius: 15px;
+    }
+  }
+  .toggle,
+  .add-to-cart {
+    text-align: left;
+    @include breakpoint($size-sm) {
+      text-align: center;
+    }
   }
 }
 
 button.js-add-item {
   font-weight: $font-weight-regular;
-  font-size: $font-base;
+  @include font-size-only($font-base);
   color: $color2;
   padding: 1rem 1rem;
   border-style: none;
