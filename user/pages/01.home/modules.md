@@ -49,7 +49,7 @@ module:
                 module_styles__text_child: mt-0
                 module_styles__select_child:
                     - contain-outer__2x
-        module_styles__text: mrl-xxs
+        module_styles__text: 'products mrl-xxs'
         module_isotope: '0'
         module_published: '1'
     -
