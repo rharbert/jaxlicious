@@ -16,8 +16,8 @@ module:
                     - text-align__center
         module_styles__text: 'pt-2 pb-md-1 prl-1'
         module_styles__select:
-            - background__5a
             - text-color__white
+            - background__6
         module_isotope: '0'
         module_published: '1'
     -
@@ -65,7 +65,7 @@ module:
                     - text-align__center
         module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2'
         module_styles__select:
-            - background__5a
+            - background__6
             - text-color__white
         module_isotope: '0'
         module_published: '1'
@@ -82,7 +82,7 @@ module:
                     - text-color__white
         module_styles__text: 'pb-3 prl-xxs'
         module_styles__select:
-            - background__5a
+            - background__6
         module_isotope: '0'
         module_published: '1'
 media_order: 'chocolate-bars-jaxlicious-retail-display.png,chocolate-bars-jaxlicious-gift-bag-red.png,chocolate-bars-jaxlicious-paraphernalia-breakroom.jpg,chocolate-bars-jaxlicious-mug-black-white.png,chocolate-bars-jaxlicious-personal-gift-set-mug-6-bars.png,chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.png'

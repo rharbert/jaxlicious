@@ -6,14 +6,15 @@ $color4: #694e3d; // Jax Brown--> rgb(105,78,61)
 $color4a: rgba(105,78,61, .8); // Jax Brown--> rgb(105,78,61)
 $color5: #da0000; // Jax Red--> rgb(218,0,0)
 $color5a: rgba(218,0,0, .8); // Jax Red--> rgb(218,0,0)
-$color6: #226abf; // Jax Blue--> rgb(34,106,191)  (blue from drip.com #1FA5F0)
-$color6a: rgba(34,106,191,.8); // Jax Blue--> rgb(34,106,191)
-$color7: #973999; // Jax Purple--> rgb(151,57,153)
-$color7a: rgba(151,57,153, .8); // Jax Purple--> rgb(151,57,153)
+$color6: #336abf; // Jax Blue
+$color6a: rgba(34,106,191,.8); // Other Blue
+$color7: #622493; // Site Purple (Jax Purple does not work well)
+$color7a: #973999; // Jax Purple--> rgb(151,57,153)
+$color7b: rgba(151,57,153, .8); // Jax Purple--> rgb(151,57,153)
 $color8: #FFE135; // Jax Yellow--> rgb(255,225,53)
 $color8a: rgba(255,225,52, .8); // Jax Yellow--> rgb(255,225,53)
 $color9: #5EBD3E; // Jax Green--> rgb(94,189,62)
-$color9a: rgba(94,189,62, .7); // Jax Green--> rgb(94,189,62)
+$color9a: lighten($color9, 10%); // Jax Green Lighter--> #7dcc62
 $color10: #F78200; // Jax Orange--> rgb(247,130,0)
 $color10a: rgba(247,130,0, .9); // Jax Orange--> rgb(247,130,0)
 
