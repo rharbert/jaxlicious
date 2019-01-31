@@ -48,8 +48,8 @@ module:
                 module__admin_title_child: '"Milk Chocolate" Title'
                 module_type: module__text_image
                 text_image__title: '# Designs Coming Soon'
-                text_image__textarea: "<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-1 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-2 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>"
-                module_styles__text_child: 'col-12 mtb-md-2 pt-2 b-dotted-xxs-3 b-yellow'
+                text_image__textarea: "<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"toggle-button-icon toggle-3 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!--\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-1 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-2 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n-->"
+                module_styles__text_child: 'col-12 mtb-md-2 ptb-2 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
                     - text-align__center
         module_isotope: '0'
@@ -66,7 +66,7 @@ module:
                 module_styles__select_child:
                     - text-align__center
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
         module__admin_title: '4 Bars: Single Kids: Milk Chocolate'
         module_list:
@@ -125,7 +125,7 @@ module:
                 module_styles__select_child:
                     - text-align__center
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
         module__admin_title: '4 Bars: Single Kids: Dark Chocolate'
         module_list:
