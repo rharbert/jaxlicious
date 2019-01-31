@@ -84,15 +84,13 @@ jQuery(function($) {
 
   // Toggle 2 of 2 Toggles
   // https://codepen.io/altescape/pen/uLzFK
-  $(function() {
-    return $('.toggle-button-icon').on('click', function() {
+    $('.toggle-button-icon').on('click', function() {
       if ($(this).hasClass('on')) {
         return $(this).removeClass('on');
       } else {
         return $(this).addClass('on');
       }
     });
-  });
 
   //
   //

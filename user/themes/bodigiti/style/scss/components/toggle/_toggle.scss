@@ -49,7 +49,7 @@
     text-decoration: none;
     font-size: 44px;
     color: #D8DAD9;
-    line-height: 80px; // HEIGHT HERE 75% //////////////////////////////////////
+    line-height: 74px; // HEIGHT HERE 75% ---> Text Vertical Align
     text-align: center;
     left: 5px;
     -webkit-transition: all .4s cubic-bezier(0.33,1.6,0.66,1);
@@ -96,6 +96,15 @@
         color: #B1CA39;
       }
     }
+  }
+}
+
+.toggle-button-icon.toggle-3 * {
+  zoom: 1;
+  -moz-transform: scale(1);
+  @include breakpoint($size-xs) {
+    zoom: 1;
+    -moz-transform: scale(1);
   }
 }
 
