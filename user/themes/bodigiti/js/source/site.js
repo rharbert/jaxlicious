@@ -66,20 +66,32 @@ jQuery(function($) {
 
   ////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////
-  // Toggle
+  // Toggle 1 of 2 Toggles
   // https://codepen.io/ArielBeninca/pen/KdVJGO
   //
 
-  if( jQuery(".toggle .toggle-title").hasClass('active') ){
-    jQuery(".toggle .toggle-title.active").closest('.toggle').find('.toggle-inner').show();
+  if( $(".toggle-icon .toggle-title").hasClass('active') ){
+    $(".toggle .toggle-title.active").closest('.toggle').find('.toggle-inner').show();
   }
-  jQuery(".toggle .toggle-title").click(function(){
-    if( jQuery(this).hasClass('active') ){
-      jQuery(this).removeClass("active").closest('.toggle').find('.toggle-inner').slideUp(200);
+  $(".toggle .toggle-title").click(function(){
+    if( $(this).hasClass('active') ){
+      $(this).removeClass("active").closest('.toggle').find('.toggle-inner').slideUp(200);
     }
     else  {	
-      jQuery(this).addClass("active").closest('.toggle').find('.toggle-inner').slideDown(200);
+      $(this).addClass("active").closest('.toggle').find('.toggle-inner').slideDown(200);
     }
+  });
+
+  // Toggle 2 of 2 Toggles
+  // https://codepen.io/altescape/pen/uLzFK
+  $(function() {
+    return $('.toggle-button-icon').on('click', function() {
+      if ($(this).hasClass('on')) {
+        return $(this).removeClass('on');
+      } else {
+        return $(this).addClass('on');
+      }
+    });
   });
 
   //
