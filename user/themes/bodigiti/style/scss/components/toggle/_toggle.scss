@@ -17,7 +17,6 @@
 
 .toggle-button-icon.toggle-3 {
   position: relative;
-//  left: 100px;
   border-radius: 70px;
   background-color: $color6;
   box-shadow: 0 2px 1px 0 rgba(255, 255, 255, 0.5),inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -44,8 +43,6 @@
     background: #FFF;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2),0px 4px 23px 0 rgba(0, 0, 0, 0.08),-2px 4px 4px 0 rgba(0, 0, 0, 0.1);
     font-size: 20px;
-    line-height: 16px; // HEIGHT HERE 75% ///////////////////////////////////////
-    color: #6D808E;
     text-decoration: none;
     font-size: 44px;
     color: #D8DAD9;
@@ -88,12 +85,6 @@
       background: #FF3333;
       .handle {
         color: #FF3333;
-      }
-    }
-    &.green {
-      background: #B1CA39;
-      .handle {
-        color: #B1CA39;
       }
     }
   }
