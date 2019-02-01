@@ -10,6 +10,11 @@
 // https://codepen.io/altescape/pen/uLzFK
 //
 
+// 'on' must be 'display: none' by default for JS toggle fade-in fade-out
+.toggle-button__on {
+  display: none;
+}
+
 .toggle-button-icon {
   position: relative;
   border-radius: 70px;

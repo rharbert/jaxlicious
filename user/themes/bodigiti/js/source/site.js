@@ -91,24 +91,22 @@ jQuery(function($) {
   //    .toggle-button__section
   //    .toggle-button-icon
   //    .toggle-button__off
-  //    .toggle-button__on
-  //    .hide (apply by default to element with class .toggle-button__on)
+  //    .toggle-button__on (default css must be 'display: none')
   //
   $('.toggle-button__section .toggle-button-icon').on('click', function() {
       if ($(this).hasClass('on')) {
         $(this).removeClass('on');
-      
-        $('.toggle-button__section .toggle-button__off').toggleClass('hide');
-        $('.toggle-button__section .toggle-button__on').toggleClass('hide');
+
+        $('.toggle-button__section .toggle-button__off').fadeIn(250).css("display", "flex");
+        $('.toggle-button__section .toggle-button__on').fadeOut(250).css("display", "none");
 
       } else {
         $(this).addClass('on');
 
-        $('.toggle-button__section .toggle-button__off').toggleClass('hide');
-        $('.toggle-button__section .toggle-button__on').toggleClass('hide');
+        $('.toggle-button__section .toggle-button__off').fadeOut(250).css("display", "none");
+        $('.toggle-button__section .toggle-button__on').fadeIn(250).css("display", "flex");
 
       }
-
     });
 
   //

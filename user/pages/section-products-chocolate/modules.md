@@ -143,7 +143,7 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'toggle-button__on hide col_children_sm-6 pl_children_odd_sm-xxs pr_children_even_sm-xxs pl_children_even_sm-1 pr_children_odd_sm-1'
+        module_styles__text: 'toggle-button__on col_children_sm-6 pl_children_odd_sm-xxs pr_children_even_sm-xxs pl_children_even_sm-1 pr_children_odd_sm-1'
         module_isotope: '0'
         module_published: '1'
     -
