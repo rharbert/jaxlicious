@@ -11,7 +11,7 @@
 .toggle-button-icon {
   position: relative;
   border-radius: 70px;
-  background-color: $color6;
+  background-color: #ff3333;
 //  box-shadow: 0 2px 1px 0 rgba(255, 255, 255, 0.5),inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   width: 270px; // HEIGHT/WIDTH ////////////////////////////////////////////////
   height: 78px; // HEIGHT/WIDTH ////////////////////////////////////////////////
@@ -57,7 +57,7 @@
       line-height: 74px; // HEIGHT/WIDTH ///////////////////////////////////////
     }
     &:before {
-      content: "Dark Chocolate";
+      content: "Milk Chocolate";
       font-size: 26px; // HEIGHT/WIDTH /////////////////////////////////////////
       font-weight: 400;
       color: #FFF;
@@ -74,7 +74,7 @@
       }
     }
     &:after {
-      content: "Milk Chocolate";
+      content: "Dark Chocolate";
       font-size: 26px; // HEIGHT/WIDTH /////////////////////////////////////////
       font-weight: 400;
       color: #FFF;
@@ -97,7 +97,7 @@
       }
     }
     &.red {
-      background: #FF3333;
+      background: $color6;
       .handle {
         color: #FF3333;
       }
