@@ -41,12 +41,12 @@ module:
         module__admin_title: 'Products: Chocolate (Content Injected)'
         module_list:
             -
-                module__admin_title_child: 'Milk & Dark Chocolate Bars: All 4 Kids'
+                module__admin_title_child: 'Milk & Dark Chocolate Bars'
                 module_type: module__content_inject
                 text_image__textarea: ''
                 content_inject__url: /section-products-chocolate
                 content_inject__type: modules
-                module_styles__text_child: mt-0
+                module_styles__text_child: 'toggle-button__section mt-0'
                 module_styles__select_child:
                     - contain-outer__2x
         module_styles__text: 'products mrl-xxs'

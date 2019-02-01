@@ -86,7 +86,7 @@ jQuery(function($) {
   // 'Button Toggle'
   // Corresponding CSS in _toggle--button.scss
   // https://codepen.io/altescape/pen/uLzFK
-    $('.toggle-button-icon').on('click', function() {
+    $('.toggle-button__section .toggle-button-icon').on('click', function() {
       if ($(this).hasClass('on')) {
         return $(this).removeClass('on');
       } else {
