@@ -17,7 +17,7 @@ html {
   @include breakpoint(360px) {
     font-size: 110%; /* at 360px b/c some single words too wide and shift background */
   }
-  @include background-and-text($color5a, $color1);
+  @include background-and-text($color5, $color1);
 }
 #footer {
   // @include background-and-text($color10a, $color2);
