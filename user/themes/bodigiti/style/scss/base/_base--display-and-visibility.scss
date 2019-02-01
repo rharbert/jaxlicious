@@ -1,4 +1,9 @@
 
+
+.hide {
+  display: none !important;
+}
+
 // 'visibility' Hides stuff without rendering it inaccessible in the DOM, wherease
 // 'display: none' both hides and renders content inaccessible in the DOM
 

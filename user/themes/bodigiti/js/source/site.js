@@ -86,12 +86,29 @@ jQuery(function($) {
   // 'Button Toggle'
   // Corresponding CSS in _toggle--button.scss
   // https://codepen.io/altescape/pen/uLzFK
-    $('.toggle-button__section .toggle-button-icon').on('click', function() {
+  //
+  // Classes that must be hard-coded into HTML for JS to work
+  //    .toggle-button__section
+  //    .toggle-button-icon
+  //    .toggle-button__off
+  //    .toggle-button__on
+  //    .hide (apply by default to element with class .toggle-button__on)
+  //
+  $('.toggle-button__section .toggle-button-icon').on('click', function() {
       if ($(this).hasClass('on')) {
-        return $(this).removeClass('on');
+        $(this).removeClass('on');
+      
+        $('.toggle-button__section .toggle-button__off').toggleClass('hide');
+        $('.toggle-button__section .toggle-button__on').toggleClass('hide');
+
       } else {
-        return $(this).addClass('on');
+        $(this).addClass('on');
+
+        $('.toggle-button__section .toggle-button__off').toggleClass('hide');
+        $('.toggle-button__section .toggle-button__on').toggleClass('hide');
+
       }
+
     });
 
   //
