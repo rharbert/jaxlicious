@@ -1,27 +1,20 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
-// Simple Toggle
-.toggle {
-  .toggle-title {
-    text-decoration: underline;
-  }
-  .toggle-inner {
-    display: none;
-  }
-}
+// Button Toggle
 //
-// End Simple Toggle
-////////////////////////////////////////////////////////////////////////////////
+// Corresponding JS in site.js
+//
+// https://codepen.io/altescape/pen/uLzFK
+//
 
-
-.toggle-button-icon.toggle-3 {
+.toggle-button-icon {
   position: relative;
   border-radius: 70px;
   background-color: $color6;
-  box-shadow: 0 2px 1px 0 rgba(255, 255, 255, 0.5),inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-  width: 270px; // HEIGHT(WIDTH) 75% ----> 95%  //////////////////////////////////////////////////////////////
-  height: 78px; // HEIGHT HERE prev = 117 (decrease to 75%) ///////////////////////////////////////////////////
+//  box-shadow: 0 2px 1px 0 rgba(255, 255, 255, 0.5),inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  width: 270px; // HEIGHT/WIDTH ////////////////////////////////////////////////
+  height: 78px; // HEIGHT/WIDTH ////////////////////////////////////////////////
   overflow: hidden;
   -webkit-transition: all .25s linear;
   -moz-transition: all .25s linear;
@@ -35,22 +28,22 @@
   -ms-user-select: none;
   user-select: none;
   @include breakpoint($size-xs) {
-    width: 320px; // HEIGHT(WIDTH) 75% ----> 95%  //////////////////////////////////////////////////////////////
-    height: 78px; // HEIGHT HERE prev = 117 (decrease to 75%) ///////////////////////////////////////////////////
+    width: 320px; // HEIGHT/WIDTH  /////////////////////////////////////////////
+    height: 78px; // HEIGHT/WIDTH //////////////////////////////////////////////
   }
   .handle {
-    width: 72px; // HEIGHT(WIDTH) HERE 75% //////////////////////////////////////////////////////
-    height: 72px; // HEIGHT HERE 75% ////////////////////////////////////////////////////////////////
+    width: 72px; // HEIGHT/WIDTH ///////////////////////////////////////////////
+    height: 72px; // HEIGHT/WIDTH //////////////////////////////////////////////
     border-radius: 70px;
     position: absolute;
-    top: 2.5px; // HEIGHT ADJUSTED for 75% ///////////////////////////
+    top: 2.5px; // HEIGHT/WIDTH ////////////////////////////////////////////////
     background: $color8;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2),0px 4px 23px 0 rgba(0, 0, 0, 0.08),-2px 4px 4px 0 rgba(0, 0, 0, 0.1);
+ //   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2),0px 4px 23px 0 rgba(0, 0, 0, 0.08),-2px 4px 4px 0 rgba(0, 0, 0, 0.1);
     font-size: 20px;
     text-decoration: none;
     font-size: 44px;
-    color: #D8DAD9;
-    line-height: 74px; // HEIGHT HERE 75% ---> Text Vertical Align
+  //  color: #D8DAD9;
+    line-height: 74px; // HEIGHT/WIDTH /////////////////////////////////////////
     text-align: center;
     left: 5px;
     -webkit-transition: all .4s cubic-bezier(0.33,1.6,0.66,1);
@@ -58,49 +51,49 @@
     -o-transition: all .4s cubic-bezier(0.33,1.6,0.66,1);
     transition: all .4s cubic-bezier(0.33,1.6,0.66,1);
     @include breakpoint($size-xs) {
-      width: 72px; // HEIGHT(WIDTH) HERE 75% //////////////////////////////////////////////////////
-      height: 72px; // HEIGHT HERE 75% ////////////////////////////////////////////////////////////////
-      top: 2.5px; // HEIGHT ADJUSTED for 75% ///////////////////////////
-      line-height: 74px; // HEIGHT HERE 75% ---> Text Vertical Align
+      width: 72px; // HEIGHT/WIDTH /////////////////////////////////////////////
+      height: 72px; // HEIGHT/WIDTH ////////////////////////////////////////////
+      top: 2.5px; // HEIGHT/WIDTH //////////////////////////////////////////////
+      line-height: 74px; // HEIGHT/WIDTH ///////////////////////////////////////
     }
     &:before {
       content: "Dark Chocolate";
-      font-size: 26px; // HERE for WIDTH/HEIGHT
+      font-size: 26px; // HEIGHT/WIDTH /////////////////////////////////////////
       font-weight: 400;
       color: #FFF;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+   //   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
       position: absolute;
-      left: 55px; // HERE ////////////////////////////////////////////////////
-      width: 225px; // HERE - This not in original ////////////////////////////
+      left: 55px; // HEIGHT/WIDTH //////////////////////////////////////////////
+      width: 225px; // HEIGHT/WIDTH (this not in original) /////////////////////
       // content: "\F061"; // a font icon could go her
 //      -webkit-font-smoothing: antialiased;
       @include breakpoint($size-xs) {
         font-size: 32px;
-        left: 80px; // HERE ////////////////////////////////////////////////////
-        width: 225px; // HERE - This not in original ////////////////////////////
+        left: 80px; // HEIGHT/WIDTH ////////////////////////////////////////////
+        width: 225px; // HEIGHT/WIDTH (this not in original) ///////////////////
       }
     }
     &:after {
       content: "Milk Chocolate";
-      font-size: 26px; // HERE FOR WIDTH/HEIGHT
+      font-size: 26px; // HEIGHT/WIDTH /////////////////////////////////////////
       font-weight: 400;
       color: #FFF;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    //  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
       position: absolute;
-      left: -180px; // HERE ////////////////////////////////////////////////////
+      left: -180px; // HEIGHT/WIDTH ////////////////////////////////////////////
       @include breakpoint($size-xs) {
         font-size: 32px;
-        left: -225px; // HERE ////////////////////////////////////////////////////
+        left: -225px; // HEIGHT/WIDTH //////////////////////////////////////////
       }
     }
   }
   &.on {
     background: #FFA400;
     .handle {
-      left: 194px; // HERE //////////////////////////////////////////////////////
+      left: 194px; // HEIGHT/WIDTH /////////////////////////////////////////////
       color: #FFA400;
       @include breakpoint($size-xs) {
-        left: 244px; // HERE //////////////////////////////////////////////////////
+        left: 244px; // HEIGHT/WIDTH ///////////////////////////////////////////
       }
     }
     &.red {
@@ -112,11 +105,12 @@
   }
 }
 
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/*
 .toggle-button-icon.toggle-1 {
   position: relative;
 //  left: 100px;
@@ -284,3 +278,4 @@
     }
   }
 }
+*/ 

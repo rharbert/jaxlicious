@@ -66,7 +66,8 @@ jQuery(function($) {
 
   ////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////
-  // Toggle 1 of 2: Toggle Link Title with Children Content
+  // 'Simple Toggle' -toggle link title with child content
+  // Corresponding CSS in _toggle--simple.scss
   // https://codepen.io/ArielBeninca/pen/KdVJGO
   //
 
@@ -82,7 +83,8 @@ jQuery(function($) {
     }
   });
 
-  // Toggle 2 of 2: Toggle Button
+  // 'Button Toggle'
+  // Corresponding CSS in _toggle--button.scss
   // https://codepen.io/altescape/pen/uLzFK
     $('.toggle-button-icon').on('click', function() {
       if ($(this).hasClass('on')) {
