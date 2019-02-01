@@ -42,10 +42,10 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: TOGGLE
+        module__admin_title: 'TOGGLE BUTTON: Milk/Dark Chocolate'
         module_list:
             -
-                module__admin_title_child: '"Milk Chocolate" Title'
+                module__admin_title_child: 'TOGGLE BUTTON: Milk/Dark Chocolate'
                 module_type: module__text_image
                 text_image__title: '# Designs Coming Soon'
                 text_image__textarea: "<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"toggle-button-icon red\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!--\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-1 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-2 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n-->"
