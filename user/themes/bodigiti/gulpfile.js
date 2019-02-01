@@ -57,7 +57,14 @@ gulp.task('uncss', function() {
     ])
     .pipe(uncss({
       ignore: [
-        '.snipcart-wrapper.cart-not-empty'
+        '.snipcart-wrapper.cart-not-empty',
+        '.toggle-button__off',
+        '.toggle-button__on',
+        '.toggle-button-icon .handle',
+        '.toggle-button-icon.on',
+        '.toggle-button-icon.on .handle',
+        '.toggle-button-icon.on.red',
+        '.toggle-button-icon.on.red .handle'
       ],
       html: [
         'http://localhost:8000/'
