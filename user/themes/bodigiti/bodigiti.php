@@ -57,7 +57,6 @@ class Bodigiti extends Theme
     'background__7' => 'Background 7',
     'background__7a' => 'Background 7 A',
     'background__8' => 'Background 8',
-    'background__8a' => 'Background 8 A',
     'background__9' => 'Background 9',
     'background__9a' => 'Background 9 A',
     'background__10' => 'Background 10',
