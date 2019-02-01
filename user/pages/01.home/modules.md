@@ -41,7 +41,7 @@ module:
         module__admin_title: 'Products: Chocolate (Content Injected)'
         module_list:
             -
-                module__admin_title_child: 'Milk Chocolate & Dark Chocolate Bars: All 4 Kids'
+                module__admin_title_child: 'Milk & Dark Chocolate Bars: All 4 Kids'
                 module_type: module__content_inject
                 text_image__textarea: ''
                 content_inject__url: /section-products-chocolate
