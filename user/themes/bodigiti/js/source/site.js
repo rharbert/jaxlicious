@@ -66,7 +66,7 @@ jQuery(function($) {
 
   ////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////
-  // Toggle 1 of 2 Toggles
+  // Toggle 1 of 2: Toggle Link Title with Children Content
   // https://codepen.io/ArielBeninca/pen/KdVJGO
   //
 
@@ -82,7 +82,7 @@ jQuery(function($) {
     }
   });
 
-  // Toggle 2 of 2 Toggles
+  // Toggle 2 of 2: Toggle Button
   // https://codepen.io/altescape/pen/uLzFK
     $('.toggle-button-icon').on('click', function() {
       if ($(this).hasClass('on')) {
