@@ -55,19 +55,6 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: '4 Bars: Title & Description: Milk Chocolate'
-        module_list:
-            -
-                module__admin_title_child: '"Milk Chocolate" Title'
-                module_type: module__text_image
-                text_image__title: '# Milk Chocolate<br>Designs Coming Soon'
-                text_image__textarea: ''
-                module_styles__text_child: 'col-12 mtb-md-2 pt-2 b-dotted-xxs-3 b-yellow'
-                module_styles__select_child:
-                    - text-align__center
-        module_isotope: '0'
-        module_published: '0'
-    -
         module__admin_title: '4 Bars: Single Kids: Milk Chocolate'
         module_list:
             -
@@ -113,19 +100,6 @@ module:
         module_styles__text: 'toggle-show-default col_children_sm-6 pl_children_odd_sm-xxs pr_children_even_sm-xxs pl_children_even_sm-1 pr_children_odd_sm-1'
         module_isotope: '0'
         module_published: '1'
-    -
-        module__admin_title: '4 Bars: Title & Description: Dark Chocolate'
-        module_list:
-            -
-                module__admin_title_child: '"Dark Chocolate" Title'
-                module_type: module__text_image
-                text_image__title: '# Dark Chocolate<br>Designs Coming Soon'
-                text_image__textarea: ''
-                module_styles__text_child: 'col-12 mtb-md-2 pt-2 b-dotted-xxs-3 b-yellow'
-                module_styles__select_child:
-                    - text-align__center
-        module_isotope: '0'
-        module_published: '0'
     -
         module__admin_title: '4 Bars: Single Kids: Dark Chocolate'
         module_list:
