@@ -97,14 +97,14 @@ jQuery(function($) {
       if ($(this).hasClass('on')) {
         $(this).removeClass('on');
 
-        $('.toggle-button__section .toggle-button__off').fadeIn(250).css("display", "flex");
-        $('.toggle-button__section .toggle-button__on').fadeOut(250).css("display", "none");
+        $('.toggle-button__section .toggle-button__off').fadeIn(400).css("display", "flex");
+        $('.toggle-button__section .toggle-button__on').fadeOut(400).css("display", "none");
 
       } else {
         $(this).addClass('on');
 
-        $('.toggle-button__section .toggle-button__off').fadeOut(250).css("display", "none");
-        $('.toggle-button__section .toggle-button__on').fadeIn(250).css("display", "flex");
+        $('.toggle-button__section .toggle-button__off').fadeOut(400).css("display", "none");
+        $('.toggle-button__section .toggle-button__on').fadeIn(400).css("display", "flex");
 
       }
     });
