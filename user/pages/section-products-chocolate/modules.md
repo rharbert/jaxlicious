@@ -104,16 +104,6 @@ module:
         module__admin_title: '4 Bars: Single Kids: Dark Chocolate'
         module_list:
             -
-                module__admin_title_child: Jax
-                module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-jax-dark-800.jpg
-                text_image__alt: 'Dark chocolate bar with purple wrapper featuring Jax'
-                text_image__caption: 'Dark Bar with Jax'
-                text_image__textarea: "<!--\r\n<div class=\"product-description\">\r\n    <p>\r\n        Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each<br>\r\n        <del>$4.25</del> $3.25 each x 144 = $468  <span class=\"figcaption-alt\">(includes delivery)</span>\r\n    </p>\r\n    <div class=\"toggle\">\r\n      <div class=\"toggle-title\">\r\n      \t\t<a class=\"figcaption-alt\">nutritional</a>\r\n      </div>\r\n      <div class=\"toggle-inner\">\r\n          \t<img class=\"radius\" src=\"/user/pages/section-products-chocolate/chocolate-nutrition-3.5-dark.png\" />\r\n      </div>\r\n    </div>\r\n</div>\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-007\" data-item-name=\"Dark Chocolate Bars 3.5 oz\" data-item-price=\"468.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jax-dark-300.jpg\" data-item-description=\"Case of 144 Bars (choc-007)\">add to cart</button>\r\n-->"
-                module_styles__select_child:
-                    - image__center
-                    - text-align__center
-            -
                 module__admin_title_child: Jes
                 module_type: module__text_image
                 text_image__image: chocolate-bar-jaxlicious-jes-dark-800.jpg
@@ -124,12 +114,12 @@ module:
                     - image__center
                     - text-align__center
             -
-                module__admin_title_child: Jen
+                module__admin_title_child: Jax
                 module_type: module__text_image
-                text_image__image: chocolate-bar-jaxlicious-jen-dark-800.jpg
-                text_image__alt: 'Dark chocolate bar with orange wrapper featuring Jen'
-                text_image__caption: 'Dark Bar with Jen'
-                text_image__textarea: "<!--\r\n<div class=\"product-description\">\r\n    <p>\r\n        Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each<br>\r\n        <del>$4.25</del> $3.25 each x 144 = $468  <span class=\"figcaption-alt\">(includes delivery)</span>\r\n    </p>\r\n\t<div class=\"toggle\">\r\n      <div class=\"toggle-title\">\r\n      \t\t<a class=\"figcaption-alt\">nutritional</a>\r\n      </div>\r\n      <div class=\"toggle-inner\">\r\n          \t<img class=\"radius\" src=\"/user/pages/section-products-chocolate/chocolate-nutrition-3.5-dark.png\" />\r\n      </div>\r\n    </div>\r\n</div>\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-009\" data-item-name=\"Dark Chocolate Bars 3.5 oz\" data-item-price=\"468.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jen-dark-300.jpg\" data-item-description=\"Case of 144 Bars (choc-009)\">add to cart</button>\r\n-->"
+                text_image__image: chocolate-bar-jaxlicious-jax-dark-800.jpg
+                text_image__alt: 'Dark chocolate bar with purple wrapper featuring Jax'
+                text_image__caption: 'Dark Bar with Jax'
+                text_image__textarea: "<!--\r\n<div class=\"product-description\">\r\n    <p>\r\n        Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each<br>\r\n        <del>$4.25</del> $3.25 each x 144 = $468  <span class=\"figcaption-alt\">(includes delivery)</span>\r\n    </p>\r\n    <div class=\"toggle\">\r\n      <div class=\"toggle-title\">\r\n      \t\t<a class=\"figcaption-alt\">nutritional</a>\r\n      </div>\r\n      <div class=\"toggle-inner\">\r\n          \t<img class=\"radius\" src=\"/user/pages/section-products-chocolate/chocolate-nutrition-3.5-dark.png\" />\r\n      </div>\r\n    </div>\r\n</div>\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-007\" data-item-name=\"Dark Chocolate Bars 3.5 oz\" data-item-price=\"468.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jax-dark-300.jpg\" data-item-description=\"Case of 144 Bars (choc-007)\">add to cart</button>\r\n-->"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -140,6 +130,16 @@ module:
                 text_image__alt: 'Dark chocolate bar with yellow wrapper featuring Jay'
                 text_image__caption: 'Dark Bar with Jay'
                 text_image__textarea: "<!--\r\n<div class=\"product-description\">\r\n    <p>\r\n        Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each<br>\r\n        <del>$4.25</del> $3.25 each x 144 = $468  <span class=\"figcaption-alt\">(includes delivery)</span>\r\n    </p>\r\n\t<div class=\"toggle\">\r\n      <div class=\"toggle-title\">\r\n      \t\t<a class=\"figcaption-alt\">nutritional</a>\r\n      </div>\r\n      <div class=\"toggle-inner\">\r\n          \t<img class=\"radius\" src=\"/user/pages/section-products-chocolate/chocolate-nutrition-3.5-dark.png\" />\r\n      </div>\r\n    </div>\r\n</div>\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-010\" data-item-name=\"Dark Chocolate Bars 3.5 oz\" data-item-price=\"468.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jay-dark-300.jpg\" data-item-description=\"Case of 144 Bars (choc-010)\">add to cart</button>\r\n-->"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jen
+                module_type: module__text_image
+                text_image__image: chocolate-bar-jaxlicious-jen-dark-800.jpg
+                text_image__alt: 'Dark chocolate bar with orange wrapper featuring Jen'
+                text_image__caption: 'Dark Bar with Jen'
+                text_image__textarea: "<!--\r\n<div class=\"product-description\">\r\n    <p>\r\n        Bulk Order of 144 Dark Chocolate Bars 3.5 OZ each<br>\r\n        <del>$4.25</del> $3.25 each x 144 = $468  <span class=\"figcaption-alt\">(includes delivery)</span>\r\n    </p>\r\n\t<div class=\"toggle\">\r\n      <div class=\"toggle-title\">\r\n      \t\t<a class=\"figcaption-alt\">nutritional</a>\r\n      </div>\r\n      <div class=\"toggle-inner\">\r\n          \t<img class=\"radius\" src=\"/user/pages/section-products-chocolate/chocolate-nutrition-3.5-dark.png\" />\r\n      </div>\r\n    </div>\r\n</div>\r\n\r\n<button id=\"add-to-cart\" type=\"button\" class=\"js-add-item snipcart-add-item polygon-2 background__9\" data-item-id=\"choc-009\" data-item-name=\"Dark Chocolate Bars 3.5 oz\" data-item-price=\"468.00\" data-item-quantity=\"1\" data-item-url=\"/\" data-item-image=\"/user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jen-dark-300.jpg\" data-item-description=\"Case of 144 Bars (choc-009)\">add to cart</button>\r\n-->"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
