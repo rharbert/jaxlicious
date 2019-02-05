@@ -5,9 +5,10 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
-let cleanCSS = require('gulp-clean-css');
-let uncss = require('gulp-uncss');
-let uglifyJS = require('gulp-uglify-es').default; // Minimizes JS
+var cleanCSS = require('gulp-clean-css');
+var uncss = require('gulp-uncss');
+var uglifyJS = require('gulp-uglify-es').default; // Minimizes JS
+var concat = require('gulp-concat');
 var watch = require('gulp-watch');
 var del = require('del');
 var spritesmith = require('gulp.spritesmith');
@@ -86,14 +87,25 @@ gulp.task('minify-css', function() {
 
 // Minify JS
 // Gulp task to minify JavaScript files
-gulp.task('scripts', function() {
+gulp.task('js-mini', function() {
   return gulp.src('js/source/*.js')
     // Minify the file
     .pipe(uglifyJS())
     // Output
     .pipe(gulp.dest('js/dist'))
 });
-
+// Concatenate JS Files
+gulp.task('js-concat', function() {
+  return gulp.src(['js/dist/site.js', 'js/dist/snipcart-custom.js',])
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('./js/dist/'));
+});
+// JS --> All Tasks
+gulp.task('scripts', function(done) {
+  runSequence('js-mini', 'js-concat', function() {
+      done();
+  });
+});
 
 // Watch
 gulp.task('watch', function() {
