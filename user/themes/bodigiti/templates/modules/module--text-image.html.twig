@@ -54,7 +54,7 @@
       {# mediaType is dynamic check from above 'images' vs 'files' #}
       {# Check if SVG then add Class #}
       {% set media = mlist.text_image__image %}
-      <img class="{{ page.media[media].url|ends_with('.svg') ? 'svg' }}" src="{{ page.media[media].url }}" alt="{{ mlist.text_image__alt }}"/>
+      <img alt="{{ mlist.text_image__alt }}" {# src="{{ page.media[media].url }}" #} data-src="{{ page.media[media].url }}" class="lazyload {{ page.media[media].url|ends_with('.svg') ? 'svg' }}" />
       {# Link for Image #}
         {% if linkType == 'image' %}
           </a>

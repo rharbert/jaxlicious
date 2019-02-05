@@ -96,7 +96,7 @@ gulp.task('js-mini', function() {
 });
 // Concatenate JS Files
 gulp.task('js-concat', function() {
-  return gulp.src(['js/dist/site.js', 'js/dist/lazysizes.min.js', 'js/dist/snipcart-custom.js',])
+  return gulp.src(['js/dist/site.js', 'js/dist/snipcart-custom.js',])
     .pipe(concat('all.js'))
     .pipe(gulp.dest('./js/dist/'));
 });
