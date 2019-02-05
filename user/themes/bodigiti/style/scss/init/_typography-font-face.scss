@@ -15,6 +15,7 @@
 // Regular
 @font-face {
   font-family: 'geomanist';
+  font-display: swap;
   src: url('../../fonts/geomanist-regular-webfont.eot');
   src: url('../../fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
       url('../../fonts/geomanist-regular-webfont.woff2') format('woff2'),
@@ -23,11 +24,11 @@
       url('../../fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
 }
 // Medium
 @font-face {
   font-family: 'geomanist';
+  font-display: swap;
   src: url('../../fonts/geomanist-medium-webfont.eot');
   src: url('../../fonts/geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'),
           url('../../fonts/geomanist-medium-webfont.woff2') format('woff2'),
@@ -36,11 +37,11 @@
           url('../../fonts/geomanist-medium-webfont.svg#geomanistregular') format('svg');
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
 }
 // Bold
 @font-face {
   font-family: 'geomanist';
+  font-display: swap;
   src: url('../../fonts/geomanist-bold-webfont.eot');
   src: url('../../fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'),
         url('../../fonts/geomanist-bold-webfont.woff2') format('woff2'),
@@ -49,5 +50,4 @@
         url('../../fonts/geomanist-bold-webfont.svg#geomanistregular') format('svg');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
