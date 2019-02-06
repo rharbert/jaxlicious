@@ -54,8 +54,9 @@
       {# mediaType is dynamic check from above 'images' vs 'files' #}
       {# Check if SVG then add Class #}
       {% set media = mlist.text_image__image %}
+      {% set media_placeholder = mlist.text_image__placeholder %}
       {# LazySize (LazyLoad) ---> Replaced use of 'src' with 'data-src' #}
-      <img alt="{{ mlist.text_image__alt }}" {# src="{{ page.media[media].url }}" #} data-src="{{ page.media[media].url }}" class="lazyload {{ page.media[media].url|ends_with('.svg') ? 'svg' }}" />
+      <img alt="{{ mlist.text_image__alt }}" src="{{ page.media[media_placeholder].url }}" data-src="{{ page.media[media].url }}" class="lazyload {{ page.media[media].url|ends_with('.svg') ? 'svg' }}" />
       {# Link for Image #}
         {% if linkType == 'image' %}
           </a>

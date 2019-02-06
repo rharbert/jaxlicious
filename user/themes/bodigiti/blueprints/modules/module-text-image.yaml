@@ -26,8 +26,19 @@ form:
               - .png
               - .jpg
               - .gif
+              - .svg
           label: Image
           description: 'If not specified, this defaults to the first image found in the page''s folder<br><b>Styles Select <u>Image</u> ---> <u>Size:</u> xs/sm/md/lg/xl, <u>Position:</u> right/center/left, <u>Wrap:</u> nowrap</b>'
+          toggleable: true
+        .text_image__placeholder:
+          type: filepicker
+          preview_images: true
+          acccept:
+              - .png
+              - .jpg
+              - .gif
+              - .svg
+          label: Placeholder image
           toggleable: true
         .text_image__alt:
           type: text

@@ -16,8 +16,8 @@ module:
                     - text-align__center
         module_styles__text: 'pt-2 pb-md-1 prl-1'
         module_styles__select:
-            - text-color__white
             - background__6
+            - text-color__white
         module_isotope: '0'
         module_published: '1'
     -
@@ -28,6 +28,7 @@ module:
                 module_type: module__text_image
                 text_image__title: 'Personal Gifts'
                 text_image__image: chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.jpg
+                text_image__placeholder: image-loading-600x600.gif
                 text_image__alt: '6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon'
                 text_image__textarea: ''
                 module_styles__select_child:
@@ -38,6 +39,7 @@ module:
                 module_type: module__text_image
                 text_image__title: 'Break Rooms'
                 text_image__image: chocolate-bars-jaxlicious-paraphernalia-breakroom.jpg
+                text_image__placeholder: image-loading-600x600.gif
                 text_image__alt: 'Jaxlicious cookie jar with chocolate bars and Jaxlicious coffee mugs in a break room'
                 text_image__textarea: ''
                 module_styles__select_child:
@@ -48,6 +50,7 @@ module:
                 module_type: module__text_image
                 text_image__title: 'Employee Gifts'
                 text_image__image: chocolate-bars-jaxlicious-gift-bag-red.jpg
+                text_image__placeholder: image-loading-600x600.gif
                 text_image__alt: 'Red gift bag with chocolate bars displayed in and around the gift bag'
                 text_image__textarea: ''
                 module_styles__select_child:
@@ -58,6 +61,7 @@ module:
                 module_type: module__text_image
                 text_image__title: Retail
                 text_image__image: chocolate-bars-jaxlicious-retail-display.jpg
+                text_image__placeholder: image-loading-600x600.gif
                 text_image__alt: 'Jaxlicious chocolate bars retail display'
                 text_image__textarea: ''
                 module_styles__select_child:
