@@ -66,8 +66,8 @@
         {# |stiptags(' .. ')|raw -Will remove all tags except those entered #}
         <figcaption>{{ mlist.text_image__caption|markdown|striptags('<a><h1><h2><h3><h4><h5><h6><strong><b><i><em><mark><sub><sup>')|raw }}</figcaption>
       {% endif %} {# end image/caption #}
+      </figure>
     {% endif %} {# end image #}
-    </figure>
     {# Body #}
     {% if mlist.text_image__textarea %}
       <div class="body">
