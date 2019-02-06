@@ -1,26 +1,14 @@
 ---
 module:
     -
-        module__admin_title: Hero
+        module__admin_title: 'Hero Images'
         module_list:
             -
-                module__admin_title_child: 'Photo 1x4 (mobile)'
+                module__admin_title_child: 'Responsive <picture> Hard-coded for: Portrait 1x4 (mobile) .... and ... Landscape 2x2 (tilt tablet+)'
                 module_type: module__text_image
-                text_image__image: chocolate-bars-jaxlicous-four-vertical-1000-web.jpg
-                text_image__alt: 'Chocolate Bars by Jaxlicious featuring individual kids in vertical row'
-                text_image__textarea: ''
-                module_styles__text_child: mtb-0
-                module_styles__select_child:
-                    - hide-sm
-            -
-                module__admin_title_child: 'Photo 2x2 (tilt tablet+)'
-                module_type: module__text_image
-                text_image__image: chocolate-bars-jaxlicous-four-4000-medium.jpg
                 text_image__alt: 'Chocolate Bars by Jaxlicious featuring individual kids in 2 by 2 grid'
-                text_image__textarea: ''
+                text_image__textarea: "<figure>\r\n    <picture>\r\n        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\r\n        <source media=\"(max-width: 600px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-vertical-680-high.jpg\">\r\n        <source media=\"(max-width: 760px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-800-high.jpg\">\r\n        <source media=\"(max-width: 1380px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-1400-high.jpg\">\r\n        <source media=\"(max-width: 1799px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-1920-high.jpg\">\r\n        <source media=\"(min-width: 1800px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-4000-medium.jpg\">\r\n        <!--[if IE 9]></video><![endif]-->\r\n        <img src=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-4000-medium.jpg\" alt=\"Chocolate Bars by Jaxlicious featuring kids Jax, Jay, Jes, and Jen\" typeof=\"foaf:Image\">\r\n    </picture>\r\n</figure>"
                 module_styles__text_child: mtb-0
-                module_styles__select_child:
-                    - show-sm
         module_styles__text: 'bb-solid-xxs-2 b-yellow'
         module_isotope: '0'
         module_published: '1'
