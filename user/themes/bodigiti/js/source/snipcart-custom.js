@@ -47,6 +47,13 @@ document.addEventListener("snipcart.ready", function() {
   Snipcart.execute('config', 'show_continue_shopping', true);
 
   //////////////////////////////////////////////////////////////////////////////
+  // Popup add 'Close Cart' to default 'x' close cart link
+  // Disable for now, not sure I like suggesting user to 'Close' the cart
+
+  // see style for .js-icon-text in _snipcart--modal.scss
+  // $('#snipcart-close .snip-ico--close').before('<span class="js-icon-text">Close</span>');
+
+  //////////////////////////////////////////////////////////////////////////////
   // Popup Close on mouse-click outside of the popup
   //
   // It verifies that the click isn't on the the container or the container's child.

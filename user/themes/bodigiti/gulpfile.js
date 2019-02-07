@@ -59,6 +59,7 @@ gulp.task('uncss', function() {
     .pipe(uncss({
       ignore: [
         '.snipcart-wrapper.cart-not-empty',
+        '#snipcart-close .js-icon-text',
         '.toggle-button__off',
         '.toggle-button__on',
         '.toggle-button-icon .handle',

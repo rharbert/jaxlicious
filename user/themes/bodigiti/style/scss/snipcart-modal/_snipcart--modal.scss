@@ -4,6 +4,15 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 .snip-layout {
+  // Close-Modal Link: Disable for now, not sure I like suggesting user to 'Close' the cart
+  /* Close-model link text added using snipcart-custom.js
+  #snipcart-close .js-icon-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: .5rem;
+  }
+  */
   .snip-static__title {
     color: $color7;
   }
