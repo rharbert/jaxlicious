@@ -114,7 +114,6 @@ module:
         module_styles__text: 'mrl-xxs mt-2 mt-md-4 mb-3 mb-md-5'
         module_isotope: '0'
         module_published: '1'
-hero__size_class: hero-default
 media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03706-cropped-1920-high.jpg,DSC03828_cropped-1000-web.jpg,DSC03693-cropped-4000-medium.jpg'
 published: true
 body_classes: front-page
@@ -123,6 +122,14 @@ process:
     twig: true
 twig_first: true
 visible: true
+meta_robots:
+    index: true
+    follow: true
+    noindex: false
+    nofollow: false
+    noimageindex: false
+override_default_title: 'Jaxlicious | We''re having fun in Jacksonville, Florida'
+override_default_desc: 'The official website for all things Jaxlicious: characters, chocolate, cookies, t-shirts, hats, and more!'
 hero__toggle: true
 ---
 
