@@ -128,7 +128,7 @@ meta_robots:
     nofollow: false
     noimageindex: false
 override_default_title: 'Jaxlicious | We''re having fun in Jacksonville, Florida'
-override_default_desc: 'The official website for all things Jaxlicious: characters, chocolate, cookies, t-shirts, hats, and more!'
+override_default_desc: 'The official website for all things Jaxlicious: with Jax, Jay, Jes, and Jen, chocolate, cookies, t-shirts, hats, and more!'
 hero__toggle: true
 ---
 
