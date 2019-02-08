@@ -1,3 +1,15 @@
+# v1.1.0
+## 01/29/2019
+
+1. [](#improved)
+   * Update compressor to version 1.4
+
+# v1.0.9
+## 07/25/2018
+
+1. [](#improved)
+   * Do not use frozen content as source
+
 # v1.0.8
 ## 04/16/2018
 

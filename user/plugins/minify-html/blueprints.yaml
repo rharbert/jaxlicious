@@ -1,5 +1,5 @@
 name: Minify Html
-version: 1.0.8
+version: 1.1.0
 description: Minify HTML output
 icon: compress
 keywords: 'grav, plugin, minify html'

@@ -2,7 +2,6 @@
 namespace Grav\Plugin;
 
 use Grav\Common\Plugin;
-use Grav\Plugin\MinifyHtml\Compressor;
 use WyriHaximus\HtmlCompress\Factory;
 
 /**
@@ -86,7 +85,7 @@ class MinifyHtmlPlugin extends Plugin
     require_once(__DIR__ . '/vendor/autoload.php');
 
     // HTML input (not compressed)
-    $sourceHtml = $this->grav['output'];
+    $sourceHtml = $this->grav->output;
 
     // Compression mode
     $mode = $this->config['plugins.minify-html.mode'];

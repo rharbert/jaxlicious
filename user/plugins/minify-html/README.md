@@ -30,6 +30,10 @@ You should now have all the plugin files under
 
 > NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav) and the [Error](https://github.com/getgrav/grav-plugin-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) to operate.
 
+### Admin Plugin
+
+If you use the admin plugin, you can install directly through the admin plugin by browsing the `Plugins` tab and clicking on the `Add` button.
+
 ## 📐 Configuration
 
 Before configuring this plugin, you should copy the `user/plugins/minify-html/minify-html.yaml` to `user/config/plugins/minify-html.yaml` and only edit that copy.
