@@ -1,7 +1,6 @@
 
 .products {
   figcaption {
-    color: $color1;
     font-weight: $font-weight-medium;
     text-align: left;
     padding: 0;
@@ -30,6 +29,7 @@
     }
   }
   .title {
+    color: $color4;
     display: inline-block;
     @include font-size-only($font-standard);
     font-weight: $font-weight-regular;
@@ -46,6 +46,7 @@
     }
   }
   .price {
+    color: $color4;
     font-size: 1.5rem;
     margin-right: .5rem;
   }

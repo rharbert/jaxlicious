@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 a {
-  color: $color3;
+  color: $color4;
   text-decoration: underline;
   &:hover {
     color: $color5;
@@ -33,7 +33,7 @@ a {
 // This keeps on-page anchor tags from appearing as hyperlinks
 //
 a[id] {
-  color: $color1;
+  color: $color4;
   text-decoration: none;
   &:hover {
     text-decoration: none;
@@ -46,7 +46,7 @@ a.text-decoration--none {
 }
 
 a.negate {
-  color: $color1;
+  color: $color4;
   text-decoration: none;
   &:hover {
     text-decoration: none;
