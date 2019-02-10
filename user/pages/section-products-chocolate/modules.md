@@ -13,6 +13,8 @@ module:
                 module_styles__text_child: 'col-12 mtb-0 mt-md-2 mrl-md-2 pt-2 prl-1 pb-0 pb-md-1'
                 module_styles__select_child:
                     - text-align__center
+        module_styles__select:
+            - text-color__brown
         module_isotope: '0'
         module_published: '1'
     -
@@ -54,6 +56,8 @@ module:
                 module_styles__text_child: 'col-12 mtb-md-2 ptb-2 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
                     - text-align__center
+        module_styles__select:
+            - text-color__brown
         module_isotope: '0'
         module_published: '1'
     -
