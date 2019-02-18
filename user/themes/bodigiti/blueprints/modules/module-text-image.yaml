@@ -22,7 +22,7 @@ form:
         .text_image__image:
           type: filepicker
           preview_images: true
-          acccept:
+          accept:
               - .png
               - .jpg
               - .gif
@@ -33,7 +33,7 @@ form:
         .text_image__placeholder:
           type: filepicker
           preview_images: true
-          acccept:
+          accept:
               - .png
               - .jpg
               - .gif
