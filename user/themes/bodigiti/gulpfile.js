@@ -12,12 +12,40 @@ var concat = require('gulp-concat');
 var watch = require('gulp-watch');
 var del = require('del');
 var spritesmith = require('gulp.spritesmith');
+var responsive = require('gulp-responsive');
 ////
 // Run Sequence
 // Sequentially run tasks
 // https://www.npmjs.com/package/run-sequence
 // https://stackoverflow.com/questions/22824546/how-to-run-gulp-tasks-sequentially-one-after-the-other
 var runSequence = require('run-sequence');
+
+//
+// Responsive Images
+//
+gulp.task('resp', function () {
+  return gulp.src('image-processing/source/*.{png,jpg}')
+    .pipe(responsive({
+      '*800.jpg': [
+      {
+        width: 300,
+        rename: { suffix: '-300' },
+      }, {
+        width: 380,
+        rename: { suffix: '-380' },
+      }, {
+        width: 500,
+        rename: { suffix: '-500' },
+      }, {
+        width: 620,
+        rename: { suffix: '-620' },
+      }
+      ]
+    }))
+    .pipe(gulp.dest('image-processing/dest/'));
+});
+
+
 
 // Sass
 gulp.task('sass', function() {
