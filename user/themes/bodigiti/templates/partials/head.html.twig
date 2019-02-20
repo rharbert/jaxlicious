@@ -31,6 +31,15 @@
 {#
  # LazySizes
 #}
+<script>
+  /*LazySizes Breakpoints */
+  window.lazySizesConfig = window.lazySizesConfig || {};
+  window.lazySizesConfig.customMedia = {
+      '--small': '(max-width: 360px)',
+      '--medium': '(max-width: 480px)',
+      '--large': '(max-width: 600px)',
+  };
+</script>
 <script src="/user/themes/bodigiti/js/dist/lazysizes.min.js" async=""></script>
 {# Render Primary Styles.css #}
 {{ assets.css('top') }}

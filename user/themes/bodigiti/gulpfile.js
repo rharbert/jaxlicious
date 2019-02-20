@@ -26,11 +26,8 @@ var runSequence = require('run-sequence');
 gulp.task('resp', function () {
   return gulp.src('image-processing/source/*.{png,jpg}')
     .pipe(responsive({
-      '*800.jpg': [
+      '*.jpg': [
       {
-        width: 300,
-        rename: { suffix: '-300' },
-      }, {
         width: 380,
         rename: { suffix: '-380' },
       }, {
@@ -40,7 +37,15 @@ gulp.task('resp', function () {
         width: 620,
         rename: { suffix: '-620' },
       }
-      ]
+      ],
+    }, {
+      // Global configuration for all images
+      // The output quality for JPEG, WebP and TIFF output formats
+      quality: 90,
+      // Use progressive (interlace) scan for JPEG and PNG output
+      progressive: true,
+      // Strip all metadata
+      withMetadata: false,
     }))
     .pipe(gulp.dest('image-processing/dest/'));
 });
