@@ -12,7 +12,7 @@ var concat = require('gulp-concat');
 var watch = require('gulp-watch');
 var del = require('del');
 var spritesmith = require('gulp.spritesmith');
-var responsive = require('gulp-responsive');
+var responsive = require('gulp-responsive'); // version limited to patches of 2.12.x as 2.13 renames 'jpg' to 'jpeg'
 ////
 // Run Sequence
 // Sequentially run tasks
