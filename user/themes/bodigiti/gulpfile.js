@@ -28,6 +28,20 @@ gulp.task('resp', function () {
     .pipe(responsive({
       '*.jpg': [
       {
+        width: 190,
+        rename: { suffix: '-190' },
+      }, {
+        width: 250,
+        rename: { suffix: '-250' },
+      }, {
+        width: 310,
+        rename: { suffix: '-310' },
+      }, {
+        width: 425,
+        rename: { suffix: '-425' },
+      }
+      /*
+      {
         width: 380,
         rename: { suffix: '-380' },
       }, {
@@ -37,6 +51,7 @@ gulp.task('resp', function () {
         width: 620,
         rename: { suffix: '-620' },
       }
+      */
       ],
     }, {
       // Global configuration for all images
