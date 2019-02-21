@@ -63,6 +63,21 @@
     float: left; // apply so image is to left and text is to right
     margin-bottom: 0;
   }
+  @include breakpoint($size-xs) {
+    float: left; // apply so image is to left and text is to right
+    margin-bottom: 0;
+  }
+  // Custom-breakpoints: Thumbnail + Description (breaks/is-hidden) between these
+  // breakpoints so undo-float between them
+  @media all and (min-width: 769px) {
+    float: none;
+  } 
+  @media all and (min-width: 869px) {
+    float: left;
+  }
+  // 
+  // End: Custom-breakpoints
+  //////////////////////////////////////////////////////////////////////////////
 }
 
 // Powered by Snipcart
