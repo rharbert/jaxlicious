@@ -22,6 +22,9 @@ var runSequence = require('run-sequence');
 
 //
 // Responsive Images
+// !!! IMPORTANT !!! as of 19.02.21 gulp-responsive version 2.13.0 does not work
+// correctly --> when saving 'jpg' files it incorrectly saves as 'jpeg'
+// So I reverted to v 2.12.0
 //
 gulp.task('resp', function () {
   return gulp.src('image-processing/source/*.{png,jpg}')
