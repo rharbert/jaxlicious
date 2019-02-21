@@ -19,6 +19,8 @@
 .contain-outer__lg { @include row-lg; }
 .contain-outer__xl { @include row-xl; }
 .contain-outer__2x { @include row-2x; }
+.contain-outer__3x { @include row-3x; }
+.contain-outer__4x { @include row-4x; }
 
 // Contain Inner (relegate styles to immediate child only)
 .contain-inner > .inner, .contain-inner #main-content { @include row; }
@@ -29,6 +31,8 @@
 .contain-inner__lg > .inner, .contain-inner__lg #main-content { @include row-lg; }
 .contain-inner__xl > .inner, .contain-inner__xl #main-content { @include row-xl; }
 .contain-inner__2x > .inner, .contain-inner__2x #main-content { @include row-2x; }
+.contain-inner__3x > .inner, .contain-inner__3x #main-content { @include row-3x; }
+.contain-inner__4x > .inner, .contain-inner__4x #main-content { @include row-4x; }
 // Contain inner 'columns'
 .contain-inner.columns, .contain-inner #main-content { @include row; }
 .contain-inner__xs.columns, .contain-inner__xs #main-content { @include row-xs; }
@@ -38,6 +42,8 @@
 .contain-inner__lg.columns, .contain-inner__lg #main-content { @include row-lg; }
 .contain-inner__xl.columns, .contain-inner__xl #main-content { @include row-xl; }
 .contain-inner__2x.columns, .contain-inner__2x #main-content { @include row-2x; }
+.contain-inner__3x.columns, .contain-inner__3x #main-content { @include row-3x; }
+.contain-inner__4x.columns, .contain-inner__4x #main-content { @include row-4x; }
 
 ////////////////////////////////////////////////////////////////////////////////
 // Responsive breakpoint system
