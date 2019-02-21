@@ -38,6 +38,7 @@ user/*/config/plugins/email.yaml
 
 # Theme
 user/themes/*/node_modules
+user/themes/*/image-processing
 
 # OS Generated
 .DS_Store*

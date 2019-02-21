@@ -12,12 +12,60 @@ var concat = require('gulp-concat');
 var watch = require('gulp-watch');
 var del = require('del');
 var spritesmith = require('gulp.spritesmith');
+var responsive = require('gulp-responsive'); // version limited to patches of 2.12.x as 2.13 renames 'jpg' to 'jpeg'
 ////
 // Run Sequence
 // Sequentially run tasks
 // https://www.npmjs.com/package/run-sequence
 // https://stackoverflow.com/questions/22824546/how-to-run-gulp-tasks-sequentially-one-after-the-other
 var runSequence = require('run-sequence');
+
+//
+// Responsive Images
+//
+gulp.task('resp', function () {
+  return gulp.src('image-processing/source/*.{png,jpg}')
+    .pipe(responsive({
+      '*.jpg': [
+      {
+        width: 190,
+        rename: { suffix: '-190' },
+      }, {
+        width: 250,
+        rename: { suffix: '-250' },
+      }, {
+        width: 310,
+        rename: { suffix: '-310' },
+      }, {
+        width: 425,
+        rename: { suffix: '-425' },
+      }
+      /*
+      {
+        width: 380,
+        rename: { suffix: '-380' },
+      }, {
+        width: 500,
+        rename: { suffix: '-500' },
+      }, {
+        width: 620,
+        rename: { suffix: '-620' },
+      }
+      */
+      ],
+    }, {
+      // Global configuration for all images
+      // The output quality for JPEG, WebP and TIFF output formats
+      quality: 90,
+      // Use progressive (interlace) scan for JPEG and PNG output
+      progressive: true,
+      // Strip all metadata
+      withMetadata: false,
+    }))
+    .pipe(gulp.dest('image-processing/dest/'));
+});
+
+
 
 // Sass
 gulp.task('sass', function() {

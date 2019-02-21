@@ -27,10 +27,7 @@ module:
                 module__admin_title_child: 'Personal Gifts'
                 module_type: module__text_image
                 text_image__title: 'Personal Gifts'
-                text_image__image: chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.jpg
-                text_image__placeholder: image-loading-600x600.gif
-                text_image__alt: '6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon'
-                text_image__textarea: ''
+                text_image__textarea: "<figure>\r\n    <picture>\r\n\t<!--[if IE 9]><video style=\"display: none\"><![endif]-->\r\n\t<source\r\n\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper-190.jpg\"\r\n\t\tmedia=\"--sm\" />\r\n\t<source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper-250.jpg\"\r\n\t\t\tmedia=\"--md\" />\r\n    <source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper-310.jpg\"\r\n\t\t\tmedia=\"--lg\" />\r\n    <source\r\n            data-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper-425.jpg\"\r\n            media=\"--lg2\" />\r\n    <!--[if IE 9]></video><![endif]-->\r\n    <img\r\n         \tsrc=\"/user/pages/section-products-ideas/image-loading-600x600.gif\"\r\n            data-src=\"/user/pages/section-products-ideas/chocolate-bars-jaxlicious-personal-gift-set-white-tissue-paper.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n    </picture>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -38,10 +35,7 @@ module:
                 module__admin_title_child: 'Break Rooms'
                 module_type: module__text_image
                 text_image__title: 'Break Rooms'
-                text_image__image: chocolate-bars-jaxlicious-paraphernalia-breakroom.jpg
-                text_image__placeholder: image-loading-600x600.gif
-                text_image__alt: 'Jaxlicious cookie jar with chocolate bars and Jaxlicious coffee mugs in a break room'
-                text_image__textarea: ''
+                text_image__textarea: "<figure>\r\n    <picture>\r\n\t<!--[if IE 9]><video style=\"display: none\"><![endif]-->\r\n\t<source\r\n\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-paraphernalia-breakroom-190.jpg\"\r\n\t\tmedia=\"--sm\" />\r\n\t<source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-paraphernalia-breakroom-250.jpg\"\r\n\t\t\tmedia=\"--md\" />\r\n    <source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-paraphernalia-breakroom-310.jpg\"\r\n\t\t\tmedia=\"--lg\" />\r\n    <source\r\n            data-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-paraphernalia-breakroom-425.jpg\"\r\n            media=\"--lg2\" />\r\n    <!--[if IE 9]></video><![endif]-->\r\n    <img\r\n         \tsrc=\"/user/pages/section-products-ideas/image-loading-600x600.gif\"\r\n            data-src=\"/user/pages/section-products-ideas/chocolate-bars-jaxlicious-paraphernalia-breakroom.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"Jaxlicious cookie jar with chocolate bars and Jaxlicious coffee mugs in a break room\" />\r\n    </picture>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -49,10 +43,7 @@ module:
                 module__admin_title_child: 'Employee Gifts'
                 module_type: module__text_image
                 text_image__title: 'Employee Gifts'
-                text_image__image: chocolate-bars-jaxlicious-gift-bag-red.jpg
-                text_image__placeholder: image-loading-600x600.gif
-                text_image__alt: 'Red gift bag with chocolate bars displayed in and around the gift bag'
-                text_image__textarea: ''
+                text_image__textarea: "<figure>\r\n    <picture>\r\n\t<!--[if IE 9]><video style=\"display: none\"><![endif]-->\r\n\t<source\r\n\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-gift-bag-red-190.jpg\"\r\n\t\tmedia=\"--sm\" />\r\n\t<source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-gift-bag-red-250.jpg\"\r\n\t\t\tmedia=\"--md\" />\r\n    <source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-gift-bag-red-310.jpg\"\r\n\t\t\tmedia=\"--lg\" />\r\n    <source\r\n            data-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-gift-bag-red-425.jpg\"\r\n            media=\"--lg2\" />\r\n    <!--[if IE 9]></video><![endif]-->\r\n    <img\r\n         \tsrc=\"/user/pages/section-products-ideas/image-loading-600x600.gif\"\r\n            data-src=\"/user/pages/section-products-ideas/chocolate-bars-jaxlicious-gift-bag-red.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"Red gift bag with chocolate bars displayed in and around the gift bag\" />\r\n    </picture>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
@@ -60,10 +51,7 @@ module:
                 module__admin_title_child: Retail
                 module_type: module__text_image
                 text_image__title: Retail
-                text_image__image: chocolate-bars-jaxlicious-retail-display.jpg
-                text_image__placeholder: image-loading-600x600.gif
-                text_image__alt: 'Jaxlicious chocolate bars retail display'
-                text_image__textarea: ''
+                text_image__textarea: "<figure>\r\n    <picture>\r\n\t<!--[if IE 9]><video style=\"display: none\"><![endif]-->\r\n\t<source\r\n\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-retail-display-190.jpg\"\r\n\t\tmedia=\"--sm\" />\r\n\t<source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-retail-display-250.jpg\"\r\n\t\t\tmedia=\"--md\" />\r\n    <source\r\n\t\t\tdata-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-retail-display-310.jpg\"\r\n\t\t\tmedia=\"--lg\" />\r\n    <source\r\n            data-srcset=\"/user/pages/section-products-ideas/styles/chocolate-bars-jaxlicious-retail-display-425.jpg\"\r\n            media=\"--lg2\" />\r\n    <!--[if IE 9]></video><![endif]-->\r\n    <img\r\n         \tsrc=\"/user/pages/section-products-ideas/image-loading-600x600.gif\"\r\n            data-src=\"/user/pages/section-products-ideas/chocolate-bars-jaxlicious-retail-display.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"Jaxlicious chocolate bars retail display\" />\r\n    </picture>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
