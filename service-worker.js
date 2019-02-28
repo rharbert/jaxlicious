@@ -19,7 +19,7 @@
 var staticCacheName = 'cache-v5';
 
 self.addEventListener('install', function(event) {
-  console.log('Attempting to install service worker and cache static assets');
+  // console.log('Attempting to install service worker and cache static assets');
   event.waitUntil(
     caches.open(staticCacheName)
     .then(function(cache) {
@@ -34,14 +34,14 @@ self.addEventListener('install', function(event) {
 // Now that we have the files cached, we can intercept requests for those files
 // from the network and respond with the files from the cache.
 self.addEventListener('fetch', function(event) {
-  console.log('Fetch event for ', event.request.url);
+  // console.log('Fetch event for ', event.request.url);
   event.respondWith(
     caches.match(event.request).then(function(response) {
       if (response) {
-        console.log('Found ', event.request.url, ' in cache');
+        // console.log('Found ', event.request.url, ' in cache');
         return response;
       }
-      console.log('Network request for ', event.request.url);
+      // console.log('Network request for ', event.request.url);
       return fetch(event.request)
 
       // TODO 4 - Add fetched files to the cache
@@ -64,7 +64,7 @@ self.addEventListener('fetch', function(event) {
     }).catch(function(error) {
 
       // TODO 6 - Respond with custom offline page
-      console.log('Error, ', error);
+      // console.log('Error, ', error);
       return caches.match('offline.html');
     })
   );
@@ -72,7 +72,7 @@ self.addEventListener('fetch', function(event) {
 
   // TODO 7 - delete unused caches
   self.addEventListener('activate', function(event) {
-    console.log('Activating new service worker...');
+    // console.log('Activating new service worker...');
 
     var cacheWhitelist = [staticCacheName];
 
