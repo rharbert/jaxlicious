@@ -32,9 +32,27 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         // Cache only 20 images.
-        maxEntries: 20,
+        maxEntries: 100,
         // Cache for a maximum of a week.
         maxAgeSeconds: 7 * 24 * 60 * 60,
+      })
+    ],
+  })
+);
+
+workbox.routing.registerRoute(
+  // Cache font files.
+  /\.(?:eot|svg|ttf|woff|woff2)$/,
+  // Use the cache if it's available.
+  new workbox.strategies.CacheFirst({
+    // Use a custom cache name.
+    cacheName: 'font-cache',
+    plugins: [
+      new workbox.expiration.Plugin({
+        // Cache only 30 files.
+        maxEntries: 30,
+        // Cache for a maximum of a year.
+        maxAgeSeconds: 365 * 24 * 60 * 60,
       })
     ],
   })
