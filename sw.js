@@ -3,9 +3,18 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.0.0/workbox
 
 if (workbox) {
   console.log(`Yay! Workbox is loaded 🎉`);
+
 } else {
   console.log(`Boo! Workbox didn't load 😬`);
 }
+
+// PRECACHE
+workbox.precaching.precacheAndRoute([
+  'user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jax-dark.jpg',
+  'user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jes-dark.jpg',
+  'user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jen-dark.jpg',
+  'user/pages/section-products-chocolate/chocolate-bar-jaxlicious-jay-dark.jpg'
+]);
 
 // CSS
 workbox.routing.registerRoute(
