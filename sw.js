@@ -7,11 +7,13 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`);
 }
 
+// JS
 workbox.routing.registerRoute(
   new RegExp('.*\.js'),
   new workbox.strategies.NetworkFirst()
 );
 
+// CSS
 workbox.routing.registerRoute(
   // Cache CSS files.
   /\.css$/,
@@ -22,6 +24,7 @@ workbox.routing.registerRoute(
   })
 );
 
+// IMAGES
 workbox.routing.registerRoute(
   // Cache image files.
   /\.(?:png|jpg|jpeg|svg|gif)$/,
@@ -40,6 +43,7 @@ workbox.routing.registerRoute(
   })
 );
 
+// FONTS
 workbox.routing.registerRoute(
   // Cache font files.
   /\.(?:eot|svg|ttf|woff|woff2)$/,
