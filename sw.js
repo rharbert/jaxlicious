@@ -7,11 +7,24 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`);
 }
 
-// CSS + JS
+// CSS
 workbox.routing.registerRoute(
-  /\.(?:js|css)$/,
+  // Cache CSS files.
+  /\.css$/,
+  // Use cache but update in the background.
   new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'js-css-cache',
+    // Use a custom cache name.
+    cacheName: 'css-cache',
+  })
+);
+
+workbox.routing.registerRoute(
+  // Cache CSS files.
+  /\.js$/,
+  // Use cache but update in the background.
+  new workbox.strategies.StaleWhileRevalidate({
+    // Use a custom cache name.
+    cacheName: 'js-cache',
   })
 );
 
