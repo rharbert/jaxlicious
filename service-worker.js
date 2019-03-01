@@ -5,18 +5,31 @@
   // Cache the application shell
   //////////////////////////////////////////////////////////////////////////////
   var filesToCache = [
-  // Important: Do Not Include 'Manifest' Icons here
   '.',
+  // Styles
   '/user/themes/bodigiti/style/css/styles.css',
   '/user/themes/bodigiti/style/css/snipcart-modal.css',
+  'https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css',
+  // Scripts
+  'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js',
+  'https://cdn.snipcart.com/scripts/2.0/snipcart.js',
   '/user/themes/bodigiti/js/dist/all.js',
   '/user/themes/bodigiti/js/dist/lazysizes.min.js',
-  '/user/themes/bodigiti/images/chocolate-one-piece.png',
+  // Fonts
+  '/user/themes/bodigiti/fonts/geomanist-bold-webfont.woff2',
+  '/user/themes/bodigiti/fonts/geomanist-medium-webfont.woff2',
+  '/user/themes/bodigiti/fonts/geomanist-regular-webfont.woff2',
+  'https://cdn.snipcart.com/themes/2.0/base/fonts/snipcart/Snipcart.woff',
+  // Images
+  // Important: Do Not Include 'Manifest' Images/Icons here
   '/user/themes/bodigiti/images/logo-text-jaxlicious-regular.svg',
-  '/user/themes/bodigiti/images/shopping-cart-white.svg'
+  '/user/themes/bodigiti/images/shopping-cart-white.svg',
+  '/user/themes/bodigiti/images/chocolate-one-piece.png',
+  '/user/pages/section-products-ideas/image-loading-600x600.gif',
+  '/user/pages/section-products-chocolate/image-loading-800x382.gif'
 ];
 // Incremental versioning of cached files via staticCacheName (used below for filesToCache)
-var staticCacheName = 'cache-v5';
+var staticCacheName = 'cache-v6';
 
 self.addEventListener('install', function(event) {
   // console.log('Attempting to install service worker and cache static assets');
