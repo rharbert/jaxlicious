@@ -48,7 +48,7 @@
 
 {# 'Register' JS and optionally categorize into a group #}
 {% block javascripts %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script crossorigin="anonymous" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 {#    {% do assets.addJs('jquery', {group: 'bottom'}) %}  #}
 {#    {% do assets.addJs('theme://js/lightslider.js', {group: 'bottom'}) %} #}
     {# Load site.js after Lightslider b/c this overrides/complements lightslider.js #}
@@ -56,7 +56,7 @@
     {# Isotope 2 files isotope + imagesloaded #}
 {#    {% do assets.addJs('theme://js/dist/isotope.pkgd.js', {group: 'bottom'}) %} #}
 {#    {% do assets.addJs('theme://js/dist/imagesloaded.pkgd.js', {group: 'bottom'}) %} #}
-    {% do assets.addJs('https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NWQ0ZGNlODQtZTAwMi00Mjk1LWE3OWUtMjcyMGRjNWVjOTY0NjM2MTIxNDA5NjYzNjA1MzI2', {'loading':'async', group: 'snipcart-vendor'}) %}
+    {% do assets.addJs('https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" crossorigin="anonymous" data-api-key="NWQ0ZGNlODQtZTAwMi00Mjk1LWE3OWUtMjcyMGRjNWVjOTY0NjM2MTIxNDA5NjYzNjA1MzI2', {'loading':'async', group: 'snipcart-vendor'}) %}
     {% do assets.addJs('theme://js/dist/all.js', {'loading':'async', group: 'bottom'}) %}
 {% endblock %}
 {# Render CSS and JS in order by group, or no group #}
