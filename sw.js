@@ -28,6 +28,20 @@ workbox.routing.registerRoute(
   })
 );
 
+workbox.routing.registerRoute(
+  /.*(?:googleapis)\.com/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: 'googleapis-cache',
+  })
+);
+
+workbox.routing.registerRoute(
+  /.*(?:snipcart)\.com/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: 'snipcart-cache',
+  })
+);
+
 // IMAGES
 workbox.routing.registerRoute(
   // Cache image files.
