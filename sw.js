@@ -7,20 +7,11 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`);
 }
 
-// JS
+// CSS + JS
 workbox.routing.registerRoute(
-  new RegExp('.*\.js'),
-  new workbox.strategies.NetworkFirst()
-);
-
-// CSS
-workbox.routing.registerRoute(
-  // Cache CSS files.
-  /\.css$/,
-  // Use cache but update in the background.
+  /\.(?:js|css)$/,
   new workbox.strategies.StaleWhileRevalidate({
-    // Use a custom cache name.
-    cacheName: 'css-cache',
+    cacheName: 'js-css-cache',
   })
 );
 
@@ -35,7 +26,7 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         // Cache only 20 images.
-        maxEntries: 100,
+        maxEntries: 200,
         // Cache for a maximum of a week.
         maxAgeSeconds: 7 * 24 * 60 * 60,
       })
