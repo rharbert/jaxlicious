@@ -21,7 +21,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Grid 12'
+        module__admin_title: 'Grid 12 v1'
         module_list:
             -
                 module__admin_title_child: 'Jax Single Graphic Black'
@@ -76,6 +76,99 @@ module:
                 module__admin_title_child: 'Jen Graphic'
                 module_type: module__text_image
                 text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jen-orange.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'All Graphic'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'All Model'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-ci-all-blue.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jax Round Graphic Red'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jax-red.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jax Round Model Red'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-bella-8881-jax-red.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
+        module_styles__select:
+            - contain-inner__2x
+            - text-color__brown
+        module_isotope: '0'
+        module_published: '0'
+    -
+        module__admin_title: 'Grid 12 v2'
+        module_list:
+            -
+                module__admin_title_child: 'Jax Single Graphic Black'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-h-jax-black.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jax Single Model'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-ci-single-jax.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jes Round Graphic Green'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jes-green.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jes Round Model'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-bella-8413-jes.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jay Round Graphic'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jay-yellow.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jay Round Model'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-bella-8881-jay-yellow.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jen Graphic'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jen-orange.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'Jen Model Round Orange'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-Bella-8881-jen-orange.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
