@@ -57,6 +57,42 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
+        module__admin_title: 'Product Categories + Photos'
+        module_list:
+            -
+                module__admin_title_child: 'Jax Single'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-h-jax-black.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jes
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jes-green.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: All
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jay
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jay-yellow.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+        module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2'
+        module_styles__select:
+            - text-color__brown
+        module_isotope: '0'
+        module_published: '0'
+    -
         module__admin_title: Button/Contact
         module_list:
             -
