@@ -51,7 +51,7 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'col_children_6 col_children_md-3 mt-0 pb-2'
+        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-3 mt-0 pb-2'
         module_styles__select:
             - text-color__brown
         module_isotope: '0'
