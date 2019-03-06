@@ -55,6 +55,21 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
+        module__admin_title: 'Products: Tees (Content Injected)'
+        module_list:
+            -
+                module__admin_title_child: '4 Product Photos'
+                module_type: module__content_inject
+                text_image__textarea: ''
+                content_inject__url: /section-products-tees
+                content_inject__type: modules
+                module_styles__text_child: mtb-0
+                module_styles__select_child:
+                    - width__100
+                    - background__6
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Menu Anchor --> Our Story'
         module_list:
             -
