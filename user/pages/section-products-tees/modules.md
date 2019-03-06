@@ -26,25 +26,46 @@ module:
             -
                 module__admin_title_child: 'Jax Single'
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-h-jax-black.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>\r\n<h3 style=\"margin-top:1rem;\">Series 1</h3>"
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-h-jax-black.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: Jes
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jes-green.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>\r\n<h3 style=\"margin-top:1rem;\">Series 2</h3>"
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jes-green.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: All
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>\r\n<h3 style=\"margin-top:1rem;\">Series 3</h3>"
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-4 mt-0 prl_children_xs-xxs'
+            -
+                module__admin_title_child: 'Jax Single'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-h-jax-black.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: Jes
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jes-green.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: All
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-4 mt-0 prl_children_xs-xxs mtb_children_xs-xxs'
         module_styles__select:
             - contain-inner__2x
             - text-color__brown
