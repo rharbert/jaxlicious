@@ -21,7 +21,7 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Product Categories + Photos'
+        module__admin_title: 'Grid 6'
         module_list:
             -
                 module__admin_title_child: 'Jax Single'
@@ -70,9 +70,9 @@ module:
             - contain-inner__2x
             - text-color__brown
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
-        module__admin_title: 'Product Categories + Photos'
+        module__admin_title: 'Grid 8'
         module_list:
             -
                 module__admin_title_child: 'Jax Single'
@@ -130,7 +130,7 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'col_children_6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
+        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
         module_styles__select:
             - contain-inner__2x
             - text-color__brown
