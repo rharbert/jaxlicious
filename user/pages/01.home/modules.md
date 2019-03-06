@@ -79,6 +79,7 @@ module:
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
                     - width__100
+        module_styles__text: 'mrl-xxs mt-3'
         module_isotope: '0'
         module_published: '1'
     -
@@ -110,7 +111,7 @@ module:
                     - background__2
                     - title__center
                     - text-align__justify
-        module_styles__text: 'mrl-xxs mt-3 mt-md-5'
+        module_styles__text: 'mrl-xxs mt-3'
         module_styles__select:
             - text-color__brown
         module_isotope: '0'
