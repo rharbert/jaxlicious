@@ -66,7 +66,6 @@ module:
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
                     - width__100
-                    - background__6
         module_isotope: '0'
         module_published: '1'
     -
