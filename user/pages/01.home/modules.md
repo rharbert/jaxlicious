@@ -12,12 +12,12 @@ module:
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Menu Anchor --> Chocolate & More'
+        module__admin_title: 'Menu Anchor --> Chocolate'
         module_list:
             -
-                module__admin_title_child: 'Menu Anchor --> Chocolate & More'
+                module__admin_title_child: 'Menu Anchor --> Chocolate'
                 module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="chocolate-and-more" name="chocolate-and-more"></a>'
+                text_image__textarea: '<a class="negate" id="chocolate" name="chocolate"></a>'
                 module_styles__text_child: mtb-0
         module_styles__select:
             - visibility-hide
@@ -52,6 +52,19 @@ module:
                 module_styles__select_child:
                     - width__100
                     - background__6
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: 'Menu Anchor --> Apparel'
+        module_list:
+            -
+                module__admin_title_child: 'Menu Anchor --> Apparel'
+                module_type: module__text_image
+                text_image__textarea: '<a class="negate" id="apparel" name="apparel"></a>'
+                module_styles__text_child: mtb-0
+        module_styles__select:
+            - visibility-hide
+            - height-zero
         module_isotope: '0'
         module_published: '1'
     -
