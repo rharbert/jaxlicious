@@ -7,7 +7,7 @@ module:
             -
                 module__admin_title_child: 'Title + Intro'
                 module_type: module__text_image
-                text_image__title: '# Ideas for Jaxlicious'
+                text_image__title: '# Ideas for Chocolate'
                 text_image__textarea: "<h2 class=\"h2-thin\">Chocolate Bars are Great for Personal and Employee Gifts</h2>\r\n(also available at wholesale for retailers)"
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
