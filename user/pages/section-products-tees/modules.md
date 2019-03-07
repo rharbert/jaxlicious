@@ -79,20 +79,6 @@ module:
                     - image__center
                     - text-align__center
             -
-                module__admin_title_child: 'All Graphic'
-                module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
-                module_styles__select_child:
-                    - image__center
-                    - text-align__center
-            -
-                module__admin_title_child: 'All Model'
-                module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-ci-all-blue-zoomed.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
-                module_styles__select_child:
-                    - image__center
-                    - text-align__center
-            -
                 module__admin_title_child: 'Jax Round Graphic Red'
                 module_type: module__text_image
                 text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-single-round-jax-red.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
@@ -103,6 +89,20 @@ module:
                 module__admin_title_child: 'Jax Round Model Red'
                 module_type: module__text_image
                 text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-ci-jax-red-zoomed.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'All Graphic'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-all-blue.svg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: 'All Model'
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/section-products-tees/tshirt-ci-all-blue-zoomed.jpg\"\r\n            class=\"lazyload\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
