@@ -1,144 +1,54 @@
 ---
 module:
     -
+        module__admin_title: Intro
+        module_list:
+            -
+                module__admin_title_child: Intro
+                module_type: module__text_image
+                text_image__textarea: "# Hey! It looks like you're offline right now.\r\n## To do more than what you see below please find an internet connection :0)\r\n\r\n<!-- You can read 'Our Story' and see our contact info below, but to do more please find an internet connection :0) -->"
+                module_styles__text_child: 'prl-xxs prl-xs-1 mtb-2'
+                module_styles__select_child:
+                    - margin-auto__right-left
+                    - text-align__center
+                    - text-color__brown
+        module_isotope: '0'
+        module_published: '1'
+    -
         module__admin_title: 'Grid 4'
         module_list:
             -
                 module__admin_title_child: JAX
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jax.svg\" />\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jax.svg\" />\r\n    <h2 style=\"margin-top: 1rem;\">Jax!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: JAY
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jay.svg\" />\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jay.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jay!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: JES
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jes.svg\" />\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jes.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jes!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: JEN
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jen.svg\" />\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jen.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jen!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'col_children_6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
+        module_styles__text: 'col_children_6 col_children_md-3 mt-0 prl_children_xxs prl_children_xs-1 mtb_children_xs-xxs'
         module_styles__select:
             - contain-inner__2x
             - text-color__brown
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Offline Hero'
-        module_list:
-            -
-                module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/offline/jaxlicious-jax.svg\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
-        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Hero Images'
-        module_list:
-            -
-                module__admin_title_child: 'Responsive <picture> Hard-coded for: Portrait 1x4 (mobile) .... and ... Landscape 2x2 (tilt tablet+)'
-                module_type: module__text_image
-                text_image__textarea: "<figure>\r\n    <picture>\r\n        <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\r\n        <source media=\"(max-width: 370px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-vertical-380-high.jpg\">\r\n        <source media=\"(max-width: 490px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-vertical-500-high.jpg\">\r\n        <source media=\"(max-width: 600px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-vertical-680-high.jpg\">\r\n        <source media=\"(max-width: 760px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-800-high.jpg\">\r\n        <source media=\"(max-width: 1380px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-1400-high.jpg\">\r\n        <source media=\"(max-width: 1799px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-1920-high.jpg\">\r\n        <source media=\"(min-width: 1800px)\" type=\"image/jpeg\" srcset=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-4000-medium.jpg\">\r\n        <!--[if IE 9]></video><![endif]-->\r\n        <img src=\"/user/pages/01.home/chocolate-bars-jaxlicous-hero-landscape-4000-medium.jpg\" alt=\"Chocolate Bars by Jaxlicious featuring kids Jax, Jay, Jes, and Jen\" typeof=\"foaf:Image\">\r\n    </picture>\r\n</figure>"
-                module_styles__text_child: mtb-0
-        module_styles__text: 'bb-solid-xxs-2 b-yellow'
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Menu Anchor --> Chocolate'
-        module_list:
-            -
-                module__admin_title_child: 'Menu Anchor --> Chocolate'
-                module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="chocolate" name="chocolate"></a>'
-                module_styles__text_child: mtb-0
-        module_styles__select:
-            - visibility-hide
-            - height-zero
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Products: Chocolate (Content Injected)'
-        module_list:
-            -
-                module__admin_title_child: 'Milk & Dark Chocolate Bars'
-                module_type: module__content_inject
-                text_image__textarea: ''
-                content_inject__url: /section-products-chocolate
-                content_inject__type: modules
-                module_styles__text_child: 'toggle-button__section mt-0'
-                module_styles__select_child:
-                    - contain-outer__2x
-        module_styles__text: 'products mrl-xxs'
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Products: Ideas (Content Injected)'
-        module_list:
-            -
-                module__admin_title_child: '4 Product Photos'
-                module_type: module__content_inject
-                text_image__textarea: ''
-                content_inject__url: /section-products-ideas
-                content_inject__type: modules
-                module_styles__text_child: mtb-0
-                module_styles__select_child:
-                    - width__100
-                    - background__6
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Menu Anchor --> Apparel'
-        module_list:
-            -
-                module__admin_title_child: 'Menu Anchor --> Apparel'
-                module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="apparel" name="apparel"></a>'
-                module_styles__text_child: mtb-0
-        module_styles__select:
-            - visibility-hide
-            - height-zero
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Products: Tees (Content Injected)'
-        module_list:
-            -
-                module__admin_title_child: '4 Product Photos'
-                module_type: module__content_inject
-                text_image__textarea: ''
-                content_inject__url: /section-products-tees
-                content_inject__type: modules
-                module_styles__text_child: mtb-0
-                module_styles__select_child:
-                    - width__100
-        module_styles__text: 'mrl-xxs mt-3'
-        module_isotope: '0'
-        module_published: '0'
-    -
-        module__admin_title: 'Menu Anchor --> Our Story'
-        module_list:
-            -
-                module__admin_title_child: 'Menu Anchor for Our Story'
-                module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="our-story" name="our-story"></a>'
-                module_styles__text_child: mtb-0
-        module_styles__select:
-            - visibility-hide
-            - height-zero
         module_isotope: '0'
         module_published: '1'
     -
@@ -162,35 +72,6 @@ module:
             - text-color__brown
         module_isotope: '0'
         module_published: '1'
-    -
-        module__admin_title: 'Menu Anchor --> Contact'
-        module_list:
-            -
-                module__admin_title_child: 'Menu Anchor --> Contact'
-                module_type: module__text_image
-                text_image__textarea: '<a class="negate" id="contact-us" name="contact-us"></a>'
-                module_styles__text_child: mtb-0
-        module_styles__select:
-            - visibility-hide
-            - height-zero
-        module_isotope: '0'
-        module_published: '1'
-    -
-        module__admin_title: 'Contact Form (Content Injected)'
-        module_list:
-            -
-                module__admin_title_child: 'Contact Form Injected'
-                module_type: module__content_inject
-                text_image__textarea: ''
-                content_inject__url: /section-contact-form
-                content_inject__type: modules
-                module_styles__select_child:
-                    - width__100
-                    - margin-auto__right-left
-                    - contain-outer
-        module_styles__text: 'mrl-xxs mt-2 mt-md-4 mb-3 mb-md-5'
-        module_isotope: '0'
-        module_published: '0'
 media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03706-cropped-1920-high.jpg,DSC03828_cropped-1000-web.jpg,DSC03693-cropped-4000-medium.jpg'
 published: true
 body_classes: offline
