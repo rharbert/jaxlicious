@@ -1,6 +1,52 @@
 ---
 module:
     -
+        module__admin_title: 'Grid 4'
+        module_list:
+            -
+                module__admin_title_child: JAX
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jax.svg\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: JAY
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jay.svg\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: JES
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jes.svg\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+            -
+                module__admin_title_child: JEN
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jen.svg\" />\r\n</figure>"
+                module_styles__select_child:
+                    - image__center
+                    - text-align__center
+        module_styles__text: 'col_children_6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
+        module_styles__select:
+            - contain-inner__2x
+            - text-color__brown
+        module_isotope: '0'
+        module_published: '1'
+    -
+        module__admin_title: 'Offline Hero'
+        module_list:
+            -
+                module_type: module__text_image
+                text_image__textarea: "<figure>\r\n   <img\r\n         \tsrc=\"/user/pages/offline/jaxlicious-jax.svg\"\r\n            alt=\"6 Jaxlicious chocolate bars displayed in red tissue paper and ribbon\" />\r\n</figure>"
+        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
+        module_isotope: '0'
+        module_published: '0'
+    -
         module__admin_title: 'Hero Images'
         module_list:
             -
@@ -10,7 +56,7 @@ module:
                 module_styles__text_child: mtb-0
         module_styles__text: 'bb-solid-xxs-2 b-yellow'
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
         module__admin_title: 'Menu Anchor --> Chocolate'
         module_list:

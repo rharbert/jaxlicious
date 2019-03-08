@@ -142,7 +142,7 @@ module:
                     - width__100
                     - margin-auto__right-left
                     - contain-outer
-        module_styles__text: 'mrl-xxs mt-2 mt-md-4 mb-3 mb-md-5'
+        module_styles__text: 'mrl-xxs mt-2 mt-md-4'
         module_isotope: '0'
         module_published: '1'
 media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03706-cropped-1920-high.jpg,DSC03828_cropped-1000-web.jpg,DSC03693-cropped-4000-medium.jpg'
