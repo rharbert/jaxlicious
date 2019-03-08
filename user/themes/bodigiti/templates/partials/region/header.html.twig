@@ -4,16 +4,14 @@
       <div id="logo" class="logo">
         <a href="/"><img src="/user/themes/bodigiti/images/logo-text-jaxlicious-regular.svg" alt="Jaxlicious logo" /></a>
       </div>
-      {% if title == offline %}
-        {% block header_login_and_cart %}
-          {% include 'shop/cart.html.twig' %}
-        {% endblock %}
-        {% block header_navigation %}
-          <ul class="menu-list">
-            {% include 'partials/navigation.html.twig' %}
-          </ul>
-        {% endblock %}
-      {% endif %}
+      {% block header_login_and_cart %}
+        {% include 'shop/cart.html.twig' %}
+      {% endblock %}
+      {% block header_navigation %}
+        <ul class="menu-list">
+          {% include 'partials/navigation.html.twig' %}
+        </ul>
+      {% endblock %}
       </nav>
     {% if config.plugins.login.enabled and grav.user.username %}
       <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
