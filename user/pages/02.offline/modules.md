@@ -147,6 +147,7 @@ module:
         module_published: '0'
 media_order: 'logo-text-jaxlicious-regular.svg,logo-text-jaxlicious-italic.svg,logo-text-bam-thats-delicious.svg,jaxlicious-jax.svg,jaxlicious-jay.svg,jaxlicious-jen.svg,jaxlicious-jes.svg,logo-kids-and-text.svg,DSC03706-cropped-1920-high.jpg,DSC03828_cropped-1000-web.jpg,DSC03693-cropped-4000-medium.jpg'
 published: true
+body_classes: offline
 process:
     markdown: true
     twig: true

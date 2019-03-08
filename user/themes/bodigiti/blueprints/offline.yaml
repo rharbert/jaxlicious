@@ -1,4 +1,0 @@
-title: Modules
-'@extends':
-  type: modules
-  context: blueprints://pages
