@@ -62,3 +62,20 @@
     }
   }
 }
+
+.offline {
+  .header {
+    background: $color6;
+    nav {
+      flex-direction: initial; // unset
+      justify-content: center;
+    }
+    #logo { 
+      width: initial;
+      text-align: center;
+      img {
+        text-align: center;
+      }
+    }
+  }
+}
