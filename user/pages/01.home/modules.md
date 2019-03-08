@@ -90,20 +90,18 @@ module:
                 module_type: module__text_image
                 text_image__textarea: '<a class="negate" id="our-story" name="our-story"></a>'
                 module_styles__text_child: mtb-0
-        module_styles__text: ''
         module_styles__select:
             - visibility-hide
             - height-zero
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Our Story'
+        module__admin_title: 'Our Story (Content Injected)'
         module_list:
             -
                 module__admin_title_child: 'Our Story '
                 module_type: module__content_inject
-                text_image__title: '# The Jaxlicious Story '
-                text_image__textarea: "One fine day, Jax was happily walking along the St. Johns River eating his favorite chocolates. Along came Jay.\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"\r\nJax and Jay became good friends, and they eat chocolate almost everyday.\r\nAfter becoming friends with Jes and Jen, they all decided to get together to create **chocolate bars for everyone**."
+                text_image__textarea: ''
                 content_inject__url: /section-our-story
                 content_inject__type: modules
                 module_styles__text_child: mtb-0

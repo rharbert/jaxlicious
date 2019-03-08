@@ -11,12 +11,12 @@ module:
                 text_image__textarea: "One fine day, Jax was happily walking along the St. Johns River eating his favorite chocolates. Along came Jay.\r\nNeither boy was paying attention. Then, all of a sudden, **BAM!**\r\nAs chocolate flew in the air, some landed in Jay's mouth. He shouted, \"**THAT'S DELICIOUS**!\"\r\nJax and Jay became good friends, and they eat chocolate almost everyday.\r\nAfter becoming friends with Jes and Jen, they all decided to get together to create **chocolate bars for everyone**."
                 module_styles__text_child: 'ptb-3 prl-1 prl-lg-3 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
+                    - width__100
                     - contain-inner__md
                     - contain-outer
                     - background__2
                     - title__center
                     - text-align__justify
-                    - width__100
         module_styles__text: 'mrl-xxs mt-3'
         module_styles__select:
             - text-color__brown
