@@ -120,7 +120,8 @@ gulp.task('uncss', function() {
         '.toggle-button-icon.on.red .handle'
       ],
       html: [
-        'https://jaxgrav.test/'
+        'https://jaxgrav.test/',
+        'https://jaxgrav.test/offline.html'
       ]
     }))
     // Prefixes here after uncss because uncss delete prefixes since the prefixes
