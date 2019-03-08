@@ -1,13 +1,28 @@
 <head>
 {% block head %}
+  <!-- Set character encoding -->
   <meta charset="utf-8" />
-  <title>Jaxlicious | We're having fun in Jacksonville, Florida</title>
   {# <title>{% if header.title %}{{ header.title|e('html') }} {% endif %} | {{ site.title|e('html') }} </title> #}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Set the viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#231F20"/><!-- Mobile Chrome, Firefox OS and Opera -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- PWA: START -->
+  <link rel="manifest" href="/manifest.json">
+  {# <meta name="theme-color" content="#ffe662"> #}
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#black">
+  <meta name="apple-mobile-web-app-title" content="Jaxlicious">
+  <link rel="apple-touch-icon" href="/user/themes/bodigiti/images/touch/icon-192x192.png">
+  <!-- Tile for Windows -->
+  <meta name="msapplication-navbutton-color" content="#622493">
+  <meta name="msapplication-TileColor" content="#622493">
+  <meta name="msapplication-TileImage" content="/user/themes/bodigiti/images/touch/icon-144x144.png">
+  <!-- PWA: END -->
+  <!-- Meta: START -->
+  <title>Jaxlicious | We're having fun in Jacksonville, Florida</title>
   {% include 'partials/metadata.html.twig' %}
+  <!-- Meta: END -->
   <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
   <link rel="canonical" href="{{ page.url(true, true) }}" />
   <!-- Google Tag Manager -->
@@ -22,7 +37,7 @@
 {# For JS Rendering see bottom of base.html.twig #}
 {% block stylesheets %}
   {% do assets.addCss('theme://style/css/styles.css', {group:'top'}) %}
-  {% do assets.addCss('https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css', {group:'snipcart-vendor'}) %}
+  {% do assets.addCss('https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" crossorigin="anonymous"', {group:'snipcart-vendor'}) %}
   {% do assets.addCss('theme://style/css/snipcart-modal.css', 108) %}
   {% if browser.getBrowser == 'msie' and browser.getVersion >= 10 %}
       {% do assets.addCss('theme://style/css/ie10-plus.css') %}
@@ -34,7 +49,8 @@
 <script src="/user/themes/bodigiti/js/dist/lazysizes.min.js" async=""></script>
 {# Render Primary Styles.css #}
 {{ assets.css('top') }}
-{% endblock head %}
+
 {# Google reCaptcha #}
 {# <script src="https://www.google.com/recaptcha/api.js" async defer></script> #}
+{% endblock head %}
 </head>
