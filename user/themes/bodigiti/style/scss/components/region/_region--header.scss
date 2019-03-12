@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @include breakpoint($size-lg) {
+    @include breakpoint($size-lg-plus) {
       flex-direction: row;
     }
   }
@@ -18,7 +18,7 @@
     width: 60%;
     display: flex;
     align-items: center;
-    @include breakpoint($size-lg) {
+    @include breakpoint($size-lg-plus) {
       background: none;
       width: auto;
       order: 1; /* flex order */
@@ -30,7 +30,7 @@
       height: 30px;
       max-width: 100%;
       padding: 0 7px; /* match cart inner padding-right 15px */
-      @include breakpoint($size-sm) { 
+      @include breakpoint($size-sm-2) { 
         padding: 0 0 0 15px; /* match cart inner padding-right 15px */
       }
     }
@@ -40,11 +40,11 @@
     flex-direction: column;
     justify-content: center;
     padding: .5rem 0;
-    @include breakpoint($size-sm) {
+    @include breakpoint($size-sm-2) {
       flex-direction: row;
       padding: 0;
     }
-    @include breakpoint($size-lg) {
+    @include breakpoint($size-lg-plus) {
       order: 2; /* flex order */
     }
   }
@@ -54,7 +54,7 @@
     position: absolute;
     right: 0;
     width: 40%;
-    @include breakpoint($size-lg) {
+    @include breakpoint($size-lg-plus) {
       background: none;
       width: auto;
       position: relative;
