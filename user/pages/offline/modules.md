@@ -20,28 +20,28 @@ module:
             -
                 module__admin_title_child: JAX
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jax.svg\" />\r\n    <h2 style=\"margin-top: 1rem;\">Jax!</h2>\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/themes/bodigiti/images/jaxlicious-jax.svg\" />\r\n    <h2 style=\"margin-top: 1rem;\">Jax!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: JAY
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jay.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jay!</h2>\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/themes/bodigiti/images/jaxlicious-jay.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jay!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: JES
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jes.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jes!</h2>\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/themes/bodigiti/images/jaxlicious-jes.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jes!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
             -
                 module__admin_title_child: JEN
                 module_type: module__text_image
-                text_image__textarea: "<figure>\r\n   <img src=\"/user/pages/offline/jaxlicious-jen.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jen!</h2>\r\n</figure>"
+                text_image__textarea: "<figure>\r\n   <img src=\"/user/themes/bodigiti/images/jaxlicious-jen.svg\" />\r\n        <h2 style=\"margin-top: 1rem;\">Jen!</h2>\r\n</figure>"
                 module_styles__select_child:
                     - image__center
                     - text-align__center
