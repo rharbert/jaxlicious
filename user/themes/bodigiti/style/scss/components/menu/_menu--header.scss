@@ -9,7 +9,7 @@ header .menu-list {
     display: flex; /* vertical align li */
     margin: 0 auto;
     @include breakpoint($size-sm-2) {
-      padding: .5rem 1rem;
+      padding: .5rem 2rem;
       margin: 0;
     }
   }
