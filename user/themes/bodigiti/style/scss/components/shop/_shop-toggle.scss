@@ -1,0 +1,23 @@
+
+.shop-hide {
+  .header {
+    #logo {
+     width: 100%;
+     @include breakpoint($size-lg-plus) {
+       width: unset;
+     }
+     a {
+      margin: 0 auto;
+      @include breakpoint($size-lg-plus) {
+        margin: unset;
+      }
+     }
+    }
+    #snipcart-wrapper {
+      visibility: hidden;
+    }
+  }
+  .shop-toggle {
+    display: none;
+  }
+}

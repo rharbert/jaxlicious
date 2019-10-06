@@ -7,7 +7,7 @@ module:
             -
                 module__admin_title_child: 'Title + Intro'
                 module_type: module__text_image
-                text_image__title: '# T-Shirts Coming Soon'
+                text_image__title: '# Apparel'
                 text_image__textarea: '<!-- <h2 class="h2-thin">Vote for Your Favorite Tee</h2> -->'
                 module_styles__text_child: mtb-0
                 module_styles__select_child:

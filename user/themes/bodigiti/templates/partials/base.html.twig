@@ -6,7 +6,7 @@
 {# Region Sidebar #}
 {% if header.region__sidebar_one__enabled %}{% set sidebar = 'layout-sidebar-one' %}{% endif %}
 {# block body_layout from shop + product twig #}
-<body id="top" class="{% block body_layout %}{% endblock %} {{ sidebar }} {% if header.body_classes %}{{ header.body_classes }}{% endif %} {% if header.hero__visible == true %}{{ header.hero__size_class }}{% endif %}">
+<body id="top" class="shop-hide {% block body_layout %}{% endblock %} {{ sidebar }} {% if header.body_classes %}{{ header.body_classes }}{% endif %} {% if header.hero__visible == true %}{{ header.hero__size_class }}{% endif %}">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7ZQQSJ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
