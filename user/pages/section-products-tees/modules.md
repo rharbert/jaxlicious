@@ -106,7 +106,7 @@ module:
                 module_styles__select_child:
                     - image__center
                     - text-align__center
-        module_styles__text: 'col_children_12 col_children_xs-6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
+        module_styles__text: 'col_children_12 col_children_xxs-6 col_children_md-3 mt-0 prl_children_xs-xxs pb-2 mtb_children_xs-xxs'
         module_styles__select:
             - contain-inner__2x
             - text-color__brown
