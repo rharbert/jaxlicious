@@ -42,7 +42,7 @@ module:
             -
                 module__admin_title_child: 'TOGGLE BUTTON: Milk/Dark Chocolate'
                 module_type: module__text_image
-                text_image__title: '# Choose Your Flavor'
+                text_image__title: '# Choose Your Favorite'
                 text_image__textarea: "<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"toggle-button-icon red\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!--\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-1 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div style=\"display:flex; justify-content: center;\">\r\n    <div class=\"h1-alt\" style=\"display: flex;justify-content: center;text-align: center;flex-direction: column;\">Show</div>\r\n    <div class=\"toggle-button-icon toggle-2 red on mrl-2\" style=\"display:inline-block;\">\r\n        <div class=\"handle\">\r\n            <div class=\"glyphicon glyphicon-hdd\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n-->"
                 module_styles__text_child: 'col-12 mtb-md-2 ptb-2 b-dotted-xxs-3 b-yellow'
                 module_styles__select_child:
@@ -123,14 +123,14 @@ module:
         module__admin_title: 'Button - Buy Chocolate'
         module_list:
             -
-                module__admin_title_child: 'Button - Buy Chocolate'
+                module__admin_title_child: 'Button - Contact Us for Help'
                 module_type: module__text_image
                 text_image__textarea: '<p style="margin-bottom:0;"><a href="#contact-us" class="button button__md button__contained button__center padding-right-left__md">Contact Us for Help</a></p>'
                 module_styles__text_child: 'col-12 mb-3 mb-md-5'
                 module_styles__select_child:
                     - contain-outer__2x
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
 media_order: 'chocolate-bar-jaxlicious-four-dark-300.jpg,chocolate-bar-jaxlicious-four-dark-800.jpg,chocolate-bar-jaxlicious-four-milk-300.jpg,chocolate-bar-jaxlicious-four-milk-800.jpg,chocolate-bar-jaxlicious-jax-dark-300.jpg,chocolate-bar-jaxlicious-jax-dark-800.jpg,chocolate-bar-jaxlicious-jax-milk-300.jpg,chocolate-bar-jaxlicious-jax-milk-800.jpg,chocolate-bar-jaxlicious-jay-dark-300.jpg,chocolate-bar-jaxlicious-jay-dark-800.jpg,chocolate-bar-jaxlicious-jay-milk-300.jpg,chocolate-bar-jaxlicious-jay-milk-800.jpg,chocolate-bar-jaxlicious-jen-dark-300.jpg,chocolate-bar-jaxlicious-jen-dark-800.jpg,chocolate-bar-jaxlicious-jen-milk-300.jpg,chocolate-bar-jaxlicious-jen-milk-800.jpg,chocolate-bar-jaxlicious-jes-dark-300.jpg,chocolate-bar-jaxlicious-jes-dark-800.jpg,chocolate-bar-jaxlicious-jes-milk-300.jpg,chocolate-bar-jaxlicious-jes-milk-800.jpg,chocolate-nutrition-3.5-dark.png,chocolate-nutrition-3.5-milk.png'
 published: false
 meta_robots:

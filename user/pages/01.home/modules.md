@@ -36,17 +36,17 @@ module:
                 module_styles__text_child: 'toggle-button__section mt-0'
                 module_styles__select_child:
                     - contain-outer__2x
-        module_styles__text: 'products mrl-xxs'
+        module_styles__text: 'products mrl-xxs mb-3 mb-md-5 '
         module_isotope: '0'
         module_published: '1'
     -
-        module__admin_title: 'Products: Ideas (Content Injected)'
+        module__admin_title: 'Products: Occasion (Content Injected)'
         module_list:
             -
                 module__admin_title_child: '4 Product Photos'
                 module_type: module__content_inject
                 text_image__textarea: ''
-                content_inject__url: /section-products-ideas
+                content_inject__url: /section-occasion
                 content_inject__type: modules
                 module_styles__text_child: mtb-0
                 module_styles__select_child:
@@ -81,7 +81,7 @@ module:
                     - width__100
         module_styles__text: 'mrl-xxs mt-3'
         module_isotope: '0'
-        module_published: '1'
+        module_published: '0'
     -
         module__admin_title: 'Menu Anchor --> Our Story'
         module_list:
@@ -90,6 +90,7 @@ module:
                 module_type: module__text_image
                 text_image__textarea: '<a class="negate" id="our-story" name="our-story"></a>'
                 module_styles__text_child: mtb-0
+        module_styles__text: ' mb-3 mb-md-4 '
         module_styles__select:
             - visibility-hide
             - height-zero
